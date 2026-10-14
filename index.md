@@ -1,6 +1,6 @@
-# Alpine — Support
+# Alpy — Support
 
-Alpine is a free, privacy-first ski companion for iPhone: GPS day
+Alpy is a free, privacy-first ski companion for iPhone: GPS day
 tracking with a 3D Day Replay, live summit weather, official avalanche
 bulletins, and OpenStreetMap trail maps for 51 resorts.
 

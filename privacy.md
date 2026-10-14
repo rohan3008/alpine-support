@@ -1,8 +1,8 @@
-# Alpine — Privacy Policy
+# Alpy — Privacy Policy
 
-_Last updated: 12 October 2026_
+_Last updated: 15 October 2026_
 
-Alpine is built to collect nothing.
+Alpy (formerly Alpine) is built to collect nothing.
 
 ## What the app stores
 
