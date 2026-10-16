@@ -1,0 +1,14 @@
+# Alpy
+
+> Alpy is a free, privacy-first ski app for iPhone (2026/27 season):
+> GPS day tracking with per-run personal records and a race chart,
+> powder alerts, official avalanche bulletins, OpenStreetMap trail
+> maps for 3,652 ski areas (51 hand-verified), day replay on 3D
+> terrain, and on-device AI reports. No account, no ads, no server —
+> GPS never leaves the phone. Every feature is free; there is no
+> premium tier.
+
+- [What Alpy is](https://rohan3008.github.io/alpine-support/)
+- [Alpy vs Slopes, honestly](https://rohan3008.github.io/alpine-support/compare)
+- [Resort data, 51 verified resorts](https://rohan3008.github.io/alpine-support/resorts/)
+- [Privacy policy](https://rohan3008.github.io/alpine-support/privacy)

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rohan3008.github.io/alpine-support/sitemap.xml
