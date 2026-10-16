@@ -1,6 +1,6 @@
 # Alpy — Privacy Policy
 
-_Last updated: 15 October 2026_
+_Last updated: 16 October 2026_
 
 Alpy (formerly Alpine) is built to collect nothing.
 
