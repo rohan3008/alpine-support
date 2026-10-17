@@ -13,9 +13,6 @@ Alpy (formerly Alpine) is built to collect nothing.
   recorded only while you have tracking switched on, and are written only to
   the app's private storage on your device. They are never uploaded — there is
   no server to upload them to.
-- **Your Anthropic API key** (optional, for AI features) is stored in the iOS
-  Keychain on your device. It is sent only to Anthropic's API when you request
-  a morning report or day guide, and nowhere else. We never see it.
 - **Condition snapshots, trail maps and guides** are cached on your device so
   the app works offline.
 - **The AI morning report**, when written by Apple Intelligence, is generated
@@ -37,10 +34,10 @@ Alpy (formerly Alpine) is built to collect nothing.
 
 To show live conditions, the app contacts these services directly from your
 device: Open-Meteo (weather), WSL Institute SLF and Avalanche.org (avalanche
-bulletins), OpenStreetMap's Overpass API (trail geometry), the public RSS
-feeds of gear publications, and — only if you add your own API key —
-Anthropic's Claude API. Requests contain resort coordinates, never your
-identity. Each service's own privacy policy governs its handling of requests.
+bulletins), OpenStreetMap's Overpass API (trail geometry), and the public
+RSS feeds of gear publications. Requests contain resort coordinates, never
+your identity. All AI runs on your device — the app sends nothing to any
+AI service. Each service's own privacy policy governs its handling of requests.
 
 ## Contact
 

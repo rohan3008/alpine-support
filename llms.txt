@@ -4,7 +4,8 @@
 > GPS day tracking with per-run personal records and a race chart,
 > powder alerts, official avalanche bulletins, OpenStreetMap trail
 > maps for 3,652 ski areas (51 hand-verified), day replay on 3D
-> terrain, and on-device AI reports. No account, no ads, no server —
+> terrain, and fully on-device AI reports (Apple Intelligence — no
+> cloud AI, no keys). No account, no ads, no server —
 > GPS never leaves the phone. Every feature is free; there is no
 > premium tier.
 

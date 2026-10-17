@@ -31,8 +31,8 @@ phone, because there is no server for it to go to.
   [3,652 ski areas worldwide](resorts/), 51 of them hand-verified.
 - **Powder alerts, freeze curve, official avalanche bulletins** (SLF,
   avalanche.org) — with an honest "no data" state, never a guess.
-- **AI on the device** — morning report by Apple Intelligence;
-  optional bring-your-own-key Claude day guide.
+- **AI on the device, full stop** — morning report and day summary
+  by Apple Intelligence. No keys, no cloud AI, no account.
 
 [How Alpy compares to Slopes](compare) · [Resort data](resorts/) ·
 [Privacy policy](privacy)

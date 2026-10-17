@@ -20,7 +20,7 @@ App Store listing, October 2026.)
 | Racing yourself | Personal records on every named run, "−0:17 vs best" verdicts, race chart overlaying today vs your fastest | Best-run highlights (Premium); no attempt-vs-attempt race chart listed |
 | Powder alerts | Background alerts when fresh snow crosses your threshold | Not listed |
 | Avalanche | Official SLF + avalanche.org bulletins, honest "no bulletin" state | Not listed |
-| AI | On-device Apple Intelligence morning report; optional bring-your-own-key Claude day guide | None |
+| AI | On-device Apple Intelligence morning report and day summary — no cloud, no keys | None |
 | Trail maps | OSM schematic chart + 3D view, free, live position while tracking; 3,652 OSM ski areas searchable | Licensed interactive maps for 2,000+ resorts — Premium |
 | Day replay | Your line scrubbed across 3D terrain — free | Tied to Premium maps |
 | Privacy | No server exists: GPS, motion and history never leave the phone | Privacy-focused policy; friends/trips/sync run through their backend |
