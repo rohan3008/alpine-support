@@ -39,4 +39,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://alpyapp.com/sitemap.xml
+Sitemap: https://alpy.uk/sitemap.xml

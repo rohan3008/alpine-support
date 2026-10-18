@@ -13,22 +13,22 @@
 
 ## Core pages
 
-- [What Alpy is](https://alpyapp.com/)
-- [Alpy vs Slopes, honestly](https://alpyapp.com/compare)
-- [Resort data, 51 verified resorts](https://alpyapp.com/resorts/)
-- [Privacy policy](https://alpyapp.com/privacy)
+- [What Alpy is](https://alpy.uk/)
+- [Alpy vs Slopes, honestly](https://alpy.uk/compare)
+- [Resort data, 51 verified resorts](https://alpy.uk/resorts/)
+- [Privacy policy](https://alpy.uk/privacy)
 
 ## Blog — how ski tracking actually works
 
-- [How ski apps measure vertical, and why GPS lies](https://alpyapp.com/blog/how-ski-apps-measure-vertical/)
-- [Ski top speed, honestly: why Alpy prints error bars](https://alpyapp.com/blog/ski-top-speed-accuracy/)
-- [Ghost racing: racing yourself down a ski run](https://alpyapp.com/blog/ghost-racing-explained/)
-- [The 3,652 ski areas OpenStreetMap knows](https://alpyapp.com/blog/openstreetmap-ski-areas/)
-- [Powder alerts without a server](https://alpyapp.com/blog/powder-alerts-explained/)
-- [How to read an avalanche bulletin](https://alpyapp.com/blog/reading-avalanche-bulletins/)
-- [Personal records for skiing: every named run is a segment](https://alpyapp.com/blog/ski-personal-records/)
-- [A ski app with no server: what that means](https://alpyapp.com/blog/no-server-ski-app/)
-- [Counting ski turns from GPS: an honest estimate](https://alpyapp.com/blog/gps-turn-counting/)
-- [On-device AI for skiers](https://alpyapp.com/blog/on-device-ai-ski-report/)
-- [Epic, Ikon, Mountain Collective, Magic Pass: who covers what](https://alpyapp.com/blog/ski-pass-coverage/)
-- [Free ski tracking on iPhone in 2026](https://alpyapp.com/blog/free-ski-tracking-iphone/)
+- [How ski apps measure vertical, and why GPS lies](https://alpy.uk/blog/how-ski-apps-measure-vertical/)
+- [Ski top speed, honestly: why Alpy prints error bars](https://alpy.uk/blog/ski-top-speed-accuracy/)
+- [Ghost racing: racing yourself down a ski run](https://alpy.uk/blog/ghost-racing-explained/)
+- [The 3,652 ski areas OpenStreetMap knows](https://alpy.uk/blog/openstreetmap-ski-areas/)
+- [Powder alerts without a server](https://alpy.uk/blog/powder-alerts-explained/)
+- [How to read an avalanche bulletin](https://alpy.uk/blog/reading-avalanche-bulletins/)
+- [Personal records for skiing: every named run is a segment](https://alpy.uk/blog/ski-personal-records/)
+- [A ski app with no server: what that means](https://alpy.uk/blog/no-server-ski-app/)
+- [Counting ski turns from GPS: an honest estimate](https://alpy.uk/blog/gps-turn-counting/)
+- [On-device AI for skiers](https://alpy.uk/blog/on-device-ai-ski-report/)
+- [Epic, Ikon, Mountain Collective, Magic Pass: who covers what](https://alpy.uk/blog/ski-pass-coverage/)
+- [Free ski tracking on iPhone in 2026](https://alpy.uk/blog/free-ski-tracking-iphone/)
