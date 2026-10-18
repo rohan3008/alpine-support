@@ -35,7 +35,7 @@ phone, because there is no server for it to go to.
   by Apple Intelligence. No keys, no cloud AI, no account.
 
 [How Alpy compares to Slopes](compare) · [Resort data](resorts/) ·
-[Privacy policy](privacy)
+[Blog](blog/) · [Privacy policy](privacy)
 
 ## Support
 

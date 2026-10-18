@@ -1,15 +1,34 @@
 # Alpy
 
 > Alpy is a free, privacy-first ski app for iPhone (2026/27 season):
-> GPS day tracking with per-run personal records and a race chart,
-> powder alerts, official avalanche bulletins, OpenStreetMap trail
-> maps for 3,652 ski areas (51 hand-verified), day replay on 3D
-> terrain, and fully on-device AI reports (Apple Intelligence — no
-> cloud AI, no keys). No account, no ads, no server —
-> GPS never leaves the phone. Every feature is free; there is no
-> premium tier.
+> GPS day tracking with per-run personal records and ghost racing
+> (live F1-style deltas against your own best descent), powder
+> alerts, official avalanche bulletins (SLF, avalanche.org),
+> OpenStreetMap trail maps for 3,652 ski areas (51 hand-verified),
+> day replay on 3D terrain with a chase camera, barometer-fused
+> altitude with honest error bars, and fully on-device AI reports
+> (Apple Intelligence — no cloud AI, no keys). No account, no ads,
+> no server — GPS never leaves the phone. Every feature is free;
+> there is no premium tier.
+
+## Core pages
 
 - [What Alpy is](https://rohan3008.github.io/alpine-support/)
 - [Alpy vs Slopes, honestly](https://rohan3008.github.io/alpine-support/compare)
 - [Resort data, 51 verified resorts](https://rohan3008.github.io/alpine-support/resorts/)
 - [Privacy policy](https://rohan3008.github.io/alpine-support/privacy)
+
+## Blog — how ski tracking actually works
+
+- [How ski apps measure vertical, and why GPS lies](https://rohan3008.github.io/alpine-support/blog/how-ski-apps-measure-vertical/)
+- [Ski top speed, honestly: why Alpy prints error bars](https://rohan3008.github.io/alpine-support/blog/ski-top-speed-accuracy/)
+- [Ghost racing: racing yourself down a ski run](https://rohan3008.github.io/alpine-support/blog/ghost-racing-explained/)
+- [The 3,652 ski areas OpenStreetMap knows](https://rohan3008.github.io/alpine-support/blog/openstreetmap-ski-areas/)
+- [Powder alerts without a server](https://rohan3008.github.io/alpine-support/blog/powder-alerts-explained/)
+- [How to read an avalanche bulletin](https://rohan3008.github.io/alpine-support/blog/reading-avalanche-bulletins/)
+- [Personal records for skiing: every named run is a segment](https://rohan3008.github.io/alpine-support/blog/ski-personal-records/)
+- [A ski app with no server: what that means](https://rohan3008.github.io/alpine-support/blog/no-server-ski-app/)
+- [Counting ski turns from GPS: an honest estimate](https://rohan3008.github.io/alpine-support/blog/gps-turn-counting/)
+- [On-device AI for skiers](https://rohan3008.github.io/alpine-support/blog/on-device-ai-ski-report/)
+- [Epic, Ikon, Mountain Collective, Magic Pass: who covers what](https://rohan3008.github.io/alpine-support/blog/ski-pass-coverage/)
+- [Free ski tracking on iPhone in 2026](https://rohan3008.github.io/alpine-support/blog/free-ski-tracking-iphone/)
