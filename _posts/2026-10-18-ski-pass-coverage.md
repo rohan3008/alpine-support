@@ -28,7 +28,7 @@ ikonpass.com, mountaincollective.com and magicpass.ch — in October
   (Vail-owned mountains) and Ikon (Alterra and partners).
 
 Per-resort coverage is listed on each of our
-[resort data pages](/alpine-support/resorts/), with the verification
+[resort data pages](/resorts/), with the verification
 date shown.
 
 ## Why the verification date matters
@@ -41,4 +41,4 @@ and books nothing. When next season's rosters publish, we re-verify
 and re-stamp.
 
 *Pass coverage for all 51 verified resorts is in the app and on the
-[resort pages](/alpine-support/resorts/), free.*
+[resort pages](/resorts/), free.*

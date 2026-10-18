@@ -40,4 +40,4 @@ source of truth, and nothing leaving the phone. The 2026 version of
 "no cloud" isn't anti-AI — it's AI that moved in with you.
 
 *Alpy is free, with all AI on-device.
-[Privacy policy](/alpine-support/privacy).*
+[Privacy policy](/privacy).*

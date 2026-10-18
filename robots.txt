@@ -39,4 +39,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://rohan3008.github.io/alpine-support/sitemap.xml
+Sitemap: https://alpyapp.com/sitemap.xml

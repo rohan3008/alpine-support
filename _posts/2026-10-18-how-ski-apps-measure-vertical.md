@@ -45,4 +45,4 @@ jitter. On phones without a barometer the app falls back to GPS alone
 disclose its method isn't an instrument.
 
 *Alpy is a free ski app for iPhone — no account, no ads, and your GPS
-never leaves the phone. [What it does](/alpine-support/).*
+never leaves the phone. [What it does](/).*

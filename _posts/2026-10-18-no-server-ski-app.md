@@ -40,5 +40,5 @@ We'd rather be the app where the privacy claim requires no trust.
 "Nothing leaves your phone" isn't in our policy. It's in the
 architecture — there's nowhere for anything to go.
 
-*[Privacy policy](/alpine-support/privacy) — short, because there's
+*[Privacy policy](/privacy) — short, because there's
 little to disclose.*

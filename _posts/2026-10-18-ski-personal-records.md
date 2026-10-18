@@ -40,4 +40,4 @@ only on your phone. The competition is the best version of you, which
 is harder to beat than most strangers anyway.
 
 *Segments, PRs and race charts are free in Alpy.
-[How it compares to Slopes](/alpine-support/compare).*
+[How it compares to Slopes](/compare).*

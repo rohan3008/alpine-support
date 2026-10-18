@@ -43,4 +43,4 @@ It's you against who you were — which, on the fourth run of the day
 with your legs going, turns out to be the only race that matters.
 
 *Ghost racing is free in Alpy, like everything else.
-[How it compares to other ski apps](/alpine-support/compare).*
+[How it compares to other ski apps](/compare).*

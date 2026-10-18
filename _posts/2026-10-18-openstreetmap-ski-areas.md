@@ -42,5 +42,5 @@ The licensed-map subscription model is legitimate — official resort
 artwork is genuinely nicer. But "thousands of resorts" stopped being
 a moat the day the commons caught up.
 
-*Browse the [51 verified resorts](/alpine-support/resorts/) or search
+*Browse the [51 verified resorts](/resorts/) or search
 all 3,652 in the app.*

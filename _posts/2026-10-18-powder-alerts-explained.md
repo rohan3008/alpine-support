@@ -37,4 +37,4 @@ honest: nobody — including us — knows which resorts you follow,
 because there is no server to tell.
 
 *Powder alerts are free in Alpy, with the threshold under your
-control in Settings. [More about the app](/alpine-support/).*
+control in Settings. [More about the app](/).*

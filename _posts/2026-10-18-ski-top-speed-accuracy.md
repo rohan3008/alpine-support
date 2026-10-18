@@ -39,4 +39,4 @@ as estimates — measured numbers and estimated numbers both have a
 place, as long as you can tell which is which.
 
 *Alpy is a free ski app for iPhone that labels every number by how it
-was measured. [More](/alpine-support/).*
+was measured. [More](/).*

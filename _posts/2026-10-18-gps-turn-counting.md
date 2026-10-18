@@ -37,4 +37,4 @@ Estimates are fine instruments as long as they're labeled. The
 failure mode isn't imprecision — it's precision theater.
 
 *Turn estimates, cadence and the day debrief are free in Alpy.
-[About](/alpine-support/).*
+[About](/).*

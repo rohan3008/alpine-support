@@ -35,7 +35,7 @@ So the whole instrument panel is free:
 The things we *don't* have are the things servers buy: friend
 tracking across a mountain, cloud sync, social feeds, licensed resort
 artwork. If those matter to you, a subscription app is honestly the
-right tool — our [comparison with Slopes](/alpine-support/compare)
+right tool — our [comparison with Slopes](/compare)
 says so in a table.
 
 "Free" in app stores usually means "free sample." Occasionally it can
@@ -43,4 +43,4 @@ just mean free — when the architecture makes the costs disappear
 rather than the business model hiding them.
 
 *Alpy is free on iPhone — every feature, no account, no ads.
-[What it does](/alpine-support/).*
+[What it does](/).*

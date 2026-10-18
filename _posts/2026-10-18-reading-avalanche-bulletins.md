@@ -41,4 +41,4 @@ bulletin here" is information too: it means *you* are the forecaster
 today, and you should probably ski the pistes.
 
 *Alpy shows official bulletins free, alongside live summit weather.
-[About the app](/alpine-support/).*
+[About the app](/).*
