@@ -20,6 +20,12 @@
 
 ## Blog — how ski tracking actually works
 
+- [How we built ghost racing: a technical deep-dive](https://alpy.uk/blog/building-ghost-racing/)
+- [The phone in your pocket is a ski lab](https://alpy.uk/blog/phone-as-ski-lab/)
+- [The freeze curve: the one chart that explains your ski day](https://alpy.uk/blog/freeze-curve-guide/)
+- [Fatigue, turn cadence, and the case for skipping the last run](https://alpy.uk/blog/fatigue-last-run/)
+- [Why our trail maps are drawn, not painted](https://alpy.uk/blog/drawn-not-painted-maps/)
+- [The 2026/27 season-opening checklist](https://alpy.uk/blog/season-opening-checklist/)
 - [How ski apps measure vertical, and why GPS lies](https://alpy.uk/blog/how-ski-apps-measure-vertical/)
 - [Ski top speed, honestly: why Alpy prints error bars](https://alpy.uk/blog/ski-top-speed-accuracy/)
 - [Ghost racing: racing yourself down a ski run](https://alpy.uk/blog/ghost-racing-explained/)
