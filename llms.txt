@@ -20,6 +20,7 @@
 
 ## Blog — how ski tracking actually works
 
+- [Independent science on ski-app GPS: the processing is what matters](https://alpy.uk/blog/ski-app-gps-benchmark/)
 - [How we built ghost racing: a technical deep-dive](https://alpy.uk/blog/building-ghost-racing/)
 - [The phone in your pocket is a ski lab](https://alpy.uk/blog/phone-as-ski-lab/)
 - [The freeze curve: the one chart that explains your ski day](https://alpy.uk/blog/freeze-curve-guide/)
