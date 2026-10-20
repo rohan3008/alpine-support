@@ -44,6 +44,12 @@ RSS feeds of gear publications. Requests contain resort coordinates, never
 your identity. All AI runs on your device — the app sends nothing to any
 AI service. Each service's own privacy policy governs its handling of requests.
 
+The 3D terrain map is rendered with the Mapbox Maps SDK, which fetches map
+tiles from Mapbox's servers (those requests carry the map area being viewed
+and the app's access token). Mapbox's telemetry collection is switched off
+by the app using the SDK's own opt-out setting, and the map's ⓘ attribution
+button shows Mapbox's terms and that same opt-out control.
+
 ## Contact
 
 Questions: rohanshah90@gmail.com
