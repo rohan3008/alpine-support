@@ -39,3 +39,4 @@
 - [On-device AI for skiers](https://alpy.uk/blog/on-device-ai-ski-report/)
 - [Epic, Ikon, Mountain Collective, Magic Pass: who covers what](https://alpy.uk/blog/ski-pass-coverage/)
 - [Free ski tracking on iPhone in 2026](https://alpy.uk/blog/free-ski-tracking-iphone/)
+- [How Alpy got a real 3D winter mountain](https://alpy.uk/blog/3d-winter-map/)
