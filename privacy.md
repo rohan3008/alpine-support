@@ -1,6 +1,6 @@
 # Alpy — Privacy Policy
 
-_Last updated: 16 October 2026_
+_Last updated: 20 October 2026_
 
 Alpy (formerly Alpine) is built to collect nothing.
 
@@ -23,6 +23,11 @@ Alpy (formerly Alpine) is built to collect nothing.
   active energy, to show effort per run. These numbers are displayed on
   your device and never stored by Alpy or transmitted anywhere. Alpy never
   writes to Health.
+- **Camera (optional):** the Trail Finder feature shows your camera as a
+  live viewfinder while an arrow points toward a run you picked. The feed
+  is displayed and nothing more — no photo or video is captured, stored,
+  analyzed or transmitted, by design: the camera session has no recording
+  output attached.
 
 ## What the app does NOT do
 
