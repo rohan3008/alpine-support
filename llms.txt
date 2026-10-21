@@ -46,3 +46,4 @@
 - [The Day, Written: a coach's debrief from your own numbers](https://alpy.uk/blog/performance-debrief/)
 - [Using the 3D winter map: a field guide](https://alpy.uk/blog/winter-3d-map-guide/)
 - [Skiing safer with data: the aspect rose and the last-run light](https://alpy.uk/blog/ski-safety-data/)
+- [Join the Alpy beta](https://alpy.uk/beta/)

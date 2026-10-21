@@ -21,6 +21,8 @@ description: "Free iPhone ski tracker: per-run personal records, powder alerts, 
 feature free, no account, no ads — and your GPS never leaves the
 phone, because there is no server for it to go to.
 
+<a href="/beta/" style="display:inline-block; padding:.6rem 1.4rem; background:#FF4D2E; color:#fff; border-radius:999px; font-weight:700; text-decoration:none;">Join the beta — ski it first →</a>
+
 - **Every run races your own best** — personal records per named run,
   "−0:17 vs best" verdicts, and a race chart showing where the time went.
 - **Ski Debrief** — per-run time, drop, speeds, estimated turns,
