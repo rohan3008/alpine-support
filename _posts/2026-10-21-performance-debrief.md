@@ -5,6 +5,9 @@ description: "Alpy's end-of-day summary reads like a coach reviewing the data â€
 
 # The Day, Written: a coach's debrief from your own numbers
 
+<p align="center"><img src="/assets/screens/alpy-ski-debrief.png" alt="The Day, Written: an on-device AI performance summary above the run registers" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
+
 The end of a ski day produces a pile of numbers. Most apps show you
 the pile. Alpy also *reads* it to you â€” a short paragraph in the
 voice of a coach going over the data, built from athletic measures

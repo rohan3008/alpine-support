@@ -5,6 +5,9 @@ description: "A walkthrough of exactly what the app does from the moment you wak
 
 # A first ski day with Alpy, start to finish
 
+<p align="center"><img src="/assets/screens/alpy-telemetry-avalanche.png" alt="The Telemetry cockpit on a powder morning: summit numbers, avalanche rose, on-device morning report" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
+
 This is the walkthrough I wish every app had: not a feature list, but
 what actually happens on a ski day, hour by hour. I built Alpy, so
 read this as the maker's intended path through it — then bend it to

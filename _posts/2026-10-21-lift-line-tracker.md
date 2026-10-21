@@ -5,6 +5,9 @@ description: "Alpy estimates how long you stood in each lift line from your own 
 
 # Lift lines: the only honest queue tracker has your name on it
 
+<p align="center"><img src="/assets/screens/alpy-ski-debrief.png" alt="The Ski Debrief, where the Lift Lines card lives alongside the per-run registers" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
+
 Every skier knows the feeling: the day felt great, but somewhere an
 hour evaporated into lift queues. Alpy now measures that hour — and
 tells you which lifts ate it.

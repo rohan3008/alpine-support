@@ -6,6 +6,9 @@ permalink: /beta/
 
 # Ski the beta
 
+<p align="center"><img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: chase camera, your line in red, your ghost ahead, +17.2 s on the race clock" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
+
 Alpy launches for the 2026/27 season — and the first tracked days on
 real snow will belong to beta testers. If you want the app before
 everyone else and don't mind telling us when something breaks, we'd

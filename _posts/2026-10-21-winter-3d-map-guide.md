@@ -5,6 +5,9 @@ description: "How to read Alpy's 3D terrain map on the hill — fly-in, run high
 
 # Using the 3D winter map: a field guide
 
+<p align="center"><img src="/assets/screens/alpy-3d-winter-map.png" alt="The 3D winter map with the Theodulgletscher run selected and glowing" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
+
 We wrote up [how the 3D winter mountain was built](3d-winter-map/);
 this is the companion piece — how to *use* it on an actual ski day.
 
