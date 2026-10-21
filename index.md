@@ -102,6 +102,18 @@ phone, because there is no server for it to go to.
   </div>
 </div>
 
+<div class="feat">
+  <img src="/assets/screens/alpy-gear.png" alt="Alpy gear page: today's quiver match at 88% for freeride skis, with fresh snow, wind, summit and avalanche condition chips" loading="lazy">
+  <div>
+    <h2>Your skis, matched to the day</h2>
+    <p>Add your quiver and Alpy scores it against the measured morning —
+    28&nbsp;cm fresh in wind picks the freeride ski at 88%, with waist,
+    length and flex ranges and a wax-and-edge tune recommendation from
+    today's actual temperature. Conditions data, never shop talk: the
+    app sells nothing.</p>
+  </div>
+</div>
+
 **And underneath it all:** GPS day tracking with barometric fusion and
 honest error bars, lift-line estimates per lift, airtime and turn-load
 estimates (labeled), search across
