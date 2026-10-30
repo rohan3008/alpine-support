@@ -1,6 +1,9 @@
 url: https://alpy.uk
 title: Alpy — free ski app
 description: Free, privacy-first iPhone ski tracker with personal records, powder alerts and OSM trail maps.
+image: /assets/img/og-alpy.jpg
+twitter:
+  card: summary_large_image
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

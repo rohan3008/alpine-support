@@ -1,6 +1,7 @@
 ---
 title: "Alpy — the free, private ski app"
 description: "Free iPhone ski tracker: per-run personal records, powder alerts, avalanche bulletins, trail maps for 3,652 ski areas, on-device AI. No account, no ads — GPS never leaves your phone."
+image: /assets/img/og-alpy.jpg
 ---
 
 <script type="application/ld+json">
@@ -23,9 +24,17 @@ phone, because there is no server for it to go to.
 
 <a href="/beta/" style="display:inline-block; padding:.6rem 1.4rem; background:#FF4D2E; color:#fff; border-radius:999px; font-weight:700; text-decoration:none;">Join the beta — ski it first →</a>
 
+<div style="margin:1.75rem 0;">
+  <video autoplay muted loop playsinline preload="metadata" poster="/assets/img/hero-railing-1920.jpg" style="width:100%; border-radius:14px; display:block;" aria-label="A phone showing Alpy's day replay, propped on a snowy mountain terrace railing">
+    <source src="/assets/video/alpy-hero-motion.mp4" type="video/mp4">
+    <img src="/assets/img/hero-railing-1920.jpg" alt="A phone showing Alpy's day replay with orange route lines, propped on a snowy mountain terrace railing beside a ski glove and goggles" style="width:100%; border-radius:14px; display:block;">
+  </video>
+  <p style="color:#57606a; font-size:.8rem; margin-top:.4rem;">The screen is the real app — the scenery around it is an illustration.</p>
+</div>
+
 <style>
 .feat { display:flex; gap:1.75rem; align-items:center; flex-wrap:wrap; margin:2.25rem 0; }
-.feat img { width:235px; max-width:100%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 10px 28px rgba(10,17,31,.18); }
+.feat img, .feat video { width:235px; max-width:100%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 10px 28px rgba(10,17,31,.18); }
 .feat > div { flex:1; min-width:260px; }
 .feat h2 { margin-top:0; }
 .feat p.sub { color:#57606a; margin-top:-.25rem; font-size:.92rem; }
@@ -56,7 +65,10 @@ phone, because there is no server for it to go to.
 </div>
 
 <div class="feat">
-  <img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: chase camera following the skier's red line at 36 km/h with a ghost dot ahead and a +17.2 second race delta" loading="lazy">
+  <video autoplay muted loop playsinline preload="metadata" poster="/assets/video/alpy-replay-poster.jpg" aria-label="Screen recording of Alpy's day replay: the red line replaying over the mountain with the live ghost-race delta">
+    <source src="/assets/video/alpy-replay-loop.mp4" type="video/mp4">
+    <img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: chase camera following the skier's red line with a ghost dot ahead and the race delta" loading="lazy">
+  </video>
   <div>
     <h2>Day replay — race your own ghost</h2>
     <p>Scrub or play your day back over the 3D terrain with a chase

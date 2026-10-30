@@ -2,7 +2,10 @@
 title: "Become an Alpy beta tester"
 description: "Ski the 2026/27 season with Alpy before everyone else — join the TestFlight beta. Free app, no account, GPS never leaves your phone."
 permalink: /beta/
+image: /assets/img/og-alpy.jpg
 ---
+
+<img src="/assets/img/hero-piste-1600.jpg" alt="A gloved hand holding a phone with Alpy's day replay above a wide groomed piste" style="width:100%; border-radius:14px; display:block; margin-bottom:1.25rem;">
 
 # Ski the beta
 
