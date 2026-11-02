@@ -30,7 +30,6 @@ So the whole instrument panel is free:
 - Live ghost racing while you ski a run you've skied before
 - Day replay on 3D terrain, trail maps for 3,652 OSM ski areas
 - Powder alerts, freeze curve, official avalanche bulletins
-- Apple Watch heart-rate readout per run (read-only, from Health)
 
 The things we *don't* have are the things servers buy: friend
 tracking across a mountain, cloud sync, social feeds, licensed resort

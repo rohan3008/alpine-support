@@ -58,10 +58,11 @@ caveats is how instruments become marketing.
 ## Adding the heart: what your watch contributes
 
 If you ski with an Apple Watch, your heart rate for the day is
-already in Apple Health, and Alpy can read it — with your
-permission, read-only, displayed and never stored — and lay per-run
-averages alongside the cadence story. The combination is where it
-gets interesting:
+already sitting in the Health app — open it on the lift and read it
+alongside Alpy's cadence story. (Alpy itself doesn't read Health
+data today; if an effort readout ever ships, it will be built
+properly, not bolted on.) The combination is where it gets
+interesting:
 
 - **Cadence falling while heart rate holds or climbs** is the
   classic fatigue picture: paying more, producing less rhythm.
@@ -89,6 +90,6 @@ Rhythm chart on the lift. If the curve has sagged, let *that* be
 the last run — the one you watched happen, instead of the one that
 happened to you.
 
-*Day Rhythm, per-run cadence and Apple Watch effort readouts are
-free in Alpy. Nothing leaves your phone. [The app](/) ·
+*Day Rhythm and per-run cadence are free in Alpy. Nothing leaves
+your phone. [The app](/) ·
 [More from the blog](/blog/).*
