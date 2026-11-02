@@ -18,11 +18,6 @@ Alpy (formerly Alpine) is built to collect nothing.
 - **The AI morning report**, when written by Apple Intelligence, is generated
   entirely on your device by Apple's on-device model. Nothing is sent
   anywhere.
-- **Health data (optional):** if you tap "Read from Health" on a ski day's
-  debrief, Alpy asks Apple Health for read-only access to heart rate and
-  active energy, to show effort per run. These numbers are displayed on
-  your device and never stored by Alpy or transmitted anywhere. Alpy never
-  writes to Health.
 - **Camera (optional):** the Trail Finder feature shows your camera as a
   live viewfinder while an arrow points toward a run you picked. The feed
   is displayed and nothing more — no photo or video is captured, stored,
