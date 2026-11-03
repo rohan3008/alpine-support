@@ -1,6 +1,6 @@
 ---
 title: "The Day, Written: a coach's debrief from your own numbers"
-description: "Alpy's end-of-day summary reads like a coach reviewing the data — descent rate, time on snow, the standout run, records, consistency — written on-device and never allowed to invent a number."
+description: "Alpy's end-of-day summary reads like a coach reviewing your data — descent rate, standout run, consistency — written on-device, never inventing a number."
 ---
 
 # The Day, Written: a coach's debrief from your own numbers

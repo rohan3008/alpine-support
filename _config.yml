@@ -1,13 +1,17 @@
 url: https://alpy.uk
-title: Alpy — free ski app
+title: Alpy
+tagline: Free, private ski app for iPhone
 description: Free, privacy-first iPhone ski tracker with personal records, powder alerts and OSM trail maps.
-image: /assets/img/og-alpy.jpg
-twitter:
-  card: summary_large_image
+image: /assets/img/og-default.jpg
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 permalink: /blog/:title/
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og-default.jpg
 # Empty until Alpy is live. Paste the App Store link (ASC → App Information →
 # "View on App Store") and every beta CTA becomes the App Store badge.
 appstore_url: ""

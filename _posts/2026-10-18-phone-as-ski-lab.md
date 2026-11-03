@@ -1,6 +1,6 @@
 ---
 title: "The phone in your pocket is a ski lab: GPS, barometer, accelerometer"
-description: "A long look at the three instruments inside an iPhone, what each one can and cannot measure on a mountain, and how fusing them produces honest ski telemetry — vertical, airtime, turn load, and error bars."
+description: "The three instruments inside an iPhone, what each can and can't measure on a mountain, and how fusing them gives honest ski telemetry with error bars."
 ---
 
 # The phone in your pocket is a ski lab

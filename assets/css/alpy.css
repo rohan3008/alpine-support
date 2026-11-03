@@ -240,6 +240,14 @@ a:hover { text-decoration-color: currentColor; }
 .lagoon-copy p { color: rgba(255,255,255,.8); max-width: 520px; margin: 24px 0 0; }
 .lagoon-copy .btn { margin-top: 32px; }
 
+/* ---------- FAQ ---------- */
+.faq-grid { display: grid; gap: 32px; }
+@media (min-width: 900px) { .faq-grid { grid-template-columns: 1fr 1.6fr; gap: 80px; align-items: start; } }
+.faq-item { border-top: 1px solid var(--line); padding: 24px 0; }
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
+.faq-item h3 { font-size: 20px; font-weight: 540; letter-spacing: -0.007em; margin: 0 0 8px; }
+.faq-item p { margin: 0; color: var(--stone); max-width: 620px; }
+
 /* ---------- Gradient band ---------- */
 .band-glow { position: relative; overflow: hidden; }
 .band-glow::before {

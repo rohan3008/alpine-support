@@ -1,6 +1,6 @@
 ---
 title: "A first ski day with Alpy, start to finish"
-description: "A walkthrough of exactly what the app does from the moment you wake up at the resort to the debrief on the lift home — morning report, powder alert, day tracking, replay, personal records."
+description: "Exactly what Alpy does across a ski day — morning report, powder alert, day tracking, replay and personal records — from first chair to the lift home."
 ---
 
 # A first ski day with Alpy, start to finish

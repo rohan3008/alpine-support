@@ -1,6 +1,6 @@
 ---
 title: "How Alpy got a real 3D winter mountain"
-description: "A build log: why the paper chart wasn't enough, why we left MapKit for the 3D view, the one-line styling bug that ate our relief shading, and what a winter terrain map costs in memory and privacy."
+description: "Build log: why the paper chart wasn't enough, why we left MapKit for 3D, the styling bug that ate our relief shading, and the memory and privacy cost."
 ---
 
 # How Alpy got a real 3D winter mountain

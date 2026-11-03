@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Alpy — the free, private ski app"
-description: "Free iPhone ski tracker: per-run personal records, powder alerts, avalanche bulletins, trail maps for 3,652 ski areas, on-device AI. No account, no ads — GPS never leaves your phone."
-image: /assets/img/og-alpy.jpg
+title: "Alpy"
+description: "Free iPhone ski tracker: per-run records, powder alerts, avalanche bulletins and 3D trail maps. No account, no ads — your GPS never leaves the phone."
+image: /assets/img/og-default.jpg
 announce: true
 ---
 <script type="application/ld+json">
@@ -13,7 +13,34 @@ announce: true
   "operatingSystem": "iOS",
   "applicationCategory": "SportsApplication",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@id": "https://alpy.uk/#org" },
+  "screenshot": [
+    "https://alpy.uk/assets/screens/alpy-3d-winter-map.png",
+    "https://alpy.uk/assets/screens/alpy-day-replay-ghost.png",
+    "https://alpy.uk/assets/screens/alpy-telemetry-avalanche.png"
+  ],{% if site.appstore_url != "" %}
+  "downloadUrl": "{{ site.appstore_url }}",{% endif %}
   "description": "Free, privacy-first ski app: GPS day tracking with per-run personal records, powder alerts, avalanche bulletins, OpenStreetMap trail maps and on-device AI reports."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Is Alpy really free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every feature is free: there are no ads, no account and no in-app purchases. Day tracking, personal records, the 3D map, day replay, powder alerts and avalanche bulletins all work without paying anything." } },
+    { "@type": "Question", "name": "Does Alpy upload my location?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Your GPS tracks, records and replays are stored only on your iPhone, and there is no Alpy server to send them to. Weather and avalanche requests use the resort's coordinates, not yours; map tiles are downloaded for the area on screen, like any map app." } },
+    { "@type": "Question", "name": "Does Alpy work without phone signal?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Day tracking does. GPS and the barometer need no data connection, and every run is saved on the phone. Live conditions, avalanche bulletins and new map areas need a connection to load." } },
+    { "@type": "Question", "name": "Do I need an account?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. There is no sign-up and no login. Open the app and it works." } },
+    { "@type": "Question", "name": "Which ski resorts does Alpy cover?",
+      "acceptedAnswer": { "@type": "Answer", "text": "You can search 3,652 ski areas worldwide from OpenStreetMap, with piste maps where mappers have drawn them. Official avalanche bulletins come from SLF in Switzerland and avalanche.org in the US; where no official bulletin exists, the app says so." } },
+    { "@type": "Question", "name": "Is the AI summary sent to the cloud?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. The morning report and day summary are written by Apple Intelligence on your iPhone. It only rephrases your measured numbers, and phones without Apple Intelligence get a plain written summary instead." } }
+  ]
 }
 </script>
 
@@ -43,7 +70,7 @@ announce: true
       {% else %}
       <a class="btn btn-wine" href="/beta/">Join the beta <span aria-hidden="true">→</span></a>
       {% endif %}
-      <a class="ghost" href="/compare">How it compares</a>
+      <a class="ghost" href="/compare/">How it compares</a>
     </div>
   </div>
   <p class="hero-credit">Photo: <a href="https://unsplash.com/photos/santis-peak-in-alpstein-region-V7EgUtCnvLY" rel="nofollow">Pascal Debrunner / Unsplash</a></p>
@@ -190,7 +217,27 @@ announce: true
       <h2 class="display">No account. No ads. No uploads.</h2>
       <p>Your GPS never leaves the phone — there is no server for it to go to. Tracking, records, replays and AI summaries all run and stay on the device, across 3,652 ski areas worldwide.</p>
       <p>Built for one skier at a time.</p>
-      <a class="btn btn-outline-white" href="/privacy">Read the privacy policy</a>
+      <a class="btn btn-outline-white" href="/privacy/">Read the privacy policy</a>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="container faq-grid">
+    <h2 class="h-lg">Questions skiers ask</h2>
+    <div class="faq-list">
+      <div class="faq-item"><h3>Is Alpy really free?</h3>
+        <p>Yes. Every feature is free: there are no ads, no account and no in-app purchases. Day tracking, personal records, the 3D map, day replay, powder alerts and avalanche bulletins all work without paying anything.</p></div>
+      <div class="faq-item"><h3>Does Alpy upload my location?</h3>
+        <p>No. Your GPS tracks, records and replays are stored only on your iPhone, and there is no Alpy server to send them to. Weather and avalanche requests use the resort's coordinates, not yours; map tiles are downloaded for the area on screen, like any map app.</p></div>
+      <div class="faq-item"><h3>Does Alpy work without phone signal?</h3>
+        <p>Day tracking does. GPS and the barometer need no data connection, and every run is saved on the phone. Live conditions, avalanche bulletins and new map areas need a connection to load.</p></div>
+      <div class="faq-item"><h3>Do I need an account?</h3>
+        <p>No. There is no sign-up and no login. Open the app and it works.</p></div>
+      <div class="faq-item"><h3>Which ski resorts does Alpy cover?</h3>
+        <p>You can search 3,652 ski areas worldwide from OpenStreetMap, with piste maps where mappers have drawn them. Official avalanche bulletins come from SLF in Switzerland and avalanche.org in the US; where no official bulletin exists, the app says so.</p></div>
+      <div class="faq-item"><h3>Is the AI summary sent to the cloud?</h3>
+        <p>No. The morning report and day summary are written by Apple Intelligence on your iPhone. It only rephrases your measured numbers, and phones without Apple Intelligence get a plain written summary instead.</p></div>
     </div>
   </div>
 </section>

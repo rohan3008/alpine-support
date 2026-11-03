@@ -1,6 +1,6 @@
 ---
 title: "Using the 3D winter map: a field guide"
-description: "How to read Alpy's 3D terrain map on the hill — fly-in, run highlighting, the orbit tour, the paper chart toggle, and what the winter styling is actually showing you."
+description: "How to read Alpy's 3D terrain map on the hill: fly-in, run highlighting, the orbit tour, the paper chart toggle and what the winter styling shows."
 ---
 
 # Using the 3D winter map: a field guide

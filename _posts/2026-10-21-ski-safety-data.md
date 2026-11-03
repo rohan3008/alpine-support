@@ -1,6 +1,6 @@
 ---
 title: "Skiing safer with data: the aspect rose and the last-run light"
-description: "Two small safety instruments in Alpy: the avalanche bulletin's dangerous aspects drawn as a compass rose (and flagged against your actual runs), and a sunset countdown while you're still tracking."
+description: "Two safety instruments in Alpy: avalanche danger aspects drawn as a compass rose and checked against your runs, plus a sunset countdown while tracking."
 ---
 
 # Skiing safer with data: the aspect rose and the last-run light

@@ -1,6 +1,6 @@
 ---
 title: "How we built ghost racing for skiing: a technical deep-dive"
-description: "The full engineering story: turning OpenStreetMap pistes into segments, the partial-descent problem, inverting the descent profile for F1-style deltas, and racing a ghost live on the mountain."
+description: "How Alpy turns OpenStreetMap pistes into segments, handles partial descents, computes F1-style deltas and races your ghost live on the mountain."
 ---
 
 # How we built ghost racing for skiing: a technical deep-dive
@@ -132,5 +132,5 @@ The result is a racing feature with one opponent, who happens to be
 the only one whose defeat means anything: you, last time.
 
 *Ghost racing is free in Alpy — live on the mountain and in the 3D
-replay. [How the app compares to others](/compare) ·
+replay. [How the app compares to others](/compare/) ·
 [More engineering posts](/blog/).*

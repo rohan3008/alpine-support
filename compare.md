@@ -39,3 +39,40 @@ App Store listing, October 2026.)
 If those matter most to you, use Slopes — it's a fine app. If you
 want the full instrument panel free, private and honest about its
 estimates, that's [Alpy](./).
+
+## Common questions
+
+### Is Alpy a free alternative to Slopes?
+
+For the features they share, yes. Per-run analytics, personal
+records, 3D maps and day replay are free in Alpy; Slopes puts its
+per-run analytics, interactive maps and replay behind Premium.
+Slopes is ahead on live friend location, licensed maps, live lift
+status and an Apple Watch app.
+
+### Can Alpy show my friends' live location?
+
+Not across the whole mountain. Alpy's Buddy Beacon finds friends
+nearby over Bluetooth, with no account and no server. Slopes'
+server-based live location is better for finding a crew spread
+across a resort.
+
+### Does Alpy have an Apple Watch app?
+
+No. Alpy runs on iPhone only today. If a Watch app matters to you,
+Slopes has one.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Is Alpy a free alternative to Slopes?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For the features they share, yes. Per-run analytics, personal records, 3D maps and day replay are free in Alpy; Slopes puts its per-run analytics, interactive maps and replay behind Premium. Slopes is ahead on live friend location, licensed maps, live lift status and an Apple Watch app." } },
+    { "@type": "Question", "name": "Can Alpy show my friends' live location?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Not across the whole mountain. Alpy's Buddy Beacon finds friends nearby over Bluetooth, with no account and no server. Slopes' server-based live location is better for finding a crew spread across a resort." } },
+    { "@type": "Question", "name": "Does Alpy have an Apple Watch app?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Alpy runs on iPhone only today. If a Watch app matters to you, Slopes has one." } }
+  ]
+}
+</script>

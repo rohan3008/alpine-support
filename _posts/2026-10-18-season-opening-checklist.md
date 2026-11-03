@@ -1,6 +1,6 @@
 ---
 title: "The 2026/27 season-opening checklist: body, gear, data, mountain"
-description: "A practical pre-season checklist for skiers: leg prep that actually transfers, binding checks and what to tell the shop, pass math for 2026/27, avalanche kit practice, and setting up your phone before first chair."
+description: "A pre-season checklist for skiers: leg prep that transfers, binding checks, 2026/27 pass math, avalanche kit practice and phone setup before first chair."
 ---
 
 # The 2026/27 season-opening checklist

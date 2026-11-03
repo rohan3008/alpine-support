@@ -1,6 +1,6 @@
 ---
 title: "The freeze curve: the one chart that explains your ski day"
-description: "What the freezing level is, how it moves through a day and a storm, how to time soft snow and avoid boilerplate ice — and how Alpy draws the curve from forecast data."
+description: "What the freezing level is, how it moves through a day and a storm, how to time soft snow and dodge ice — and how Alpy draws the curve."
 ---
 
 # The freeze curve: the one chart that explains your ski day

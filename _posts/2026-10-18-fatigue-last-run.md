@@ -1,6 +1,6 @@
 ---
 title: "Fatigue, turn cadence, and the myth-proof case for skipping the last run"
-description: "What your turn rhythm reveals about tiring legs, how Alpy's Day Rhythm chart detects the fade, what heart-rate data adds — and an honest look at 'most injuries happen on the last run.'"
+description: "What turn rhythm reveals about tiring legs, how Alpy's Day Rhythm chart spots the fade, and an honest look at 'most injuries happen on the last run.'"
 ---
 
 # Fatigue, turn cadence, and the case for skipping the last run

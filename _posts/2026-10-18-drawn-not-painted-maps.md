@@ -1,6 +1,6 @@
 ---
 title: "Why our trail maps are drawn, not painted"
-description: "The strange world of ski resort panorama art, why apps can't just bundle it, what OpenStreetMap geometry offers instead — and how Alpy renders a mountain twice: schematic chart and 3D terrain."
+description: "Why ski apps can't bundle resort panorama art, what OpenStreetMap geometry offers instead, and how Alpy draws a mountain twice: chart and 3D terrain."
 ---
 
 # Why our trail maps are drawn, not painted

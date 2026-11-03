@@ -1,6 +1,6 @@
 ---
 title: "Lift lines: the only honest queue tracker has your name on it"
-description: "Alpy estimates how long you stood in each lift line from your own GPS — per lift, per day, with season averages. Why a no-server app can't show live crowds, and why your own history is the useful number anyway."
+description: "Alpy estimates your wait in each lift line from your own GPS, per lift and per day — and why a no-server app can't show live crowds."
 ---
 
 # Lift lines: the only honest queue tracker has your name on it

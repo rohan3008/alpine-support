@@ -1,6 +1,6 @@
 ---
 title: "Trail Finder: point your phone at the mountain"
-description: "Alpy's camera HUD swings an arrow toward the run you picked — how it works, what compass physics can and can't promise, and why there's no fake AR line painted on the snow."
+description: "Alpy's camera arrow swings toward the run you picked: how it works, what compass physics can promise, and why there's no fake AR line on the snow."
 ---
 
 # Trail Finder: point your phone at the mountain

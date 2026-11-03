@@ -1,6 +1,6 @@
 ---
 title: "Independent science on ski-app GPS: the app barely matters. The processing does."
-description: "A peer-reviewed benchmark ran four ski apps against survey-grade GNSS at Davos and Zermatt. The apps were indistinguishable — accuracy came down to phone, terrain and processing. Here is Alpy's processing, in the open."
+description: "A peer-reviewed study ran four ski apps against survey-grade GNSS: they were indistinguishable. Accuracy comes from phone, terrain and processing."
 ---
 
 # Independent science on ski-app GPS

@@ -1,6 +1,6 @@
 ---
 title: "The Alpy blog — honest ski-tech writing"
-description: "How ski tracking actually works: GPS vs barometer, turn estimates, ghost racing, avalanche bulletins, pass coverage, on-device AI. First-party writing from the makers of Alpy."
+description: "How ski tracking really works: GPS vs barometer, turn estimates, ghost racing, avalanche bulletins, pass coverage and on-device AI, from Alpy's makers."
 ---
 
 # The Alpy blog
