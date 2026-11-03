@@ -19,8 +19,13 @@
   <div class="announce">
     <div class="announce-pill">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 20l6.5-11 4 6 2.5-4L21 20z"/></svg>
+      {% if site.appstore_url != "" %}
+      <span>Alpy is on the App Store — every feature free.</span>
+      <a href="{{ site.appstore_url }}">Download for iPhone</a>
+      {% else %}
       <span>Launching for the 2026/27 season — every feature free.</span>
       <a href="/beta/">Ski it first on TestFlight</a>
+      {% endif %}
     </div>
   </div>
   {% endif %}
@@ -35,7 +40,11 @@
       </nav>
       <div class="nav-right">
         <a class="ghost" href="mailto:rohanshah90@gmail.com">Support</a>
+        {% if site.appstore_url != "" %}
+        <a class="btn btn-lilac" href="{{ site.appstore_url }}">Download</a>
+        {% else %}
         <a class="btn btn-lilac" href="/beta/">Join the beta</a>
+        {% endif %}
       </div>
     </div>
   </header>

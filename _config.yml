@@ -8,3 +8,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 permalink: /blog/:title/
+# Empty until Alpy is live. Paste the App Store link (ASC → App Information →
+# "View on App Store") and every beta CTA becomes the App Store badge.
+appstore_url: ""

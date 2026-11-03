@@ -94,6 +94,9 @@ a:hover { text-decoration-color: currentColor; }
 .ghost { color: var(--ink); text-decoration: none; }
 .ghost:hover { text-decoration: underline; text-decoration-color: currentColor; }
 
+.appstore-badge { display: inline-block; line-height: 0; }
+.appstore-badge img { height: 50px; width: auto; }
+
 /* ---------- Announcement pill ---------- */
 .announce { padding: 8px 8px 0; }
 .announce-pill {
