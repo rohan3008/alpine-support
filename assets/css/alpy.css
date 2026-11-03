@@ -144,15 +144,15 @@ a:hover { text-decoration-color: currentColor; }
 
 .float-card {
   position: absolute; width: 228px; padding: 16px; display: none;
-  background: rgba(255,255,255,.85); color: var(--ink);
-  border: 1px solid rgba(255,255,255,.2); border-radius: var(--radius-cards);
+  background: rgba(0,0,0,.85); color: #fff;
+  border: 1px solid rgba(255,255,255,.14); border-radius: var(--radius-cards);
   -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
 }
 .float-card img { border-radius: 10px; }
 .float-card .fc-row { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
-.float-card .fc-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--wine); flex: none; }
+.float-card .fc-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--lilac); flex: none; }
 .float-card .fc-title { font-size: 14px; font-weight: 540; }
-.float-card .fc-body { font-size: 12px; color: var(--stone); margin: 4px 0 0; line-height: 1.4; }
+.float-card .fc-body { font-size: 12px; color: rgba(255,255,255,.65); margin: 4px 0 0; line-height: 1.4; }
 @media (min-width: 1180px) {
   .float-card { display: block; }
   .float-l { left: 4%; bottom: 9%; }
@@ -201,8 +201,8 @@ a:hover { text-decoration-color: currentColor; }
 }
 .js .panel:not(.is-active) { display: none; }
 @media (min-width: 900px) { .panel { grid-template-columns: 340px 1fr; gap: 64px; padding: 48px 64px; } }
-.panel-media { justify-self: center; }
-.panel-media img, .panel-media video { width: 280px; max-width: 100%; border-radius: 22px; border: 1px solid var(--line); }
+.panel-media { background: #000; border-radius: 12px; padding: 32px 24px; display: flex; justify-content: center; }
+.panel-media img, .panel-media video { width: 280px; max-width: 100%; border-radius: 22px; border: 1px solid rgba(255,255,255,.14); }
 .panel-copy { max-width: 520px; }
 .panel-copy .h-sm { margin-bottom: 16px; }
 .panel-copy p { margin: 0 0 12px; }
