@@ -1,0 +1,225 @@
+---
+layout: default
+title: "Alpy — the free, private ski app"
+description: "Free iPhone ski tracker: per-run personal records, powder alerts, avalanche bulletins, trail maps for 3,652 ski areas, on-device AI. No account, no ads — GPS never leaves your phone."
+image: /assets/img/og-alpy.jpg
+announce: true
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Alpy",
+  "operatingSystem": "iOS",
+  "applicationCategory": "SportsApplication",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "Free, privacy-first ski app: GPS day tracking with per-run personal records, powder alerts, avalanche bulletins, OpenStreetMap trail maps and on-device AI reports."
+}
+</script>
+
+<section class="hero">
+  <img class="hero-photo" src="/assets/img/hero-dusk-2560.jpg"
+       srcset="/assets/img/hero-dusk-1280.jpg 1280w, /assets/img/hero-dusk-2560.jpg 2560w"
+       sizes="100vw" alt="Alpenglow over a snowy alpine ridgeline at dusk" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="float-card float-l" aria-hidden="true">
+    <img src="/assets/screens/web/alpy-telemetry-avalanche.jpg" alt="" loading="lazy">
+    <div class="fc-row"><span class="fc-dot"></span><span class="fc-title">Live summit telemetry</span></div>
+    <p class="fc-body">Temperature, fresh snow and freeze level, from Open-Meteo.</p>
+  </div>
+  <div class="float-card float-r" aria-hidden="true">
+    <img src="/assets/screens/web/alpy-day-replay-ghost.jpg" alt="" loading="lazy">
+    <div class="fc-row"><span class="fc-dot"></span><span class="fc-title">Racing your ghost</span></div>
+    <p class="fc-body">The gap to your best, counted like a race clock.</p>
+  </div>
+
+  <div class="hero-inner">
+    <h1 class="display">The mountain,<br>measured.</h1>
+    <p class="sub">A ski instrument panel for iPhone. Every number comes from a real source — and when there's nothing honest to say, Alpy says so.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-wine" href="/beta/">Join the beta <span aria-hidden="true">→</span></a>
+      <a class="ghost" href="/compare">How it compares</a>
+    </div>
+  </div>
+  <p class="hero-credit">Photo: <a href="https://unsplash.com/photos/santis-peak-in-alpstein-region-V7EgUtCnvLY" rel="nofollow">Pascal Debrunner / Unsplash</a></p>
+</section>
+
+<section class="section trust" aria-label="Data sources">
+  <div class="container">
+    <p class="kicker">Every number, credited to where it came from</p>
+    <div class="trust-grid">
+      <div class="trust-cell"><b>OpenStreetMap</b><span>piste networks</span></div>
+      <div class="trust-cell"><b>Open-Meteo</b><span>summit weather</span></div>
+      <div class="trust-cell"><b>SLF</b><span>Swiss avalanche bulletins</span></div>
+      <div class="trust-cell"><b>avalanche.org</b><span>US avalanche bulletins</span></div>
+      <div class="trust-cell"><b>Mapbox</b><span>3D terrain tiles</span></div>
+      <div class="trust-cell"><b>Apple Intelligence</b><span>on-device only</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features" style="padding-top:0;">
+  <div class="container">
+    <div class="suite-head">
+      <h2 class="h-lg">An instrument panel for your ski day</h2>
+      <p class="sub">Six instruments, one skier, no account. Every screen below is the real app.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Alpy features">
+      <button class="tab" role="tab" id="t-map" aria-controls="p-map" aria-selected="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg>
+        3D map</button>
+      <button class="tab" role="tab" id="t-finder" aria-controls="p-finder" aria-selected="false" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>
+        Trail Finder</button>
+      <button class="tab" role="tab" id="t-replay" aria-controls="p-replay" aria-selected="false" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5v7l5.5-3.5z"/></svg>
+        Day replay</button>
+      <button class="tab" role="tab" id="t-debrief" aria-controls="p-debrief" aria-selected="false" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/></svg>
+        Debrief</button>
+      <button class="tab" role="tab" id="t-tele" aria-controls="p-tele" aria-selected="false" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 20l7-12 4 6 3-4 6 10z"/><path d="M8.2 9.4l2 1.6 1.3-1"/></svg>
+        Telemetry</button>
+      <button class="tab" role="tab" id="t-records" aria-controls="p-records" aria-selected="false" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V10M10 3h4M12 3v3"/></svg>
+        Records</button>
+    </div>
+
+    <div class="panel is-active" role="tabpanel" id="p-map" aria-labelledby="t-map">
+      <div class="panel-media"><img src="/assets/screens/web/alpy-3d-winter-map.jpg" alt="Alpy's 3D winter trail map of Zermatt with a selected run glowing red" loading="lazy"></div>
+      <div class="panel-copy">
+        <h3 class="h-sm">A real 3D winter mountain</h3>
+        <p>The resort's actual piste network — at Zermatt, 133&nbsp;km of runs from OpenStreetMap — drawn over real terrain in winter dress: snow-white relief, contour lines, names set along the runs.</p>
+        <p class="muted">Tap a run and it glows while the camera flies to it. One toggle flips to a flat paper chart.</p>
+        <a href="/blog/winter-3d-map-guide/">Read the field guide</a>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-finder" aria-labelledby="t-finder">
+      <div class="panel-media"><img src="/assets/screens/web/alpy-trail-finder.jpg" alt="Alpy Trail Finder: an arrow pointing to the chosen run, to your left, about 2.9 km away" loading="lazy"></div>
+      <div class="panel-copy">
+        <h3 class="h-sm">Trail Finder</h3>
+        <p>Pick a run, point your phone at the mountain, and an arrow over the live camera swings toward it — "To your left · ~2.9&nbsp;km".</p>
+        <p class="muted">Compass-honest: the screen says to expect a few degrees of drift. The camera is a viewfinder only — nothing is recorded or leaves the phone.</p>
+        <a href="/blog/trail-finder-guide/">How it works</a>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-replay" aria-labelledby="t-replay">
+      <div class="panel-media">
+        <video autoplay muted loop playsinline preload="none" poster="/assets/screens/web/alpy-day-replay-ghost.jpg" aria-label="Alpy's day replay: your line replaying over the mountain with the live ghost-race gap">
+          <source src="/assets/video/alpy-replay-loop.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="panel-copy">
+        <h3 class="h-sm">Day replay — race your own ghost</h3>
+        <p>Play your day back over the 3D terrain with a chase camera. On runs you've skied before, your best time skis alongside you as a ghost, the gap counted like a race timing board: <span class="tnum">−16.0s</span>.</p>
+        <p class="muted">Speed, altitude and the run's profile scrub along with the marker.</p>
+        <a href="/blog/building-ghost-racing/">The engineering</a>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-debrief" aria-labelledby="t-debrief">
+      <div class="panel-media"><img src="/assets/screens/web/alpy-ski-debrief.jpg" alt="Alpy ski debrief: day totals, an on-device AI summary and per-run statistics" loading="lazy"></div>
+      <div class="panel-copy">
+        <h3 class="h-sm">The Day, Written</h3>
+        <p>Every run as a register entry — time, drop, speeds, estimated turns, airtime — topped by a coach-style summary written by Apple Intelligence <em>on the phone</em>.</p>
+        <p class="muted">It only rephrases your measured numbers. It never invents.</p>
+        <a href="/blog/performance-debrief/">Why it reads like a coach</a>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-tele" aria-labelledby="t-tele">
+      <div class="panel-media"><img src="/assets/screens/web/alpy-telemetry-avalanche.jpg" alt="Alpy live summit telemetry for Zermatt: fresh snow, base, freeze level, wind and summit temperature" loading="lazy"></div>
+      <div class="panel-copy">
+        <h3 class="h-sm">Honest mountain telemetry</h3>
+        <p>Summit temperature, feels-like, fresh snow, base depth, freeze level and wind — plus official avalanche bulletins from SLF and avalanche.org, with the dangerous slope aspects drawn as a compass rose.</p>
+        <p class="muted">When a region has no bulletin, the app says exactly that — never a guess.</p>
+        <a href="/blog/ski-safety-data/">The safety instruments</a>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-records" aria-labelledby="t-records">
+      <div class="panel-media"><img src="/assets/screens/web/alpy-personal-records.jpg" alt="Alpy segment view: a race chart against your best time with a −0:17 personal record" loading="lazy"></div>
+      <div class="panel-copy">
+        <h3 class="h-sm">Every named run is a segment</h3>
+        <p>Personal records on real pistes, "PR −0:17" verdicts, and a race chart showing exactly where the time was won or lost.</p>
+        <p class="muted">Times compare full descents only — a partial run never races.</p>
+        <a href="/blog/ski-personal-records/">How records work</a>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 21L17 3M9 21L21 3"/></svg>
+        <h3>Your skis, matched to the day</h3>
+        <p>Add your quiver and Alpy scores it against the measured morning — 28&nbsp;cm fresh in wind picks the freeride ski — with a wax-and-edge tune from today's real temperature. The app sells nothing.</p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M9 3.5l3 2 3-2M9 20.5l3-2 3 2"/></svg>
+        <h3>Powder alerts</h3>
+        <p>A background alert when fresh snow crosses the threshold you set, so a powder morning never sneaks past.</p>
+        <a href="/blog/powder-alerts-explained/">How alerts work</a>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="2"/><path d="M8 8a5.7 5.7 0 000 8M16 8a5.7 5.7 0 010 8M5 5a10 10 0 000 14M19 5a10 10 0 010 14"/></svg>
+        <h3>Buddy Beacon</h3>
+        <p>Find your crew at the lift line over Bluetooth — honest proximity, no account, nothing shared beyond a name you choose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section band-lagoon">
+  <div class="container lagoon-grid">
+    <div class="collage" aria-hidden="true">
+      <span class="rect r1"></span>
+      <img class="photo" src="/assets/img/band-portrait-900.jpg" alt="" loading="lazy">
+      <span class="rect r2"></span>
+      <span class="rect r3"></span>
+      <p class="script">nothing leaves the phone</p>
+      <p class="credit">Photo: <a href="https://www.pexels.com/photo/person-wearing-a-ski-mask-6263388/" rel="nofollow">rois martin / Pexels</a></p>
+    </div>
+    <div class="lagoon-copy">
+      <h2 class="display">No account. No ads. No uploads.</h2>
+      <p>Your GPS never leaves the phone — there is no server for it to go to. Tracking, records, replays and AI summaries all run and stay on the device, across 3,652 ski areas worldwide.</p>
+      <p>Built for one skier at a time.</p>
+      <a class="btn btn-outline-white" href="/privacy">Read the privacy policy</a>
+    </div>
+  </div>
+</section>
+
+<section class="section band-glow">
+  <div class="container glow-row">
+    <div>
+      <h2 class="h-lg">Ski it first this season.</h2>
+      <p class="sub">Free on TestFlight ahead of the App Store release. Every feature, $0, forever.</p>
+    </div>
+    <a class="btn btn-white" href="/beta/">Join the beta <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function select(tab) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).classList.toggle('is-active', on);
+    });
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { select(t); });
+    t.addEventListener('keydown', function (e) {
+      var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!d) return;
+      var n = tabs[(i + d + tabs.length) % tabs.length];
+      select(n); n.focus(); e.preventDefault();
+    });
+  });
+})();
+</script>

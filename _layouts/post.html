@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="prose-wrap">
+  <div class="container">
+    <p class="post-meta">
+      <a href="/blog/">← Field guides</a>
+      {% if page.date %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}
+    </p>
+    <article class="prose">
+      {{ content }}
+    </article>
+  </div>
+</div>

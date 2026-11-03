@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0eb">
+  <script>document.documentElement.classList.add('js')</script>
+  {% seo %}
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Caveat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/alpy.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% if page.announce %}
+  <div class="announce">
+    <div class="announce-pill">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 20l6.5-11 4 6 2.5-4L21 20z"/></svg>
+      <span>Launching for the 2026/27 season — every feature free.</span>
+      <a href="/beta/">Ski it first on TestFlight</a>
+    </div>
+  </div>
+  {% endif %}
+  <header class="site-header">
+    <div class="container bar">
+      <a class="wordmark" href="/">Alpy</a>
+      <nav class="nav-center" aria-label="Site">
+        <a href="/#features">Features</a>
+        <a href="/compare">Compare</a>
+        <a href="/blog/">Field guides</a>
+        <a href="/resorts/">Resorts</a>
+      </nav>
+      <div class="nav-right">
+        <a class="ghost" href="mailto:rohanshah90@gmail.com">Support</a>
+        <a class="btn btn-lilac" href="/beta/">Join the beta</a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="wordmark" href="/">Alpy</a>
+          <p>A free ski companion for iPhone, built for one skier at a time. No account, no ads, no uploads — the GPS never leaves your phone.</p>
+        </div>
+        <div>
+          <h4>App</h4>
+          <ul>
+            <li><a href="/#features">Features</a></li>
+            <li><a href="/compare">Alpy vs Slopes</a></li>
+            <li><a href="/beta/">TestFlight beta</a></li>
+            <li><a href="/resorts/">Resort data</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Field guides</h4>
+          <ul>
+            <li><a href="/blog/winter-3d-map-guide/">The 3D winter map</a></li>
+            <li><a href="/blog/trail-finder-guide/">Trail Finder</a></li>
+            <li><a href="/blog/ghost-racing-explained/">Ghost racing</a></li>
+            <li><a href="/blog/">All guides</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="mailto:rohanshah90@gmail.com">Email us</a></li>
+            <li><a href="https://github.com/rohan3008/alpine-support/issues">Report a bug</a></li>
+            <li><a href="/privacy">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-base">© 2026 Alpy. Every number traces to a real source.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var h = document.querySelector('.site-header');
+      function onScroll() { h.classList.toggle('scrolled', window.scrollY > 8); }
+      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    })();
+  </script>
+</body>
+</html>
