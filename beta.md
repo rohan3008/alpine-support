@@ -9,7 +9,7 @@ image: /assets/img/og-alpy.jpg
 
 # Ski the beta
 
-<p align="center"><img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: chase camera, your line in red, your ghost ahead, +17.2 s on the race clock" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+<p align="center"><img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: your line in red over the terrain, with the ghost-race gap on the clock" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 
 Alpy launches for the 2026/27 season — and the first tracked days on
