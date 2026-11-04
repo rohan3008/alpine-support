@@ -5,7 +5,7 @@ description: "Val d'Isère, France: 1,850 m to 3,300 m, 1,450 m vertical. About 
 
 # Val d'Isère
 
-*France · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*France · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Val d'Isère, in France, has lift-served terrain from 1,850 m at the base to 3,300 m, a 1,450 m vertical. OpenStreetMap volunteers have mapped about 205 km of downhill pistes and 66 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 

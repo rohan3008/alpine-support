@@ -5,7 +5,7 @@ description: "Méribel, France: 1,450 m to 2,952 m, 1,502 m vertical. About 308 
 
 # Méribel
 
-*France · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*France · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Méribel, in France, has lift-served terrain from 1,450 m at the base to 2,952 m, a 1,502 m vertical. OpenStreetMap volunteers have mapped about 308 km of downhill pistes and 106 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
 

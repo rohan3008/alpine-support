@@ -5,7 +5,7 @@ description: "Park City, United States: 2,103 m to 3,049 m, 946 m vertical. Abou
 
 # Park City
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Park City, in the United States, has lift-served terrain from 2,103 m at the base to 3,049 m, a 946 m vertical. OpenStreetMap volunteers have mapped about 385 km of downhill pistes and 66 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic.
 

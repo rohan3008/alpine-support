@@ -5,7 +5,7 @@ description: "Stowe, United States: 390 m to 1,116 m, 726 m vertical. About 120 
 
 # Stowe
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Stowe, in the United States, has lift-served terrain from 390 m at the base to 1,116 m, a 726 m vertical. OpenStreetMap volunteers have mapped about 120 km of downhill pistes and 21 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic.
 

@@ -5,7 +5,7 @@ description: "Northstar California, United States: 1,929 m to 2,624 m, 695 m ver
 
 # Northstar California
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Northstar California, in the United States, has lift-served terrain from 1,929 m at the base to 2,624 m, a 695 m vertical. OpenStreetMap volunteers have mapped about 83 km of downhill pistes and 20 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic.
 

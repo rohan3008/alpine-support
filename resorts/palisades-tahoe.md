@@ -5,7 +5,7 @@ description: "Palisades Tahoe, United States: 1,890 m to 2,758 m, 868 m vertical
 
 # Palisades Tahoe
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Palisades Tahoe, in the United States, has lift-served terrain from 1,890 m at the base to 2,758 m, a 868 m vertical. OpenStreetMap volunteers have mapped about 120 km of downhill pistes and 44 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon.
 

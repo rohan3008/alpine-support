@@ -19,7 +19,7 @@ poster does. What you're seeing: real elevation (gently exaggerated
 1.3× so valleys read at a glance), relief shading over snow-white
 terrain, contour lines, and the resort's real OpenStreetMap piste
 network — white-cased runs in
-[standard difficulty colors](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty), dashed
+[European difficulty colors](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty) (blue, red, black), dashed
 lifts, names set along the lines like a cartographer would.
 
 Pinch, rotate, and tilt are all live. Everything your fingers expect
@@ -36,8 +36,8 @@ with a camera arrow.
 
 ## The orbit tour
 
-The **Tour** button sets the mountain slowly rotating — a full lap of
-the resort at a cinematic pace. It's partly for planning (you see
+The **Tour** button sets the mountain slowly rotating — 3° a second, a full
+lap of the resort every two minutes. It's partly for planning (you see
 every face of the terrain) and partly, honestly, because mountains
 are beautiful. Grab the map at any point and it hands control
 straight back to you.
@@ -47,15 +47,18 @@ straight back to you.
 One toggle flips to the schematic chart: the same piste network drawn
 flat on paper, north up, no terrain. Some decisions want the
 mountain; some want the diagram. Connection-free days favor the chart
-too — it renders entirely from cached data.
+too — it renders entirely from map data already on your phone
+(bundled with the app for catalog resorts, cached for the rest).
 
 ## Does the 3D map show today's snow cover?
 
-No — it shows the mountain's shape. The terrain model is a summer
-scan wearing winter styling: land is painted snowpack white so your
-eye goes to the terrain and the colored runs. For today's snow, the
-Telemetry page's freeze curve and snow numbers are the measured
-truth.
+No — it shows the mountain's shape. The terrain is Mapbox's
+[elevation model](https://docs.mapbox.com/data/tilesets/reference/mapbox-terrain-dem-v1/),
+which holds heights, not snow, wearing winter styling: land is
+painted snowpack white so your eye goes to the terrain and the
+colored runs. For today's snow, use the Telemetry page's freeze
+curve and snow numbers — forecast-model values from Open-Meteo,
+not a picture.
 
 The base cartography is restyled at load time: land turns snowpack
 white, water keeps its blue, and the relief shading carries the
@@ -63,9 +66,8 @@ shape. This is a *reading* choice, not decoration — on white terrain
 your eye goes to exactly two things, the shape of the mountain and
 the colored runs on it, which is the entire job of a ski map.
 
-One honest note. Map tiles stream from Mapbox's servers (the one
-part of Alpy that talks to a map provider; the privacy policy covers
-it, and telemetry is switched off).
+One honest note. Map tiles stream from Mapbox's servers (the privacy
+policy covers it, and Mapbox telemetry is switched off).
 
 *The 3D map is on the Telemetry tab behind the trail-map card's
 Expand button — in [Alpy](/), free.*

@@ -5,7 +5,7 @@ description: "St. Anton am Arlberg, Austria: 1,304 m to 2,811 m, 1,507 m vertica
 
 # St. Anton am Arlberg
 
-*Austria · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 St. Anton am Arlberg, in Austria, has lift-served terrain from 1,304 m at the base to 2,811 m, a 1,507 m vertical. OpenStreetMap volunteers have mapped about 160 km of downhill pistes and 38 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
 

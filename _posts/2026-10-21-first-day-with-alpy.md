@@ -34,25 +34,28 @@ Here's each step in detail.
 ### 1. 7:00 — the morning report
 
 Open the app and the Telemetry page is already a cockpit: summit
-temperature with feels-like, overnight snowfall, base depth, wind and
-gusts, and the freeze-level curve — a line showing exactly which
-altitudes stay wintry today and which turn soft after lunch. If
-there's an avalanche bulletin for your region, it's there with the
+temperature with feels-like, 24-hour fresh snow, base depth, wind
+and gusts, and the freeze-level curve — Open-Meteo's hourly
+freezing level from six hours ago to 24 hours ahead, drawn
+against the resort's base and summit heights. If there's an
+avalanche bulletin for your region, it's there with the
 [EAWS danger level](https://www.avalanches.org/standards/avalanche-danger-scale/),
 and when the bulletin names dangerous slope aspects, a compass rose
 shades them in.
 
-Below that, a morning report in prose. On recent iPhones it's written
-by Apple Intelligence **on your phone** — the AI never invents a
-number; it rephrases the measured ones above it, and the card says
+Below that, a morning report in prose. On iPhones with Apple
+Intelligence turned on, it's written by Apple's model **on your
+phone** — the AI is told to use only
+the measured numbers above it, never to invent, and the card says
 which voice wrote it.
 
 ### 2. 7:40 — deciding where to go
 
 The trail map opens on a 3D winter mountain: real terrain, snow-white
 with relief shading, and the resort's actual piste network drawn over
-it in difficulty colors — at Zermatt that's 134 km of runs from
-OpenStreetMap. Tap a run in the list and it lights up on the mountain
+it in difficulty colors — at Zermatt that's about 126 km of mapped
+runs from OpenStreetMap, with catalog resorts' maps bundled in the
+app. Tap a run in the list and it lights up on the mountain
 while the camera flies to it. One tap switches to a flat paper chart
 when you just want the diagram.
 
@@ -65,8 +68,8 @@ speed, the drop of the current run, and — if you've skied a named run
 before — a live ghost race against your own best time, with the gap
 shown like a race timing board.
 
-While you ride the lift, the app quietly estimates how long you stood
-in the line (standing-still GPS just before boarding), and if a
+When the day is saved, the app estimates how long you stood in each
+lift line (standing-still GPS just before boarding), and if a
 bulletin is active, your debrief will flag any run whose course
 pointed into the named aspects.
 
@@ -74,15 +77,16 @@ pointed into the named aspects.
 
 On the hill, the useful screen is the one you can read in three
 seconds with gloves on. Big numerals, no menus. If your battery drops
-to 10%, the app stops tracking and **saves the day** before iOS can
-kill it — a trick we borrowed, with credit, from the apps that
-learned it the hard way.
+to 10% while it isn't charging, the app stops tracking, **saves the
+day** and sends you a notification saying so, rather than risking
+the phone dying with the day unsaved.
 
 ### 5. 16:30 — last run
 
-If the day runs long, a chip appears while tracking: sunset time and
-minutes of light left, counted from the resort's actual forecast
-sunset. It states the fact; the call is yours.
+If the day runs long, a chip appears while tracking in the last 45
+minutes before sunset: sunset time and minutes of light left,
+counted from Open-Meteo's sunset time for the resort. It states the
+fact; the call is yours.
 
 ### 6. 17:00 — the debrief
 
@@ -92,11 +96,14 @@ Stop tracking and the day becomes three things:
    chase camera that follows your dot down each run at up to 32×, and
    your ghost alongside where you've skied the run before.
 2. **A debrief** — every run as a register entry: time, drop, top and
-   average speed, estimated turns, airtime. Lift-line totals per lift.
+   average speed, estimated turns, course, and an airtime estimate
+   when the accelerometer caught a jump. Lift-line totals per lift
+   on days with at least two minutes of queueing.
    Personal records with the margin you beat them by.
-3. **A written summary** — a coach-style paragraph built strictly from
+3. **A written summary** — a coach-style paragraph built only from
    your measured numbers: descent rate, time-on-snow, the standout
-   run, consistency. On-device AI again, and labeled.
+   run, consistency. On-device AI again where the phone has it, a
+   template where it doesn't, and labeled either way.
 
 ## Does Alpy upload your ski day anywhere?
 

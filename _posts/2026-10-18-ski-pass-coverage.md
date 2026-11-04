@@ -5,36 +5,39 @@ description: "Pass coverage across 51 verified resorts for 2026/27, checked agai
 
 # Epic, Ikon, Mountain Collective, Magic Pass: who covers what
 
-Multi-resort passes decide more ski trips than snow reports do, and
-pass coverage is scattered across four marketing sites that change
-every spring. For Alpy's resort catalog we checked all 51 verified
+Multi-resort pass coverage is scattered across four separate pass
+sites. For Alpy's resort catalog we checked all 51 verified
 resorts against the official 2026/27 pass pages —
 [epicpass.com](https://www.epicpass.com/),
 [ikonpass.com](https://www.ikonpass.com/),
 [mountaincollective.com](https://mountaincollective.com/) and
-[magicpass.ch](https://www.magicpass.ch/) — in October 2026.
+[magicpass.ch](https://www.magicpass.ch/) — on 14 October 2026.
 
 ## Which ski pass covers which resorts in 2026/27?
 
-Across our 51 verified resorts: Epic covers Vail-owned North American
-mountains, Ikon
-covers Alterra's and its partners', and both reach into the Alps
-only selectively — Ikon mostly with 5–7 limited days. Magic Pass is
-the Swiss outlier, and most big European names still sell their own
-passes. The detail:
+Across our 51 verified resorts, Epic and Ikon cover most of the North
+American entries, while in the Alps both mostly come with limited
+days. Mountain Collective (2 days) appears at 11 resorts, Magic Pass
+at one, and 10 resorts are on none of the four. The detail:
 
-- **The Alps are mostly à la carte.** Most big European names on our
-  list sell their own passes; US mega-pass coverage in Europe is
-  selective and often day-limited ("Ikon: limited days" is the most
-  common annotation in our data — Zermatt among them).
-- **Ikon's limited-days model** covers marquee Alpine resorts with
-  5–7 day allotments rather than unlimited access. Fine for a trip,
-  not a season.
-- **Magic Pass** remains the Swiss outlier: dozens of small and
-  mid-size Swiss areas, unlimited, at a price that embarrasses
-  day-ticket math if you ski Switzerland often.
-- **North American catalog entries** split familiarly between Epic
-  (Vail-owned mountains) and Ikon (Alterra and partners).
+- **In the Alps, mega-pass access is mostly day-limited.** Of our 27
+  Alpine resorts, 16 are on Epic or Ikon with limited days only,
+  Andermatt is on full Epic, Saas-Fee is on Magic Pass, and 9 —
+  including Davos, Val d'Isère and Livigno — are on none of the four
+  passes. "Ikon (limited days)" is the most common annotation in our
+  data (18 resorts, Zermatt among them).
+- **Limited days** means a set allotment rather than unlimited
+  access; our data doesn't record the allotment, so check it on the
+  pass site for each resort.
+- **Magic Pass** is the outlier: its
+  [own site](https://www.magicpass.ch/en/) offers unlimited access to
+  over 100 mountain destinations in Switzerland, France and Italy.
+  Of our 51 catalog resorts, only Saas-Fee is among them.
+- **North American catalog entries:** full Epic at Vail, Park City,
+  Heavenly, Northstar, Kirkwood, Stowe and Whistler Blackcomb; full
+  Ikon at Palisades Tahoe, Mammoth and Steamboat; limited-day Ikon at
+  10 more (9 of them also on Mountain Collective); limited-day Epic at
+  Telluride and Fernie.
 
 Per-resort coverage is listed on each of our
 [resort data pages](/resorts/), with the verification
@@ -42,12 +45,12 @@ date shown.
 
 ## Why does the pass verification date matter?
 
-Pass rosters change annually and sometimes mid-year; an app showing
+The pass sites publish coverage season by season, and an app showing
 last season's coverage is worse than one showing none. Alpy ships the
-checked date next to the data ("verified October 2026 for 2026/27")
-and links you to official pass sites to buy — the app sells nothing
-and books nothing. When next season's rosters publish, we re-verify
-and re-stamp.
+checked date next to the data ("Coverage checked on the official pass
+sites, October 2026") and links you to official pass sites to buy —
+the app sells nothing and books nothing. When next season's rosters
+publish, we re-verify and re-stamp.
 
 *Pass coverage for all 51 verified resorts is in the app and on the
 [resort pages](/resorts/), free.*

@@ -5,7 +5,7 @@ description: "Engelberg, Switzerland: 1,000 m to 3,028 m, 2,028 m vertical. Abou
 
 # Engelberg
 
-*Switzerland · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Switzerland · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Engelberg, in Switzerland, has lift-served terrain from 1,000 m at the base to 3,028 m, a 2,028 m vertical. OpenStreetMap volunteers have mapped about 56 km of downhill pistes and 40 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 

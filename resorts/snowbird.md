@@ -5,7 +5,7 @@ description: "Snowbird, United States: 2,365 m to 3,352 m, 987 m vertical. About
 
 # Snowbird
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Snowbird, in the United States, has lift-served terrain from 2,365 m at the base to 3,352 m, a 987 m vertical. OpenStreetMap volunteers have mapped about 258 km of downhill pistes and 42 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

@@ -5,7 +5,7 @@ description: "Val Gardena, Italy: 1,236 m to 2,518 m, 1,282 m vertical. About 12
 
 # Val Gardena
 
-*Italy · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Italy · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Val Gardena, in Italy, has lift-served terrain from 1,236 m at the base to 2,518 m, a 1,282 m vertical. OpenStreetMap volunteers have mapped about 123 km of downhill pistes and 51 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

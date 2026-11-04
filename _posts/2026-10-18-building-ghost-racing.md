@@ -14,20 +14,20 @@ their instruments work; no code required to follow along.
 
 ## The problem: ski runs don't have finish lines
 
-Strava could build Live Segments because cyclists ride *roads*: a
-segment has a defined start gate, a defined end gate, and a single
-line between them. A ski run is a ribbon sometimes eighty metres
-wide. Two descents of the same piste never trace the same GPS line,
-never start at the same point, and often end in different places —
+Strava's [Live Segments](https://support.strava.com/hc/en-us/articles/207343830-Live-Segments)
+race a ride or run against your PR on a segment — a stretch of road
+or trail you enter and complete. A ski run is a wide ribbon of
+snow, not a line. Two descents of the same piste never trace the
+same GPS line, never start at the same point, and often end in different places —
 one pulls up at the lift, the other carries on to the restaurant.
 
 So the first decision is what a "segment" even is. Our answer: a
 segment is a *named piste in OpenStreetMap*. OSM contributors have
-mapped the world's ski areas in remarkable detail — runs with names
-and [difficulties](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty),
-drawn as coordinate chains. If we can tell which
-named run a descent happened on, each descent becomes an *attempt* on
-that run, and a record book follows naturally.
+mapped ski runs as coordinate chains, tagged with names and
+[difficulties](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty).
+If we can tell which named run a descent happened on, each descent
+becomes an *attempt* on that run, and a record book follows
+naturally.
 
 ## How does Alpy know which run you skied?
 
@@ -41,8 +41,8 @@ the majority rule stops a run from being claimed by the piste you
 merely crossed at an intersection.
 
 Just as important is what happens when *nothing* claims the points:
-the descent is honestly unnamed. Off-piste lines, connector tracks,
-resort areas OSM hasn't mapped — the app says "Unnamed line" and that
+the descent is honestly unnamed. Off-piste lines, unnamed connector
+tracks, resort areas OSM hasn't mapped — the app says "Unnamed line" and that
 descent never enters the record book. We considered snapping unnamed
 descents to the nearest run and decided against it: an instrument
 that guesses is worse than an instrument that admits ignorance.
@@ -56,16 +56,17 @@ it's marked *partial* — kept in your history, excluded from the
 race.
 
 We needed it fast. The first version of the record book had an
-exploit we found within an hour: bail out halfway down a run and
+exploit we found quickly: bail out halfway down a run and
 you'd post an unbeatable "record," because half a run takes half the
 time. Any skier would spot the cheat instantly; the code had to. The
-threshold is deliberately forgiving: GPS vertical
-error and different pull-out points eat 10–15% easily, and a rule
-that disqualified honest runs would be worse than the exploit.
+threshold is deliberately forgiving — 80% is our judgement call, not
+a measured figure: altitude noise and different pull-out points
+shave drop off honest runs, and a rule that disqualified them would
+be worse than the exploit.
 
 One subtlety: the "deepest drop" baseline is computed across all
-attempts *including today's*, so the first person ever to ski the
-full run correctly resets the bar for what "full" means.
+attempts *including today's*, so the first time you ski the full
+run, it correctly resets the bar for what "full" means.
 
 ## How do you compare two ski runs that took different lines?
 
@@ -87,17 +88,17 @@ The honest comparison axis is **vertical drop**. Descent is monotone
 "how many metres below the start am I?" is a progress bar that works
 for any line down the same mountain. We store every attempt's
 *descent profile*: elapsed time against cumulative drop, clamped
-monotone so GPS altitude wobble can't make the curve dip backwards.
+monotone so altitude wobble can't make the curve dip backwards.
 
 The delta is then an inverse lookup: I've dropped 180 m in 40 s —
 when did the ghost pass 180 m? If the ghost needed 43 s, you're
-**−3.0 s** up. That's exactly how F1 broadcast deltas work against a
-reference lap, and it's robust to the two runs taking different
-lines, because metres of mountain are the shared currency.
+**−3.0 s** up. Comparing at equal progress rather than equal time is
+what makes it robust to the two runs taking different lines:
+metres of mountain are the shared currency.
 
 The chip stays silent for the first 10 m of drop. Below that, the
-math is just amplified GPS noise, and a delta that swings ±4 s in
-the first three seconds of a run teaches you to ignore it.
+math is mostly altitude noise, and a delta that swings wildly in
+the first seconds of a run teaches you to ignore it.
 
 ## Going live: racing while you ski
 
@@ -105,7 +106,7 @@ The replay version of ghost racing came first; the live version is
 the same mathematics on a stricter budget. While you're descending,
 the app re-runs the piste matcher every eight or so GPS fixes — often
 enough to catch the moment the named run becomes identifiable,
-rare enough that matching cost never touches battery meaningfully.
+rare enough that the matcher isn't re-running on every single fix.
 The moment a name lands, the app looks up your fastest full attempt
 on it and the race card appears: run name, your best time, and the
 live delta ticking at each fix.
@@ -119,10 +120,12 @@ unraced run into a stake in the ground.
 In the replay, the ghost is drawn as a second dot on real 3D terrain,
 and pressing play sends a camera flying down the mountain behind
 your marker. The hard part of a chase camera is heading, not
-position: raw GPS bearings jitter by tens of degrees between fixes,
-and a camera that follows them whips the world around nauseatingly.
+position: phone GPS is typically good to
+[about 4.9 m under open sky](https://www.gps.gov/gps-accuracy), so a
+bearing drawn between nearby fixes swings with every
+fix's error, and a camera that follows it whips the world around.
 The fix is an exponential moving average on the bearing — with the
-wrap-around at 360° handled, which is the detail everyone forgets —
+wrap-around at 360° handled, which is the easy detail to miss —
 so the camera banks through turns like a drone operator with lazy
 wrists rather than a startled bird.
 

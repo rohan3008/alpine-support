@@ -5,7 +5,7 @@ description: "Ischgl, Austria: 1,377 m to 2,872 m, 1,495 m vertical. About 136 k
 
 # Ischgl
 
-*Austria · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Ischgl, in Austria, has lift-served terrain from 1,377 m at the base to 2,872 m, a 1,495 m vertical. OpenStreetMap volunteers have mapped about 136 km of downhill pistes and 39 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

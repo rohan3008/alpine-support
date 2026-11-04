@@ -5,7 +5,7 @@ description: "La Plagne, France: 1,970 m to 3,250 m, 1,280 m vertical. About 203
 
 # La Plagne
 
-*France · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*France · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 La Plagne, in France, has lift-served terrain from 1,970 m at the base to 3,250 m, a 1,280 m vertical. OpenStreetMap volunteers have mapped about 203 km of downhill pistes and 86 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 

@@ -9,20 +9,23 @@ description: "Two safety instruments in Alpy: avalanche danger aspects drawn as 
 
 
 Alpy's rule for safety features is strict: state measured facts,
-never give advice, and never let an estimate dress up as a
-measurement. Two new instruments live under that rule.
+keep advice to a single line at most, and never let an estimate
+dress up as a measurement. Two new instruments live under that rule.
 
 ## What is an avalanche aspect rose?
 
 A compass rose with the dangerous slope directions filled in. Avalanche
-bulletins don't just publish a danger level — the good ones name the
+bulletins don't just publish a danger level — many name the
 *aspects*: which compass directions of slope carry the problem
-("NW–NE above 2200 m" is a classic winter pattern, wind slabs on the
-shaded side). The rose is how bulletins themselves draw them.
+(for example, "NW–NE above 2200 m"). North American forecasts draw
+this as a
+[distribution rose](https://avalanche.org/avalanche-encyclopedia/human/resources/avalanche-forecasts/distribution-rose/):
+eight compass slices with the problem's sectors shaded.
 
 Alpy already showed the level on the official
 [1–5 scale](https://www.avalanches.org/standards/avalanche-danger-scale/);
-now, when the bulletin names aspects, they're drawn the same way —
+now, when the bulletin feed includes aspects (SLF's does; the
+avalanche.org feed Alpy reads doesn't), they're drawn the same way —
 a rose with the dangerous sectors filled in the danger color.
 
 One honest detail: when a bulletin publishes finer-grained aspects
@@ -37,8 +40,10 @@ tracked day, any run whose measured course fell into the bulletin's
 named aspects gets a quiet flag. The footnote states the physics
 plainly: your descent course stands in for the slope's aspect (the
 fall line descends the way the slope faces) — a proxy, not a slope
-measurement — and pistes are avalanche-controlled, so the flag
-matters *beside and beyond* the groomed runs, not on them. The flag
+measurement — and the flag matters *beside and beyond* the groomed
+runs, not on them: SLF's bulletin, for instance,
+[only covers unsecured terrain](https://www.slf.ch/en/avalanche-bulletin-and-snow-situation/about-the-avalanche-bulletin/capabilities-and-limitations-of-the-avalanche-bulletin/),
+away from secured ski runs and pistes. The flag
 also never applies to past days judged against today's bulletin;
 that comparison would simply be false.
 
@@ -49,8 +54,7 @@ the resort's forecast sunset. When you're inside the final 45
 minutes of light, a chip appears in the live cockpit — sunset time,
 minutes remaining — and after sunset it says, plainly, that the light
 is going. No push notifications, no nagging, no advice about what you
-should do. A fact, stated at the moment it's relevant, because the
-classic end-of-day mistake is not knowing it's 16:40.
+should do. A fact, stated at the moment it's relevant.
 
 ## Why so restrained?
 

@@ -5,7 +5,7 @@ description: "Chamonix, France: 1,035 m to 3,842 m, 2,807 m vertical. About 95 k
 
 # Chamonix
 
-*France · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*France · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Chamonix, in France, has lift-served terrain from 1,035 m at the base to 3,842 m, a 2,807 m vertical. OpenStreetMap volunteers have mapped about 95 km of downhill pistes and 34 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

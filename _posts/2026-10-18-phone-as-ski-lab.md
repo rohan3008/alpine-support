@@ -8,8 +8,8 @@ description: "The three instruments inside an iPhone, what each can and can't me
 A modern iPhone carries three instruments that matter on a mountain:
 a GPS receiver, a barometric altimeter, and an inertial unit —
 accelerometer plus gyroscope. None of them was designed for skiing.
-Each one lies in its own characteristic way. But their lies are
-*uncorrelated*, and that's the whole game: cross-check three flawed
+Each one lies in its own characteristic way. But they fail in
+*different* ways, and that's the whole game: cross-check three flawed
 instruments and you get telemetry none could produce alone.
 
 This is the long version of how Alpy turns those sensors into the
@@ -19,76 +19,84 @@ tilde or a ± attached.
 ## How accurate is phone GPS on a ski slope?
 
 Great at where, mediocre at how high, sneaky about how fast.
-Satellite positioning solves your location from timing differences
-across visible satellites. Horizontally, with open sky, a phone sits
-within a few metres of the truth; altitude and speed are where it
-degrades on a mountain.
+Horizontally, with open sky, a phone is
+[typically within about 5 m](https://www.gps.gov/gps-accuracy) of
+the truth, and worse near trees and buildings; altitude and speed are
+where it degrades on a mountain.
 
-**Altitude.** Vertical error runs
-[two to three times horizontal error](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/)
-by geometry alone — the satellites that would pin your height
-best are below the horizon. Add a valley wall blocking half the sky
-and ±15 m of altitude wobble is normal. For a ski app this is
-poison: altitude drives everything (run detection, vertical totals),
-and raw GPS altitude makes a stationary phone "climb" and "descend"
-all afternoon.
+**Altitude.** Vertical error typically runs
+[two to three times horizontal error](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/),
+and that study measured larger errors where the terrain blocked more
+of the sky. For a ski app this is poison: altitude drives run
+detection and vertical totals, and raw GPS altitude makes a
+stationary phone "climb" and "descend" all afternoon.
 
-**Speed.** Phones don't derive speed from successive positions
-(hopeless noise); they use the Doppler shift of the satellite
-carriers, which is much better — typically within 1–2 km/h in open
-terrain. But iOS reports a
-[per-reading confidence](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy)
-alongside every speed, and that confidence collapses in trees and tight terrain.
-Most apps discard the confidence number. Alpy records the one
-attached to the moment your top speed was set, and prints the result
-as **54 ±3 km/h** — because a headline number without its error bar
+**Speed.** iOS reports a speed with every fix (Apple doesn't
+document exactly how it's computed). In
+[a peer-reviewed test of four ski apps](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/),
+speed derived from phone positions had a median error of about
+0.5 m/s (~2 km/h), worse at Zermatt than at Davos. iOS also reports a
+[per-reading accuracy](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy)
+alongside every speed: the reading is plus or minus that many metres
+per second. Alpy keeps the accuracy attached to the fastest speed
+reading of the day and prints your top speed with it, as
+**54 ±3 km/h** — because a headline number without its error bar
 is a guess wearing a suit.
 
 ## The barometer: precise, smooth, and unanchored
 
-The pressure sensor resolves altitude *changes* of well under a
-metre and reacts instantly — a sensor you could feel a staircase
-with. Its weaknesses mirror GPS's strengths: it has no idea of your
-absolute altitude, and its baseline drifts as weather moves through.
-A front passing during your ski day can shift the pressure-derived
-altitude by tens of metres — ironic, since storm days are exactly
-when you're skiing.
+The pressure sensor measures altitude *changes*: Apple's Core
+Motion reports it as a
+[relative altitude](https://developer.apple.com/documentation/coremotion/cmaltitudedata/relativealtitude),
+the change in metres since the first reading. Since iOS 15, iPhone 12
+and later can also report an
+[absolute altitude](https://developer.apple.com/documentation/coremotion/cmabsolutealtitudedata)
+with its own accuracy estimate, but Alpy uses only the relative
+stream and anchors it to GPS itself. The relative reading's weakness
+is that a pressure sensor can't tell height from weather: by the
+FAA's rule of thumb
+[an inch of mercury reads as 1,000 feet](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_2.html)
+(about 9 m per hectopascal), and the Met Office classes a change of
+[more than 6 hPa in three hours](https://www.metoffice.gov.uk/weather/guides/coast-and-sea/glossary)
+as "very rapid". A fast-moving weather system during your ski day can
+shift the pressure-derived altitude by tens of metres.
 
 So the fusion is natural. Take the barometer's beautiful short-term
 *shape*; anchor it to GPS's absolute *level* with an offset learned
 slowly — over minutes, not seconds. Learned fast, the offset would
 re-import GPS wobble; learned slow, it absorbs weather drift while
-ignoring satellite noise. In our test harness the fused altitude
-tracks truth with less than a third of raw GPS's error. Every point
-Alpy records while tracking rides the fused value, which is why run
-detection doesn't stutter and vertical totals don't inflate.
+ignoring satellite noise. In a simulated unit test (synthetic GPS
+wobble, an ideal barometer) the fused altitude's error is under 35%
+of raw GPS's; it hasn't yet been measured against surveyed truth on
+real ski days. Every point Alpy records while tracking rides the
+fused value, so run detection and vertical totals use it.
 
 ## What can a phone's accelerometer measure while skiing?
 
 Two things nothing else on the phone can: airtime and turn load. Raw
-accelerometer data is the noisiest signal on the phone — every
-chatter of the piste, every pocket bounce — so both measurements are
-built on the same idea: look for signatures that can't be faked by
+accelerometer data picks up every chatter of the piste and every
+pocket bounce, so both measurements are built on the same idea: look for signatures that can't be faked by
 noise. There's one trap, too.
 
-**Airtime.** In freefall, an accelerometer reads zero — you, the
-phone, and the sensor's test mass all accelerate identically, so
-nothing presses on anything. It doesn't matter which pocket the
-phone is in or which way it's turned: total measured acceleration
-near 0 g *is* flight. Alpy calls it air when that signature holds
-for at least a quarter second (shorter dips are the suspension of
-your knees absorbing terrain), and discards "airs" longer than
-three seconds as sensor glitches, on the grounds that you did not,
-in fact, huck a seventy-metre cliff. An air that's still open when
-tracking stops is thrown away too: unclosed air is unproven air.
+**Airtime.** In freefall,
+[all three accelerometer axes converge to 0 g](https://www.nxp.com/docs/en/application-note/AN3151.pdf),
+so the total acceleration reads zero whichever way the phone is
+turned. It doesn't matter which pocket the phone is in: total
+measured acceleration near 0 g (Alpy's threshold is 0.35 g) *is*
+flight. Alpy calls it air when that signature holds for at least a
+quarter second (we treat shorter dips as your knees absorbing
+terrain), and discards "airs" longer than three seconds as sensor
+glitches, on the grounds that three seconds of freefall is a drop of
+about 44 m and you did not, in fact, huck that cliff. An air that's
+still open when tracking stops is thrown away too: unclosed air is
+unproven air.
 
 **Turn load.** Subtract gravity's direction and the acceleration
 left over, perpendicular to gravity, is the sideways push of your
-turns — carve hard and it climbs toward 1 g and beyond. The trap is
-spikes: a single landing rattle can read 3 g for one sample, and a
-"max G" feature that reports it is measuring your phone's ride, not
-your skiing. Alpy smooths the lateral signal over roughly half a
-second and reports the peak of the *smoothed* curve — only a
+turns. The trap is spikes: a single landing rattle can spike for one
+sample, and a "max G" feature that reports it is measuring your
+phone's ride, not your skiing. Alpy smooths the lateral signal over
+roughly half a second and reports the peak of the *smoothed* curve — only a
 sustained carve can set it. The number still wears a tilde. It's an
 estimate until we've validated it against instrumented skiing, and
 the app says so in the same breath it shows the number.
@@ -98,14 +106,19 @@ the app says so in the same breath it shows the number.
 From GPS heading swings: linked turns sweep your
 course left-right-left, and each sustained swing past 30° (with
 hysteresis, so jitter can't double-count) is a turn. The method's
-blind spot is sampling: at one fix per second, tight slalom turns
-blur together and the count reads low. That's why the debrief says
+blind spot is sampling: phone apps
+[usually record about one position per second](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/),
+which limits how well they resolve turns (and Alpy only takes a new
+fix every 10 m of movement), so tight turns blur together and the
+count reads low. That's why the debrief says
 "~14 turns," never "14" — and why the *trend* matters more than the
-level. Cadence per run, plotted across the day, shows your rhythm
-fading as your legs go even if every individual count is a little
-short. With four or more comparable runs the app will put a number
-on the fade; with three it refuses, because three points claiming a
-trend is how instruments become horoscopes.
+level. Cadence per run, plotted across the day, shows whether your
+rhythm changes even if every individual count is a little short —
+terrain moves it as well as tired legs, so the app shows it as a
+pattern, not a diagnosis. With four or more comparable runs (each at
+least a minute long) the app will put a number on the change; with
+three it refuses, because three points claiming a trend is how
+instruments become horoscopes.
 
 ## The design rule under all of it
 

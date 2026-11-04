@@ -5,7 +5,7 @@ description: "Killington, United States: 770 m to 1,289 m, 519 m vertical. About
 
 # Killington
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Killington, in the United States, has lift-served terrain from 770 m at the base to 1,289 m, a 519 m vertical. OpenStreetMap volunteers have mapped about 158 km of downhill pistes and 31 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

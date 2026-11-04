@@ -5,7 +5,7 @@ description: "Livigno, Italy: 1,816 m to 2,797 m, 981 m vertical. About 81 km of
 
 # Livigno
 
-*Italy · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Italy · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Livigno, in Italy, has lift-served terrain from 1,816 m at the base to 2,797 m, a 981 m vertical. OpenStreetMap volunteers have mapped about 81 km of downhill pistes and 37 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 

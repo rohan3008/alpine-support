@@ -5,7 +5,7 @@ description: "Whistler Blackcomb, Canada: 675 m to 2,284 m, 1,609 m vertical. Ab
 
 # Whistler Blackcomb
 
-*Canada · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Canada · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Whistler Blackcomb, in Canada, has lift-served terrain from 675 m at the base to 2,284 m, a 1,609 m vertical. OpenStreetMap volunteers have mapped about 322 km of downhill pistes and 35 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic.
 

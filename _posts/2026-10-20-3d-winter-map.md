@@ -7,30 +7,29 @@ description: "Build log: why the paper chart wasn't enough, why we left MapKit f
 
 Alpy has always drawn its own piste maps. The resorts' beautiful painted
 panoramas — the Niehues school of hand-drawn mountains — are commissioned
-artwork we can't bundle, and they're geometrically distorted on purpose,
+artwork we can't bundle, and they're
+[geometrically distorted on purpose](/blog/drawn-not-painted-maps/),
 so you can't drape them over real terrain either. Our answer was a clean
 paper chart: the resort's real OpenStreetMap network, colored by
 difficulty, drawn by us. Honest, readable, flat.
 
 The flatness was the complaint. Skiers don't think of a mountain as a
-diagram; they think of it the way FATMAP and the lift-line poster show
-it — terrain you can read, with the runs lying on it. We tried to get
+diagram; they think of it the way the lift-line poster shows it —
+terrain you can read, with the runs lying on it. We tried to get
 there with Apple's MapKit first, and we want to be precise about where
-that ceiling is, because we hit it in public over several builds:
-satellite imagery looks spectacular from far away and turns to summer
-mud up close; the vector map stays clean but reads like a road atlas.
-There is no setting in between. The apps whose 3D mountains you admire
-are not using MapKit for them.
+we hit the ceiling, because we hit it in public over several builds:
+in our tests, satellite imagery looked spectacular from far away and
+turned to summer mud up close; the vector map stayed clean but read
+like a road atlas. None of the styles we tried sat in between.
 
-So we did what they do: Mapbox.
+So we moved the 3D view to Mapbox.
 
 ## What is Alpy's 3D ski map made of?
 
 Four layers, and every one of them is checkable: Mapbox's global
 elevation model, relief shading and contours from Mapbox's outdoors
 style, the resort's OpenStreetMap piste network drawn on top, and a
-winter restyle that turns the summer base map snow-white at load
-time.
+winter restyle that turns the base map snow-white at load time.
 
 - **Elevation.** Mapbox's global terrain model (a
   [raster DEM](https://docs.mapbox.com/data/tilesets/reference/mapbox-terrain-dem-v1/)), with a
@@ -40,11 +39,11 @@ time.
 - **The piste network** — the same OpenStreetMap data our paper chart
   uses, encoded as GeoJSON line layers: a white casing under
   difficulty-colored lines, dashed lifts, and run names set *along the
-  lines* the way a cartographer would place them. At Zermatt that's 134
+  lines* the way a cartographer would place them. At Zermatt that's 126
   km of pistes, drawn from the same source you can edit yourself on
   openstreetmap.org.
-- **Winter.** The base style is a summer hiking map, so at load time we
-  restyle it: every land fill becomes snowpack white, water keeps its
+- **Winter.** The base style is Mapbox's general outdoors map, so at
+  load time we restyle it: every land fill becomes snowpack white, water keeps its
   blue, and the relief does the rest.
 
 ## The bug worth blogging about
@@ -78,8 +77,9 @@ same winter terrain. The port was deliberately boring: all the replay
 logic (the scrub clock, the smoothed chase heading, the ghost-skier
 interpolation) stayed where it was already tested, and the new map is a
 dumb renderer that receives positions each frame. Per tick it updates
-two one-point geometry sources and moves the camera; the day's line,
-the lifts, and the matched piste upload once. Boring ports are the ones
+two one-point geometry sources and moves the camera; the day's line
+and lifts upload once, the matched piste and ghost line only when the
+run changes. Boring ports are the ones
 that work on the first compile.
 
 ## What does a 3D ski map cost in memory and privacy?
@@ -95,7 +95,7 @@ feature requirement: the map views are torn down properly on dismissal
 (one retain cycle involving a display-link timer was found and fixed —
 if you build with `CADisplayLink`, remember
 [it retains its target](https://developer.apple.com/documentation/quartzcore/cadisplaylink/init%28target:selector:%29), so
-cleanup can never live in `deinit`), and the small terrain preview on
+cleanup for a running link can't live in `deinit`), and the small terrain preview on
 the home tab is now a generated *still image* rather than a live map
 engine idling in the background for the whole app session.
 
@@ -103,8 +103,8 @@ engine idling in the background for the whole app session.
 requests carry the map area being viewed, and that's now stated in our
 privacy policy. Mapbox's telemetry collection is switched off using the
 SDK's own opt-out setting, and the ⓘ attribution button stays on the
-map, both because [Mapbox's terms require it](https://docs.mapbox.com/help/dive-deeper/attribution/)
-and because that dialog is the user-facing opt-out control. Everything else about Alpy is
+map, both because [Mapbox requires attribution on the map](https://docs.mapbox.com/help/dive-deeper/attribution/)
+and because that dialog is where the telemetry opt-out lives for users. Everything else about Alpy is
 unchanged: no server of ours, no accounts, no analytics, GPS tracks
 never leave the phone.
 
@@ -116,4 +116,4 @@ now neither is pretending to be the other.
 
 *Alpy is a free ski app for iPhone with honest instruments: GPS day
 tracking, personal records on real named runs, ghost racing, and an
-on-device AI debrief. Nothing you do in it leaves your phone.*
+on-device AI debrief. Your GPS tracks never leave your phone.*

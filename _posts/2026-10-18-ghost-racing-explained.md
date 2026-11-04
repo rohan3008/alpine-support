@@ -5,14 +5,16 @@ description: "How Alpy turns every named piste into a segment and lets you race 
 
 # Ghost racing: racing yourself down a ski run
 
-Video games solved motivation decades ago: the *ghost* — a replay of
-your best lap driving alongside you. Cycling and running apps
-borrowed it (Strava's Live Segments is the famous one). Skiing never
-really got it, because ski runs don't have start gates and finish
-lines.
+Racing video games have the
+[*ghost*](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Ghost)
+— a replay of your fastest lap driving alongside you. Strava's
+[Live Segments](https://support.strava.com/hc/en-us/articles/207343830-Live-Segments)
+do something similar for rides and runs, pitting you against your PR
+on a segment. Skiing is harder, because ski runs don't have start
+gates and finish lines.
 
-Except they do: [OpenStreetMap maps the world's pistes](https://wiki.openstreetmap.org/wiki/Pistes)
-by name. If an app can tell which named run you're descending, every
+Except they do, in a way: [OpenStreetMap maps pistes](https://wiki.openstreetmap.org/wiki/Pistes),
+and mappers name them. If an app can tell which named run you're descending, every
 run becomes a segment — and your own history becomes the ghost.
 
 ## How does ghost racing work in a ski app?
@@ -25,7 +27,8 @@ on the mountain and in the replay:
 
 - **Live, while skiing:** a race card appears with an F1-style gap
   that ticks in real time — green **−1.2 s** when you're up on
-  yourself, red **+0.8 s** when the ghost is ahead.
+  yourself, **+0.8 s** in the theme's accent colour when the ghost is
+  ahead.
 - **In the replay:** your best descent is drawn as a second dot on
   real 3D terrain, running beside today's line.
 

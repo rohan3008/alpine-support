@@ -5,7 +5,7 @@ description: "Jackson Hole, United States: 1,924 m to 3,185 m, 1,261 m vertical.
 
 # Jackson Hole
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Jackson Hole, in the United States, has lift-served terrain from 1,924 m at the base to 3,185 m, a 1,261 m vertical. OpenStreetMap volunteers have mapped about 114 km of downhill pistes and 17 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

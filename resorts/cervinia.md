@@ -5,7 +5,7 @@ description: "Cervinia, Italy: 2,050 m to 3,883 m, 1,833 m vertical. About 116 k
 
 # Cervinia
 
-*Italy · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Italy · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Cervinia, in Italy, has lift-served terrain from 2,050 m at the base to 3,883 m, a 1,833 m vertical. OpenStreetMap volunteers have mapped about 116 km of downhill pistes and 32 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

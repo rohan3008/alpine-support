@@ -5,7 +5,7 @@ description: "Taos, United States: 2,805 m to 3,603 m, 798 m vertical. About 59 
 
 # Taos
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Taos, in the United States, has lift-served terrain from 2,805 m at the base to 3,603 m, a 798 m vertical. OpenStreetMap volunteers have mapped about 59 km of downhill pistes and 14 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

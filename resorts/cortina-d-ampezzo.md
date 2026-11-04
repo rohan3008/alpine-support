@@ -5,7 +5,7 @@ description: "Cortina d'Ampezzo, Italy: 1,224 m to 2,932 m, 1,708 m vertical. Ab
 
 # Cortina d'Ampezzo
 
-*Italy · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Italy · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Cortina d'Ampezzo, in Italy, has lift-served terrain from 1,224 m at the base to 2,932 m, a 1,708 m vertical. OpenStreetMap volunteers have mapped about 71 km of downhill pistes and 24 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

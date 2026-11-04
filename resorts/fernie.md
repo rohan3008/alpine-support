@@ -5,7 +5,7 @@ description: "Fernie, Canada: 1,068 m to 2,149 m, 1,081 m vertical. About 102 km
 
 # Fernie
 
-*Canada · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Canada · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Fernie, in Canada, has lift-served terrain from 1,068 m at the base to 2,149 m, a 1,081 m vertical. OpenStreetMap volunteers have mapped about 102 km of downhill pistes and 10 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
 

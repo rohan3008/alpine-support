@@ -5,7 +5,7 @@ description: "Mammoth Mountain, United States: 2,424 m to 3,369 m, 945 m vertica
 
 # Mammoth Mountain
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Mammoth Mountain, in the United States, has lift-served terrain from 2,424 m at the base to 3,369 m, a 945 m vertical. OpenStreetMap volunteers have mapped about 101 km of downhill pistes and 28 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon.
 

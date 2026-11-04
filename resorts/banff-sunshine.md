@@ -5,7 +5,7 @@ description: "Banff Sunshine, Canada: 1,660 m to 2,730 m, 1,070 m vertical. Abou
 
 # Banff Sunshine
 
-*Canada · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Canada · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Banff Sunshine, in Canada, has lift-served terrain from 1,660 m at the base to 2,730 m, a 1,070 m vertical. OpenStreetMap volunteers have mapped about 92 km of downhill pistes and 14 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

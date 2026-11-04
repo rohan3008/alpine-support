@@ -5,7 +5,7 @@ description: "Sugar Bowl, United States: 2,098 m to 2,555 m, 457 m vertical. Abo
 
 # Sugar Bowl
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Sugar Bowl, in the United States, has lift-served terrain from 2,098 m at the base to 2,555 m, a 457 m vertical. OpenStreetMap volunteers have mapped about 83 km of downhill pistes and 36 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Mountain Collective (2 days).
 

@@ -5,7 +5,7 @@ description: "Kaprun, Austria: 786 m to 3,029 m, 2,243 m vertical. About 62 km o
 
 # Kaprun
 
-*Austria · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Kaprun, in Austria, has lift-served terrain from 786 m at the base to 3,029 m, a 2,243 m vertical. OpenStreetMap volunteers have mapped about 62 km of downhill pistes and 39 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
 

@@ -13,13 +13,13 @@ the pile. Alpy also *reads* it to you — a short paragraph in the
 voice of a coach going over the data, built from athletic measures
 that actually say something:
 
-- **Descent rate** — vertical meters per hour *of descending*, the
-  cleanest "how hard did I ski" number there is.
+- **Descent rate** — vertical meters per hour *of descending*, to us
+  the clearest "how hard did I ski" number.
 - **Time on snow** — how much of your mountain day was actually spent
-  descending ("41 min descending across a 3 h 12 m day" is a very
-  normal, very clarifying ratio).
-- **The standout run** — your fastest average descent, with its drop,
-  time and speed.
+  descending (for example, "41 min descending across a 3 h 12 m
+  day").
+- **The standout run** — the run with your highest average speed,
+  with its drop, time and speed.
 - **Records** — personal bests on named runs, with the margin you
   beat them by.
 - **Consistency** — how tightly your per-run top speeds grouped.
@@ -30,23 +30,23 @@ that actually say something:
 
 ## Can an AI ski summary make up numbers?
 
-Not this one. The paragraph is written by Apple's
-[on-device model](https://developer.apple.com/documentation/foundationmodels)
+It's built not to. The paragraph is written by Apple's
+[on-device model](https://developer.apple.com/documentation/foundationmodels/systemlanguagemodel)
 when your iPhone has one, and by a deterministic template when it
-doesn't — the card labels which voice you're reading. Both voices
-live under the same contract: **use only the measured facts
-provided; never invent conditions, snow, places, feelings, or
-numbers.**
+doesn't — the card labels which voice you're reading. The model's
+instructions are the contract: **use only the facts provided; never
+invent conditions, snow, weather, places, people, technique advice
+or feelings; do not add numbers that are not given.** The template
+can only print the facts it is handed.
 
 Facts your day didn't produce are omitted entirely rather than padded around. If you
-set no records, the word doesn't appear.
+set no records, no record line is in the prompt or the template.
 
-This matters because AI summaries drift toward flattery and filler.
-Ours can't: the prompt hands the model a fixed set of measured
-sentences and the job of making them read well — a rephraser, not an
-author. When the model isn't available, the template assembles the
-same facts in the same register, so the debrief never silently
-changes meaning with the hardware.
+We didn't want flattery or filler, so the prompt hands the model a
+fixed set of measured sentences and the job of making them read
+well — a rephraser, not an author. When the model isn't available,
+the template assembles the same facts in the same register, so the
+facts you're given don't change with the hardware.
 
 ## Why "athletic" framing
 

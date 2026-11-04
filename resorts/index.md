@@ -1,12 +1,12 @@
 ---
 title: "Resort data — 51 verified ski resorts"
-description: "Base and summit elevations, pass coverage and avalanche-bulletin sources for the 51 resorts hand-verified in Alpy, the free ski app."
+description: "Base and summit elevations, pass coverage and avalanche-bulletin sources for the 51 catalog resorts in Alpy, the free ski app."
 ---
 
 # Resort data
 
-The 51 resorts below are hand-verified in [Alpy](/) (coordinates and
-elevations checked against live geocoding and terrain models; pass
+The 51 resorts below are the catalog resorts in [Alpy](/) (coordinates and
+elevations checked automatically against live geocoding and terrain models; pass
 coverage 2026-10-14 from official pass sites (epicpass.com, ikonpass.com, mountaincollective.com, magicpass.ch) for 2026/27). The app also lets you search **3,652
 OSM-mapped ski areas worldwide**.
 

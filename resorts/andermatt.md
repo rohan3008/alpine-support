@@ -5,7 +5,7 @@ description: "Andermatt, Switzerland: 1,444 m to 2,961 m, 1,517 m vertical. Abou
 
 # Andermatt
 
-*Switzerland · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Switzerland · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Andermatt, in Switzerland, has lift-served terrain from 1,444 m at the base to 2,961 m, a 1,517 m vertical. OpenStreetMap volunteers have mapped about 66 km of downhill pistes and 21 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic.
 

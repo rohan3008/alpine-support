@@ -5,7 +5,7 @@ description: "St. Moritz, Switzerland: 1,822 m to 3,057 m, 1,235 m vertical. Abo
 
 # St. Moritz
 
-*Switzerland · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Switzerland · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 St. Moritz, in Switzerland, has lift-served terrain from 1,822 m at the base to 3,057 m, a 1,235 m vertical. OpenStreetMap volunteers have mapped about 87 km of downhill pistes and 35 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 

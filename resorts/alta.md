@@ -5,7 +5,7 @@ description: "Alta, United States: 2,600 m to 3,133 m, 533 m vertical. About 265
 
 # Alta
 
-*United States · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*United States · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Alta, in the United States, has lift-served terrain from 2,600 m at the base to 3,133 m, a 533 m vertical. OpenStreetMap volunteers have mapped about 265 km of downhill pistes and 42 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

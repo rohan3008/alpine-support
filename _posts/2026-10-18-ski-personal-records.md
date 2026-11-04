@@ -5,10 +5,12 @@ description: "How Alpy builds a PR board from your ski days — verdicts on ever
 
 # Personal records for skiing: every named run is a segment
 
-Running has parkrun PBs. Cycling has KOMs. Skiing mostly has vague
-memories of "I think I was quicker down National last year." The data
-to do better has been sitting in ski trackers for a decade — what was
-missing was treating each *named run* as a thing you have history on.
+Cyclists and runners on Strava chase
+[segment PRs and KOMs](https://support.strava.com/hc/en-us/articles/207343830-Live-Segments).
+Skiing mostly has vague memories of "I think I was quicker down
+National last year." A ski tracker already records the data; the
+step that makes it useful is treating each *named run* as a thing
+you have history on.
 
 ## How do personal records work in a ski app?
 

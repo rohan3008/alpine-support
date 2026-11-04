@@ -5,7 +5,7 @@ description: "Laax, Switzerland: 1,100 m to 3,018 m, 1,918 m vertical. About 112
 
 # Laax
 
-*Switzerland · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Switzerland · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Laax, in Switzerland, has lift-served terrain from 1,100 m at the base to 3,018 m, a 1,918 m vertical. OpenStreetMap volunteers have mapped about 112 km of downhill pistes and 34 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 

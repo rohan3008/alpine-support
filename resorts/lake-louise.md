@@ -5,7 +5,7 @@ description: "Lake Louise, Canada: 1,646 m to 2,637 m, 991 m vertical. About 99 
 
 # Lake Louise
 
-*Canada · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Canada · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Lake Louise, in Canada, has lift-served terrain from 1,646 m at the base to 2,637 m, a 991 m vertical. OpenStreetMap volunteers have mapped about 99 km of downhill pistes and 14 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days) and Mountain Collective (2 days).
 

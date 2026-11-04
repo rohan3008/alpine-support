@@ -5,7 +5,7 @@ description: "Kitzbühel, Austria: 800 m to 2,000 m, 1,200 m vertical. About 155
 
 # Kitzbühel
 
-*Austria · one of the 51 hand-verified resorts in [Alpy](/), the free ski app.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
 
 Kitzbühel, in Austria, has lift-served terrain from 800 m at the base to 2,000 m, a 1,200 m vertical. OpenStreetMap volunteers have mapped about 155 km of downhill pistes and 47 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Ikon (limited days).
 
