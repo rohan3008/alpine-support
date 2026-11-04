@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-<div class="prose-wrap">
-  <div class="container">
-    <p class="post-meta">
-      <a href="/blog/">← Field guides</a>
-      {% if page.date %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}
-    </p>
-    <article class="prose">
-      {{ content }}
-    </article>
+<section class="page-hero">
+  <img class="hero-photo" src="/assets/img/hero-dusk-1280.jpg"
+       srcset="/assets/img/hero-dusk-1280.jpg 1280w, /assets/img/hero-dusk-2560.jpg 2560w"
+       sizes="100vw" alt="" aria-hidden="true">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="container page-hero-inner">
+    <p class="page-kicker"><a href="/blog/">Field guides</a>{% if page.date %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}</p>
   </div>
+</section>
+<div class="container sheet-wrap">
+  <article class="prose sheet">
+    {{ content }}
+  </article>
 </div>
+{% include cta-glow.html %}

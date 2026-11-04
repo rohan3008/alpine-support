@@ -1,0 +1,16 @@
+<section class="section band-glow">
+  <div class="container glow-row">
+    <div>
+      {% if site.appstore_url != "" %}
+      <h2 class="h-lg">Ski it this season.</h2>
+      <p class="sub">Free on the App Store. Every feature, $0, forever.</p>
+    </div>
+    <a class="appstore-badge" href="{{ site.appstore_url }}"><img src="/assets/img/appstore-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+      {% else %}
+      <h2 class="h-lg">Ski it first this season.</h2>
+      <p class="sub">Free on TestFlight ahead of the App Store release. Every feature, $0, forever.</p>
+    </div>
+    <a class="btn btn-white" href="/beta/">Join the beta <span aria-hidden="true">→</span></a>
+      {% endif %}
+  </div>
+</section>

@@ -12,6 +12,15 @@ defaults:
       path: ""
     values:
       image: /assets/img/og-default.jpg
+  # Other apps' support/privacy pages: no Alpy header, footer or hero.
+  - scope:
+      path: "birch"
+    values:
+      layout: plain
+  - scope:
+      path: "turnaround"
+    values:
+      layout: plain
 # Empty until Alpy is live. Paste the App Store link (ASC → App Information →
 # "View on App Store") and every beta CTA becomes the App Store badge.
 appstore_url: ""
