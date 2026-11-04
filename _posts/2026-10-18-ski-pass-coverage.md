@@ -8,11 +8,20 @@ description: "Pass coverage across 51 verified resorts for 2026/27, checked agai
 Multi-resort passes decide more ski trips than snow reports do, and
 pass coverage is scattered across four marketing sites that change
 every spring. For Alpy's resort catalog we checked all 51 verified
-resorts against the official 2026/27 pass pages — epicpass.com,
-ikonpass.com, mountaincollective.com and magicpass.ch — in October
-2026.
+resorts against the official 2026/27 pass pages —
+[epicpass.com](https://www.epicpass.com/),
+[ikonpass.com](https://www.ikonpass.com/),
+[mountaincollective.com](https://mountaincollective.com/) and
+[magicpass.ch](https://www.magicpass.ch/) — in October 2026.
 
-## The shape of the 2026/27 landscape
+## Which ski pass covers which resorts in 2026/27?
+
+Across our 51 verified resorts: Epic covers Vail-owned North American
+mountains, Ikon
+covers Alterra's and its partners', and both reach into the Alps
+only selectively — Ikon mostly with 5–7 limited days. Magic Pass is
+the Swiss outlier, and most big European names still sell their own
+passes. The detail:
 
 - **The Alps are mostly à la carte.** Most big European names on our
   list sell their own passes; US mega-pass coverage in Europe is
@@ -31,7 +40,7 @@ Per-resort coverage is listed on each of our
 [resort data pages](/resorts/), with the verification
 date shown.
 
-## Why the verification date matters
+## Why does the pass verification date matter?
 
 Pass rosters change annually and sometimes mid-year; an app showing
 last season's coverage is worse than one showing none. Alpy ships the

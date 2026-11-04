@@ -11,15 +11,21 @@ all those trail maps, and you pay a subscription that funds it.
 
 There's a parallel universe where that work already happened in
 public. OpenStreetMap contributors have mapped ski areas for two
-decades — pistes with names and difficulties, lifts with their
-stations, area boundaries. In October 2026 we indexed every *named*
-winter-sports area in OSM: **3,652 ski areas worldwide**, from
-Zermatt to municipal rope tows in Norway, each with coordinates and
-terrain elevation.
+decades — [pistes with names and difficulties, lifts with their
+stations, area boundaries](https://wiki.openstreetmap.org/wiki/Pistes).
 
-## What the data is, honestly
+## How many ski areas are in OpenStreetMap?
 
-Coverage mirrors OSM's community: the Alps are mapped superbly,
+By our count, 3,652 named ones. In October 2026 we indexed every
+*named* [winter-sports area](https://wiki.openstreetmap.org/wiki/Tag:landuse%3Dwinter_sports)
+in OSM: **3,652 ski areas worldwide**, from Zermatt to municipal rope
+tows in Norway, each with coordinates and terrain elevation. Unnamed
+areas aren't in that number, and the count will move as mappers add
+more.
+
+## How good is OpenStreetMap ski data?
+
+Good in the Alps, uneven elsewhere. Coverage mirrors OSM's community: the Alps are mapped superbly,
 North America well, Japan patchily (several famous resorts carry
 different tags and don't appear — if you map in OSM, that's
 fixable by anyone). An OSM area isn't "supported" in the
@@ -34,9 +40,11 @@ Search any of the 3,652 areas in Alpy and you get the real trail
 network drawn two ways — a clean schematic chart and an interactive
 3D view — plus live weather for its coordinates and full GPS
 tracking. For free, because the mapping was a commons to begin with.
-The app credits OpenStreetMap (ODbL) on every chart, and piste data
-is cached for 30 days per resort to keep load off the volunteer-run
-Overpass servers.
+The app credits OpenStreetMap
+([ODbL](https://www.openstreetmap.org/copyright)) on every chart, and
+piste data is cached for 30 days per resort to keep load off the
+volunteer-run [Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API)
+servers.
 
 The licensed-map subscription model is legitimate — official resort
 artwork is genuinely nicer. But "thousands of resorts" stopped being

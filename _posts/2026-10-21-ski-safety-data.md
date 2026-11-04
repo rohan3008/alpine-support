@@ -12,15 +12,18 @@ Alpy's rule for safety features is strict: state measured facts,
 never give advice, and never let an estimate dress up as a
 measurement. Two new instruments live under that rule.
 
-## The aspect rose
+## What is an avalanche aspect rose?
 
-Avalanche bulletins don't just publish a danger level — the good ones
-name the *aspects*: which compass directions of slope carry the
-problem ("NW–NE above 2200 m" is a classic winter pattern, wind slabs
-on the shaded side). Alpy already showed the level on the official
-1–5 scale; now, when the bulletin names aspects, they're drawn the
-way bulletins themselves draw them — a compass rose with the
-dangerous sectors filled in the danger color.
+A compass rose with the dangerous slope directions filled in. Avalanche
+bulletins don't just publish a danger level — the good ones name the
+*aspects*: which compass directions of slope carry the problem
+("NW–NE above 2200 m" is a classic winter pattern, wind slabs on the
+shaded side). The rose is how bulletins themselves draw them.
+
+Alpy already showed the level on the official
+[1–5 scale](https://www.avalanches.org/standards/avalanche-danger-scale/);
+now, when the bulletin names aspects, they're drawn the same way —
+a rose with the dangerous sectors filled in the danger color.
 
 One honest detail: when a bulletin publishes finer-grained aspects
 than the eight-point rose (say "NNE"), Alpy ignores that string
@@ -39,10 +42,10 @@ matters *beside and beyond* the groomed runs, not on them. The flag
 also never applies to past days judged against today's bulletin;
 that comparison would simply be false.
 
-## The last-run light
+## How does Alpy warn you about fading light?
 
-The second instrument is simpler: while you're tracking a day, Alpy
-knows the resort's forecast sunset. When you're inside the final 45
+With a fact, not an alarm. While you're tracking a day, Alpy knows
+the resort's forecast sunset. When you're inside the final 45
 minutes of light, a chip appears in the live cockpit — sunset time,
 minutes remaining — and after sunset it says, plainly, that the light
 is going. No push notifications, no nagging, no advice about what you
@@ -57,9 +60,10 @@ your situation; an app that says "bulletin names NW–NE above 2200 m;
 your run 4 pointed N" is handing you the bulletin's own facts,
 aligned with your own track. The judgment stays where it belongs —
 with the person on the snow. For how to read the bulletin itself,
-see [how to read an avalanche bulletin](reading-avalanche-bulletins/).
+see [how to read an avalanche bulletin](/blog/reading-avalanche-bulletins/).
 
-*Both instruments are free in [Alpy](../), like everything else. The
-bulletin data comes from the official warning services (SLF,
-avalanche.org); when a region has no bulletin, the app says exactly
+*Both instruments are free in [Alpy](/), like everything else. The
+bulletin data comes from the official warning services
+([SLF](https://www.slf.ch/en/), [avalanche.org](https://avalanche.org/));
+when a region has no bulletin, the app says exactly
 that instead of inventing one.*

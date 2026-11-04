@@ -13,21 +13,25 @@ sits a real mechanism worth taking seriously: **fatigue changes how
 you ski before you notice it**, and the change is measurable from
 your pocket.
 
-## What tired skiing looks like in data
+## How does fatigue show up in ski data?
 
-Skiing is eccentric exercise — muscles lengthening under load,
-which is precisely the contraction type that fatigues quadriceps
-fastest and shows up as degraded control rather than felt
-exhaustion. You don't feel 20% weaker at 3pm; you just turn less.
+As falling turn **cadence** — turns per minute, per run. It drops as
+the day wears on, and it drops before you'd call yourself tired,
+because your brain economizes movement long before it files a
+complaint. A rhythm of linked turns is a *choice* that costs energy;
+straight-lining and long lazy arcs are what legs vote for when the
+tank empties.
 
-That's the signature a phone can see. A rhythm of linked turns is a
-*choice* that costs energy; straight-lining and long lazy arcs are
-what legs vote for when the tank empties. Turn **cadence** — turns
-per minute, per run — falls as the day wears on, and it falls
-before you'd call yourself tired, because your brain economizes
-movement long before it files a complaint.
+The reason is the kind of work skiing is. Skiing is eccentric
+exercise — muscles lengthening under load, which is precisely the
+contraction type that fatigues quadriceps fastest and shows up as
+degraded control rather than felt exhaustion. (One
+[study of recreational skiers](https://pmc.ncbi.nlm.nih.gov/articles/PMC5117052/)
+measured eccentric quadriceps and hamstring strength still down 24
+hours after a four-hour ski session.) You don't feel 20% weaker at
+3pm; you just turn less — and that's the signature a phone can see.
 
-## How Alpy measures the fade
+## How does Alpy measure turn cadence?
 
 Each run's turn count is estimated from GPS heading swings
 (sustained 30° course reversals — an estimate, labeled as one, and
@@ -70,9 +74,14 @@ interesting:
   cruising socially. Instruments, not verdicts: the app shows the
   pattern and leaves the interpretation to the person who was there.
 
-## Back to the last run
+## Should you skip the last run of the day?
 
-So should you skip it? The honest chain of reasoning: fatigue
+Skip it if you're no longer skiing your morning standard. The last
+run isn't cursed, but the end of the day stacks real mechanisms
+against you: tired legs, flat light and scraped pistes. Your own
+cadence data can tell you whether the fade has started.
+
+The honest chain of reasoning: fatigue
 demonstrably degrades motor control; degraded control on skis
 raises the chance of the error classes that hurt (catching an edge,
 late weight shift, the knee-twisting backseat recovery); and

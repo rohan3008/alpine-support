@@ -15,9 +15,10 @@ and point your phone at the mountain. A live arrow swings toward the
 run's nearest edge over your camera view — "AHEAD · ~340 M" — and
 keeps pointing as you turn.
 
-## How it actually works
+## How does Trail Finder know where the run is?
 
-No magic: your GPS position, the run's real OpenStreetMap geometry,
+No magic: your GPS position, the run's real
+[OpenStreetMap geometry](https://wiki.openstreetmap.org/wiki/Pistes),
 and the phone's compass. The app computes the bearing from you to the
 nearest point of the run (a named run is often several mapped
 segments; it picks the closest), compares it with the direction
@@ -25,11 +26,14 @@ you're facing, and rotates the arrow by the difference. Face within
 about 25° of the run and the arrow locks "AHEAD" in red; face away
 and it says so plainly: "BEHIND YOU."
 
-## What we refused to build
+## Why doesn't Trail Finder draw an AR line on the snow?
 
-The obvious flashy version is an augmented-reality line painted on
-the snow, showing the run snaking down the face. We tested the idea
-against physics and said no. A phone compass is honest to roughly
+Because a phone compass isn't accurate enough to be sure the line
+lands on the right piste. The obvious flashy version is an augmented-reality line
+painted on the snow, showing the run snaking down the face. We tested
+the idea against physics and said no.
+
+A phone compass is honest to roughly
 5–10 degrees in the field — at 500 m that's a line drawn up to 50 m
 sideways, which means the "painted run" can sit on the *neighboring*
 piste. An arrow is robust to that error; a painted line pretending to
@@ -39,12 +43,12 @@ The HUD says this on screen: *compass-guided, expect a few degrees of
 drift; the arrow points to the nearest edge of the run, not a route
 to it.* Terrain between you and that edge is yours to judge.
 
-## The camera never records
+## Does Trail Finder record video?
 
-The viewfinder is exactly that. The camera session in Trail Finder
+No. The viewfinder is exactly that. The camera session in Trail Finder
 has **no recording output attached** — frames go to your screen and
 physically nowhere else. No photo, no video, no analysis, no upload.
-That's stated in the [privacy policy](../privacy) and enforced by the
+That's stated in the [privacy policy](/privacy/) and enforced by the
 code's architecture, not by a promise.
 
 ## When it's most useful
@@ -58,5 +62,5 @@ It's a small tool with one honest job. Pick a run, tap Find, trust
 the arrow within a handful of degrees — and keep your eyes on the
 mountain, not the phone.
 
-*Trail Finder is in [Alpy](../), free. It pairs with the
-[3D winter map](3d-winter-map/) the run was picked from.*
+*Trail Finder is in [Alpy](/), free. It pairs with the
+[3D winter map](/blog/3d-winter-map/) the run was picked from.*

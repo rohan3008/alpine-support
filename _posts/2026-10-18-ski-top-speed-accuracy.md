@@ -5,26 +5,32 @@ description: "Every ski app shows a top speed. Almost none show the measurement 
 
 # How fast were you really going? Ski app top speed, honestly
 
-Every ski tracker ends the day with a top speed, and every group chat
-has someone claiming 70 km/h off it. Here's the uncomfortable bit:
-GPS speed is an estimate with a known error, and at the moment your
-app recorded that peak, the error might have been ±2 km/h — or
+GPS speed is an estimate with a known error. At the moment your app
+recorded your top speed, that error might have been ±2 km/h — or
 ±10 km/h, if you were between trees or mid-turn with a poor satellite
-view.
+view. So the honest answer is the number on screen, plus or minus
+whatever the phone's own accuracy estimate said at that instant.
 
-## Where the number comes from
+That's the uncomfortable bit for every group chat with someone
+claiming 70 km/h off their tracker.
+
+## How do ski apps measure top speed?
 
 Phones don't compute speed by dividing distance by time between two
 fixes (that would be noisy beyond use). They use the Doppler shift of
 the satellite signals themselves, which is far better — and still
-imperfect. iOS actually reports its own confidence alongside every
-speed reading: a `speedAccuracy` value in metres per second. Most
-apps throw it away.
+imperfect. iOS reports its own confidence alongside every speed
+reading: a
+[`speedAccuracy`](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy)
+value in metres per second. Most apps throw it away.
 
-## What an honest tracker does with it
+## How should a ski tracker report top speed?
 
-Alpy keeps the accuracy value from the exact moment your day's top
-speed was set, and prints the headline number with it: **54 ±3 km/h**.
+With its error bar attached. Alpy keeps the accuracy value from the
+exact moment your day's top speed was set — the phone's own estimate
+of how far off the reading could be — and prints the headline number
+with it: **54 ±3 km/h**.
+
 Two things follow:
 
 - A top speed with a small ± was a clean measurement on an open

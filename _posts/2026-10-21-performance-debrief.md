@@ -28,14 +28,17 @@ that actually say something:
 - **Load** — airtime and peak turn G from the accelerometer, always
   labeled as the estimates they are.
 
-## The one rule: never invent
+## Can an AI ski summary make up numbers?
 
-The paragraph is written by Apple's on-device model when your iPhone
-has one, and by a deterministic template when it doesn't — the card
-labels which voice you're reading. Both voices live under the same
-contract: **use only the measured facts provided; never invent
-conditions, snow, places, feelings, or numbers.** Facts your day
-didn't produce are omitted entirely rather than padded around. If you
+Not this one. The paragraph is written by Apple's
+[on-device model](https://developer.apple.com/documentation/foundationmodels)
+when your iPhone has one, and by a deterministic template when it
+doesn't — the card labels which voice you're reading. Both voices
+live under the same contract: **use only the measured facts
+provided; never invent conditions, snow, places, feelings, or
+numbers.**
+
+Facts your day didn't produce are omitted entirely rather than padded around. If you
 set no records, the word doesn't appear.
 
 This matters because AI summaries drift toward flattery and filler.
@@ -54,8 +57,8 @@ is a sport; your data deserves the sport's vocabulary.
 
 And because everything is computed on the phone from your own GPS and
 motion sensors, the debrief arrives with the same privacy as the rest
-of [Alpy](../): no account, no server, nothing uploaded.
+of [Alpy](/): no account, no server, nothing uploaded.
 
 *The Day, Written sits at the top of every Ski Debrief. For what the
 rest of the debrief holds — per-run registers, lift lines, records —
-start with [a first day with Alpy](first-day-with-alpy/).*
+start with [a first day with Alpy](/blog/first-day-with-alpy/).*

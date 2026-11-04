@@ -24,11 +24,16 @@ are not using MapKit for them.
 
 So we did what they do: Mapbox.
 
-## What the terrain is actually made of
+## What is Alpy's 3D ski map made of?
 
-The 3D view is four layers, and every one of them is checkable:
+Four layers, and every one of them is checkable: Mapbox's global
+elevation model, relief shading and contours from Mapbox's outdoors
+style, the resort's OpenStreetMap piste network drawn on top, and a
+winter restyle that turns the summer base map snow-white at load
+time.
 
-- **Elevation.** Mapbox's global terrain model (a raster DEM), with a
+- **Elevation.** Mapbox's global terrain model (a
+  [raster DEM](https://docs.mapbox.com/data/tilesets/reference/mapbox-terrain-dem-v1/)), with a
   gentle 1.3× vertical exaggeration — enough to read a valley at a
   glance, not enough to lie about a slope.
 - **Relief shading and contours** from the base style.
@@ -77,12 +82,19 @@ two one-point geometry sources and moves the camera; the day's line,
 the lifts, and the matched piste upload once. Boring ports are the ones
 that work on the first compile.
 
-## What it costs, honestly
+## What does a 3D ski map cost in memory and privacy?
+
+Two things: memory, and one privacy trade — map tiles come from
+Mapbox's servers. We tear the map views down properly, render the
+home-tab preview as a still image, switch Mapbox telemetry off, and
+state the tile requests in the privacy policy. Your GPS tracks still
+never leave the phone.
 
 **Memory.** A 3D terrain engine is not free, and we treated that as a
 feature requirement: the map views are torn down properly on dismissal
 (one retain cycle involving a display-link timer was found and fixed —
-if you build with `CADisplayLink`, remember it retains its target, so
+if you build with `CADisplayLink`, remember
+[it retains its target](https://developer.apple.com/documentation/quartzcore/cadisplaylink/init%28target:selector:%29), so
 cleanup can never live in `deinit`), and the small terrain preview on
 the home tab is now a generated *still image* rather than a live map
 engine idling in the background for the whole app session.
@@ -91,8 +103,8 @@ engine idling in the background for the whole app session.
 requests carry the map area being viewed, and that's now stated in our
 privacy policy. Mapbox's telemetry collection is switched off using the
 SDK's own opt-out setting, and the ⓘ attribution button stays on the
-map, both because Mapbox's terms require it and because that dialog is
-the user-facing opt-out control. Everything else about Alpy is
+map, both because [Mapbox's terms require it](https://docs.mapbox.com/help/dive-deeper/attribution/)
+and because that dialog is the user-facing opt-out control. Everything else about Alpy is
 unchanged: no server of ours, no accounts, no analytics, GPS tracks
 never leave the phone.
 

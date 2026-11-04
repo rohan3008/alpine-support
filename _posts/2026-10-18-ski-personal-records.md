@@ -10,12 +10,13 @@ memories of "I think I was quicker down National last year." The data
 to do better has been sitting in ski trackers for a decade — what was
 missing was treating each *named run* as a thing you have history on.
 
-## From GPS lines to a record book
+## How do personal records work in a ski app?
 
-Alpy matches every descent you track against OpenStreetMap's named
-pistes. Each match becomes an *attempt* on that run: date, time,
-top speed, vertical. Ski the run again — next week or next season —
-and every new descent gets a verdict against your history:
+Alpy matches every descent you track against OpenStreetMap's
+[named pistes](https://wiki.openstreetmap.org/wiki/Pistes). Each
+match becomes an *attempt* on that run: date, time, top speed,
+vertical. Ski the run again — next week or next season — and every
+new descent gets a verdict against your history:
 
 - **First descent** — the time to beat is set.
 - **PR −0:17** — you beat your best by 17 seconds.
@@ -31,9 +32,9 @@ attempt against your fastest, metre by metre, so you can see exactly
 where the time went: the flat traverse you carried speed through, or
 the pitch where you parked.
 
-## No strangers, no uploads
+## Does Alpy have ski leaderboards?
 
-There is deliberately no leaderboard against other people. Partly
+No — there is deliberately no leaderboard against other people. Partly
 philosophy — racing strangers turns pistes into liability problems —
 and partly architecture: Alpy has no server, so your records exist
 only on your phone. The competition is the best version of you, which

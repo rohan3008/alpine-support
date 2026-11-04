@@ -16,25 +16,30 @@ Pierre Novat in France — painted hundreds of resorts each, and
 their work is genuinely beloved; Niehues' maps have hung in art
 museums.
 
-Two things follow from trail maps being art. First: they're
-*gloriously* distorted. A panorama is a diagram of an argument
-("here is how our mountain fits together"), not a chart you could
-navigate by bearing and distance. Second, and decisive for an app:
-they're copyrighted artwork, commissioned and owned. A subscription
-ski app can license them; a free app with no revenue cannot bundle
-hundreds of paintings, and shouldn't pretend otherwise.
+## Why can't a free ski app use the resort's trail map?
+
+Because resort trail maps are copyrighted artwork, commissioned and
+owned — and they're distorted on purpose. A subscription ski app can
+license them; a free app with no revenue cannot bundle hundreds of
+paintings, and shouldn't pretend otherwise.
+
+The distortion is the art. A panorama is *gloriously* bent — a
+diagram of an argument ("here is how our mountain fits together"),
+not a chart you could navigate by bearing and distance.
 
 So Alpy had a choice every small ski app faces: fake it (sketchy
 clones of resort art — legally gray, honestly worse), skip trail
 maps entirely, or find a third way.
 
-## The commons had already mapped the mountain
+## Where does Alpy's trail map data come from?
 
-OpenStreetMap contributors have spent two decades mapping ski
-areas: every marked piste as a coordinate chain with a name and
-difficulty, every lift with its stations, refuges, area boundaries.
-The geometry is *real* — surveyed from GPS traces and imagery, not
-bent for a viewpoint — and it's open data under the ODbL license.
+From OpenStreetMap. Its contributors have spent two decades mapping
+ski areas: every marked piste as a coordinate chain with a name and
+[difficulty](https://wiki.openstreetmap.org/wiki/Pistes), every lift
+with its stations, refuges, area boundaries. The geometry is *real* —
+surveyed from GPS traces and imagery, not bent for a viewpoint — and
+it's open data under the
+[ODbL license](https://www.openstreetmap.org/copyright).
 Zermatt alone carries 134 km of named piste geometry; across OSM
 we count 3,652 named ski areas worldwide.
 
@@ -78,7 +83,8 @@ resorts carry unexpected tags), Alpy shows what exists and says so,
 rather than hallucinating runs — and anyone can fix the source by
 mapping, which improves every OSM-based app at once. **Etiquette:**
 piste geometry is fetched once and cached for thirty days per
-resort, because the Overpass servers that answer these queries are
+resort, because the [Overpass servers](https://wiki.openstreetmap.org/wiki/Overpass_API)
+that answer these queries are
 volunteer-run infrastructure, not a free CDN.
 
 The painted panorama isn't the enemy — it's a beautiful solved

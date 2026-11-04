@@ -9,14 +9,16 @@ Alpy's debrief shows "~14 turns" for a run — and that tilde is doing
 real work. Here's how a phone counts turns, and why any app showing
 you a turn count *without* a tilde is overselling its data.
 
-## The method
+## How does a phone count ski turns?
 
-A GPS track is a chain of fixes, each with a heading. Skiing linked
-turns swings that heading left-right-left in a rhythm, so the app
-watches for sustained heading swings past a threshold (Alpy uses 30°
-with hysteresis, so jitter doesn't double-count) and calls each full
-swing a turn. Carved GS arcs, skidded snow-plough, snowboard turns —
-the physics read the same.
+From heading swings. A GPS track is a chain of fixes, each with a
+heading, and skiing linked turns swings that heading left-right-left
+in a rhythm. The app watches for sustained swings past a threshold
+(Alpy uses 30° with hysteresis, so jitter doesn't double-count) and
+calls each full swing a turn.
+
+Carved GS arcs, skidded snow-plough, snowboard turns — the physics
+read the same.
 
 What the method can't see: short-radius turns inside the distance
 between two GPS fixes. A phone logs a fix roughly every second at

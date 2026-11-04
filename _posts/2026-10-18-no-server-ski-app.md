@@ -10,6 +10,14 @@ seriously." The claim is unfalsifiable: you can't audit their
 servers. There's a stronger position available to a small app, and
 Alpy takes it: **have no server at all.**
 
+## What does "no server" mean for a ski app?
+
+It means there is nowhere for your data to go. Alpy has no backend:
+no accounts, no sync, no analytics. GPS tracks are written only to
+the app's storage on your phone, the AI runs on the device, and
+weather and map requests go straight from your phone to the
+services that answer them.
+
 This isn't a policy, it's an architecture, and it changes what's
 *possible* rather than what's promised:
 
@@ -20,14 +28,15 @@ This isn't a policy, it's an architecture, and it changes what's
   list to sell. The app has never asked who you are.
 - **No analytics** — we genuinely don't know how many users the app
   has beyond what Apple's opt-in store stats show. Weather and map
-  requests go straight from your phone to the public sources
-  (Open-Meteo, OpenStreetMap, avalanche services) with coordinates
-  only.
+  requests go straight from your phone to their sources
+  (Open-Meteo, OpenStreetMap, avalanche services, and Mapbox for the
+  3D map tiles) with coordinates only.
 - **AI runs on the device.** The morning report and day summary are
-  written by Apple's on-device model. No prompt ever crosses the
-  network.
+  written by Apple's
+  [on-device model](https://developer.apple.com/documentation/foundationmodels).
+  No prompt ever crosses the network.
 
-## What it honestly costs
+## What do you give up with a no-server ski app?
 
 No server means no cloud backup of your season (your phone's own
 backup covers it), no cross-device sync, no social feed, and friend-

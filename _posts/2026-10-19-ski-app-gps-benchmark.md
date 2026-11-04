@@ -6,13 +6,22 @@ description: "A peer-reviewed study ran four ski apps against survey-grade GNSS:
 # Independent science on ski-app GPS
 
 Ski trackers love accuracy language — "professional grade GPS,"
-"precision tracking." Rarely does anyone get to check. In 2023,
-researchers did: they ran **four ski apps simultaneously** (Strava,
+"precision tracking." Rarely does anyone get to check. In winter
+2022/23, researchers did (the study was published in 2025): they ran **four ski apps simultaneously** (Strava,
 iSki, Slopes, Skitude) on four phones, against a 50 Hz
 differential-GNSS reference rig carried on the skier's back, across
 days at Davos and Zermatt. It's the only study of its kind we know
 of, and it's
-[openly published](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/).
+[openly published](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/)
+(Petrella, Ellenberger and Gilgien, *PLOS One*, 2025).
+
+## How accurate is ski-app GPS?
+
+At the median, about 4.5 m of horizontal position error and about
+0.5 m/s (~2 km/h) of speed error — and the four apps were
+effectively indistinguishable on the same phone. What moved the
+numbers was the phone (high-end beat low-end) and the terrain
+(Zermatt's steep walls versus Davos).
 
 The findings, condensed:
 
@@ -22,8 +31,8 @@ The findings, condensed:
   with the same phone on the same run, the four apps were effectively
   indistinguishable. The phone and the terrain decide.
 - **Median speed error ~0.5 m/s** (~2 km/h), worse at high speed and
-  in obstructed terrain — Zermatt's steep walls nearly doubled the
-  position error relative to Davos.
+  in obstructed terrain — Zermatt's steep walls made the position
+  error about 1.7 times larger than at Davos.
 - **Altitude couldn't even be assessed** — raw GNSS altitude error
   runs 2–3× horizontal, and the apps' altitude handling was opaque.
 
@@ -35,8 +44,8 @@ asking for faith, not trust.
 
 ## 1. The gate: implausible fixes never get in
 
-Before a fix touches anything, two tests from the benchmark
-literature's own recommendations: a fix reporting horizontal
+Before a fix touches anything, it has to pass two tests of our own,
+set conservatively: a fix reporting horizontal
 accuracy worse than 50 m is discarded as noise, and a jump implying
 more than 150 km/h between fixes is discarded as a receiver glitch.
 A rejected glitch is also never used as the comparison baseline for
@@ -82,9 +91,10 @@ confident garbage. The study found position error roughly doubled
 in obstructed terrain; the least an app can do is admit when it's
 in that regime.
 
-## The takeaway
+## Which ski app has the most accurate GPS?
 
-Buy whichever ski app you like — the satellites don't care. But ask
+Among the four apps the study tested, none measurably: on the same
+phone they were effectively tied. Buy whichever ski app you like — the satellites don't care. But ask
 what it does between the antenna and the screen, because that's
 where the real differences live: gating, cross-checking, fusing,
 saving early, and admitting uncertainty. Our pipeline is public,

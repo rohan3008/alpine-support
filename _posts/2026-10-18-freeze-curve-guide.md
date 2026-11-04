@@ -17,7 +17,13 @@ Alpy draws this as the *freeze curve*: freezing-level altitude,
 hour by hour, across three days, with your resort's base and summit
 marked and a rule at "now." Here's how to read it.
 
-## Reading the three positions
+## How do you read a freeze curve?
+
+Find where the freeze line sits against your resort's base and
+summit. Below the base, the whole mountain is wintry; between base
+and summit, it's split — winter above the line, spring below; above
+the summit, the whole hill is thawing. Then watch which way the line
+moves, overnight and through any storm.
 
 **Freeze line below the base.** The whole mountain is in
 sub-freezing air. New snow falls dry everywhere; existing snow
@@ -35,7 +41,13 @@ hold quality while lower runs go heavy.
 Surfaces soften progressively through the day — which is not
 automatically bad news, and that's where timing comes in.
 
-## The daily cycle: corn and boilerplate
+## When is spring corn snow at its best?
+
+Mid-morning, after a proper overnight refreeze. On a clear spring
+day, dawn surfaces are frozen boilerplate; as the sun and the rising
+freeze line work on them, the top centimetre loosens into corn; stay
+past midday and it collapses into slush. Aspect shifts the schedule:
+east faces ripen first, west last.
 
 In settled spring weather the freeze curve breathes daily: up
 through the afternoon, down overnight. The snowpack follows with a
@@ -70,14 +82,17 @@ exactly the loading pattern avalanche bulletins get animated about.
 The curve's *direction during the storm hours* tells you which
 you're getting tomorrow.
 
-## Where the numbers come from, honestly
+## Where does the freezing-level forecast come from?
 
 Alpy's curve is built from [Open-Meteo](https://open-meteo.com)
 forecast data — model output, refreshed through the day, for your
-resort's exact coordinates. Model freezing levels are good and not
-gospel: local effects (cold air pooling in valleys, föhn winds) can
-shift reality a hundred metres or more from the model, and the app
-does not pretend otherwise — the curve is labeled with its source,
+resort's exact coordinates (Open-Meteo's
+[`freezing_level_height`](https://open-meteo.com/en/docs) variable:
+the altitude of the 0 °C level). Model freezing levels are good and
+not gospel: local effects (cold air pooling in valleys, föhn winds)
+can shift reality a hundred metres or more from the model.
+
+The app does not pretend otherwise — the curve is labeled with its source,
 and it's a planning instrument, not a promise. The summit
 temperature shown beside it is the same model sampled at your
 summit's elevation, which is why it routinely reads 8–10 °C colder

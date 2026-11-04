@@ -16,14 +16,17 @@ This is the long version of how Alpy turns those sensors into the
 numbers on your debrief — and why some of those numbers come with a
 tilde or a ± attached.
 
-## GPS: great at where, mediocre at how high, sneaky about how fast
+## How accurate is phone GPS on a ski slope?
 
+Great at where, mediocre at how high, sneaky about how fast.
 Satellite positioning solves your location from timing differences
 across visible satellites. Horizontally, with open sky, a phone sits
-within a few metres of the truth. Two things degrade on a mountain:
+within a few metres of the truth; altitude and speed are where it
+degrades on a mountain.
 
-**Altitude.** Vertical error runs two to three times horizontal
-error by geometry alone — the satellites that would pin your height
+**Altitude.** Vertical error runs
+[two to three times horizontal error](https://pmc.ncbi.nlm.nih.gov/articles/PMC12349078/)
+by geometry alone — the satellites that would pin your height
 best are below the horizon. Add a valley wall blocking half the sky
 and ±15 m of altitude wobble is normal. For a ski app this is
 poison: altitude drives everything (run detection, vertical totals),
@@ -33,8 +36,9 @@ all afternoon.
 **Speed.** Phones don't derive speed from successive positions
 (hopeless noise); they use the Doppler shift of the satellite
 carriers, which is much better — typically within 1–2 km/h in open
-terrain. But iOS reports a per-reading confidence alongside every
-speed, and that confidence collapses in trees and tight terrain.
+terrain. But iOS reports a
+[per-reading confidence](https://developer.apple.com/documentation/corelocation/cllocation/speedaccuracy)
+alongside every speed, and that confidence collapses in trees and tight terrain.
 Most apps discard the confidence number. Alpy records the one
 attached to the moment your top speed was set, and prints the result
 as **54 ±3 km/h** — because a headline number without its error bar
@@ -59,12 +63,13 @@ tracks truth with less than a third of raw GPS's error. Every point
 Alpy records while tracking rides the fused value, which is why run
 detection doesn't stutter and vertical totals don't inflate.
 
-## The accelerometer: two honest tricks and a trap
+## What can a phone's accelerometer measure while skiing?
 
-Raw accelerometer data is the noisiest signal on the phone — every
-chatter of the piste, every pocket bounce. It still yields two
-measurements nothing else can, both built on the same idea: look
-for signatures that can't be faked by noise.
+Two things nothing else on the phone can: airtime and turn load. Raw
+accelerometer data is the noisiest signal on the phone — every
+chatter of the piste, every pocket bounce — so both measurements are
+built on the same idea: look for signatures that can't be faked by
+noise. There's one trap, too.
 
 **Airtime.** In freefall, an accelerometer reads zero — you, the
 phone, and the sensor's test mass all accelerate identically, so
@@ -88,9 +93,9 @@ sustained carve can set it. The number still wears a tilde. It's an
 estimate until we've validated it against instrumented skiing, and
 the app says so in the same breath it shows the number.
 
-## Turns: the estimate that's honest about being one
+## How does a phone count ski turns?
 
-Turn counting uses GPS heading swings: linked turns sweep your
+From GPS heading swings: linked turns sweep your
 course left-right-left, and each sustained swing past 30° (with
 hysteresis, so jitter can't double-count) is a turn. The method's
 blind spot is sampling: at one fix per second, tight slalom turns

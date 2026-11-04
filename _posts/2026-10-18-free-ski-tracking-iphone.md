@@ -16,12 +16,13 @@ That model is legitimate (servers and licensed maps cost money), but
 it means the free tier is mostly a diary, with the interesting
 numbers held back.
 
-## What "actually free" looks like
+## Is there a ski tracker for iPhone that's completely free?
 
-Alpy's bet is different: no premium tier exists, because the app has
-no servers to fund — maps come from OpenStreetMap, weather from
-Open-Meteo, AI runs on the device, and your data stays on the phone.
-So the whole instrument panel is free:
+Yes — that's Alpy's bet. No premium tier exists, because the app has
+no servers to fund: maps come from
+[OpenStreetMap](https://www.openstreetmap.org/copyright), weather from
+[Open-Meteo](https://open-meteo.com/), AI runs on the device, and
+your data stays on the phone. So the whole instrument panel is free:
 
 - Per-run metrics: time, drop, top/average speed, estimated turns,
   course, airtime estimates

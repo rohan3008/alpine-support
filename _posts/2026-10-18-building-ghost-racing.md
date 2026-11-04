@@ -24,18 +24,21 @@ one pulls up at the lift, the other carries on to the restaurant.
 So the first decision is what a "segment" even is. Our answer: a
 segment is a *named piste in OpenStreetMap*. OSM contributors have
 mapped the world's ski areas in remarkable detail — runs with names
-and difficulties, drawn as coordinate chains. If we can tell which
+and [difficulties](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty),
+drawn as coordinate chains. If we can tell which
 named run a descent happened on, each descent becomes an *attempt* on
 that run, and a record book follows naturally.
 
-## Matching a GPS line to a named run
+## How does Alpy know which run you skied?
 
-The matcher works by majority vote. Take every GPS fix in a descent,
-and for each one ask: which named piste's geometry passes within a
-40-metre corridor of this point? Whichever run claims the majority of
-the points claims the descent. The corridor absorbs both GPS error
-and the width of a real piste; the majority rule stops a run from
-being claimed by the piste you merely crossed at an intersection.
+By majority vote. Take every GPS fix in a descent, and for each one
+ask: which named piste's geometry passes within a 40-metre corridor
+of this point? Whichever run claims the majority of the points claims
+the descent.
+
+The corridor absorbs both GPS error and the width of a real piste;
+the majority rule stops a run from being claimed by the piste you
+merely crossed at an intersection.
 
 Just as important is what happens when *nothing* claims the points:
 the descent is honestly unnamed. Off-piste lines, connector tracks,
@@ -44,18 +47,19 @@ descent never enters the record book. We considered snapping unnamed
 descents to the nearest run and decided against it: an instrument
 that guesses is worse than an instrument that admits ignorance.
 
-## The partial-descent problem
+## How do you stop half a run from setting a record?
 
-The first version of the record book had an exploit we found within
-an hour: bail out halfway down a run and you'd post an unbeatable
-"record," because half a run takes half the time. Any skier would
-spot the cheat instantly; the code had to.
+With the **full-drop rule**: for every segment we track the deepest
+vertical drop any attempt has recorded, and an attempt only competes
+for records if its own drop is at least 80% of that. Below the line,
+it's marked *partial* — kept in your history, excluded from the
+race.
 
-The fix is the **full-drop rule**: for every segment we track the
-deepest vertical drop any attempt has recorded, and an attempt only
-competes for records if its own drop is at least 80% of that. Below
-the line, it's marked *partial* — kept in your history, excluded
-from the race. The threshold is deliberately forgiving: GPS vertical
+We needed it fast. The first version of the record book had an
+exploit we found within an hour: bail out halfway down a run and
+you'd post an unbeatable "record," because half a run takes half the
+time. Any skier would spot the cheat instantly; the code had to. The
+threshold is deliberately forgiving: GPS vertical
 error and different pull-out points eat 10–15% easily, and a rule
 that disqualified honest runs would be worse than the exploit.
 
@@ -63,10 +67,16 @@ One subtlety: the "deepest drop" baseline is computed across all
 attempts *including today's*, so the first person ever to ski the
 full run correctly resets the bar for what "full" means.
 
-## The delta: comparing two runs that took different lines
+## How do you compare two ski runs that took different lines?
 
-Here's the genuinely interesting problem. You're forty seconds into
-today's descent. Your PR took a different line — entered three
+By vertical drop, not position. You compare the two runs at the same
+depth below the start: when you've dropped 180 m, how long had the
+ghost taken to drop 180 m? The difference in time is your delta, and
+it holds up even when the two runs took different lines down the
+same piste.
+
+Getting there was the genuinely interesting problem. You're forty
+seconds into today's descent. Your PR took a different line — entered three
 metres higher, swung wider at the second pitch. "Where was the ghost
 at forty seconds?" is easy to answer but useless to display, because
 position isn't progress: the ghost might be ahead on the clock but

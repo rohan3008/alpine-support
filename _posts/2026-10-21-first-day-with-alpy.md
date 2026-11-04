@@ -13,22 +13,41 @@ what actually happens on a ski day, hour by hour. I built Alpy, so
 read this as the maker's intended path through it — then bend it to
 your own day.
 
-## 7:00 — the morning report
+## How to use Alpy on a first ski day
+
+Read the morning report, pick your runs on the 3D map, press Start
+Tracking once, and let it run. Runs and lifts are detected
+automatically, so there's nothing to tap at each lift; when you stop
+tracking, the day turns into a replay, a per-run debrief and a
+written summary — all on the phone, no account.
+
+1. **7:00 — read the morning report** on the Telemetry page.
+2. **7:40 — pick where to go** on the 3D winter map.
+3. **9:00 — press Start Tracking**, once.
+4. **12:30 — glance, don't fiddle:** the on-hill screen is built to
+   be read in three seconds.
+5. **16:30 — watch the light** if the day runs long.
+6. **17:00 — stop tracking and read the debrief.**
+
+Here's each step in detail.
+
+### 1. 7:00 — the morning report
 
 Open the app and the Telemetry page is already a cockpit: summit
 temperature with feels-like, overnight snowfall, base depth, wind and
 gusts, and the freeze-level curve — a line showing exactly which
 altitudes stay wintry today and which turn soft after lunch. If
 there's an avalanche bulletin for your region, it's there with the
-EAWS danger level, and when the bulletin names dangerous slope
-aspects, a compass rose shades them in.
+[EAWS danger level](https://www.avalanches.org/standards/avalanche-danger-scale/),
+and when the bulletin names dangerous slope aspects, a compass rose
+shades them in.
 
 Below that, a morning report in prose. On recent iPhones it's written
 by Apple Intelligence **on your phone** — the AI never invents a
 number; it rephrases the measured ones above it, and the card says
 which voice wrote it.
 
-## 7:40 — deciding where to go
+### 2. 7:40 — deciding where to go
 
 The trail map opens on a 3D winter mountain: real terrain, snow-white
 with relief shading, and the resort's actual piste network drawn over
@@ -37,7 +56,7 @@ OpenStreetMap. Tap a run in the list and it lights up on the mountain
 while the camera flies to it. One tap switches to a flat paper chart
 when you just want the diagram.
 
-## 9:00 — Start Tracking
+### 3. 9:00 — Start Tracking
 
 One button. From here the app measures your day: runs and lifts are
 detected automatically from altitude trends, so there's nothing to
@@ -51,7 +70,7 @@ in the line (standing-still GPS just before boarding), and if a
 bulletin is active, your debrief will flag any run whose course
 pointed into the named aspects.
 
-## 12:30 — the glance test
+### 4. 12:30 — the glance test
 
 On the hill, the useful screen is the one you can read in three
 seconds with gloves on. Big numerals, no menus. If your battery drops
@@ -59,13 +78,13 @@ to 10%, the app stops tracking and **saves the day** before iOS can
 kill it — a trick we borrowed, with credit, from the apps that
 learned it the hard way.
 
-## 16:30 — last run
+### 5. 16:30 — last run
 
 If the day runs long, a chip appears while tracking: sunset time and
 minutes of light left, counted from the resort's actual forecast
 sunset. It states the fact; the call is yours.
 
-## 17:00 — the debrief
+### 6. 17:00 — the debrief
 
 Stop tracking and the day becomes three things:
 
@@ -79,12 +98,12 @@ Stop tracking and the day becomes three things:
    your measured numbers: descent rate, time-on-snow, the standout
    run, consistency. On-device AI again, and labeled.
 
-## What never happens
+## Does Alpy upload your ski day anywhere?
 
-No account was created. No GPS point left the phone. Nothing was
+No. No account was created. No GPS point left the phone. Nothing was
 uploaded, because there is no server to upload to. That's not a
 settings toggle — it's the architecture.
 
-[Alpy is free on the App Store](../) — no subscription, no ads. If
-you try it for a first day, the [season-opening checklist](season-opening-checklist/)
+[Alpy is free on the App Store](/) — no subscription, no ads. If
+you try it for a first day, the [season-opening checklist](/blog/season-opening-checklist/)
 pairs well with it.

@@ -6,11 +6,19 @@ description: "How Alpy uses Apple's on-device foundation model to write morning 
 # On-device AI for skiers: a morning report that never phones home
 
 Since 2025, iPhones with Apple Intelligence carry a capable language
-model *on the device*. For an app like Alpy this changes the AI
-trade entirely: prose quality without a cloud bill, an API key, or a
-single byte of your data leaving the phone.
+model *on the device* that apps can use through Apple's
+[Foundation Models framework](https://developer.apple.com/documentation/foundationmodels).
+For an app like Alpy this changes the AI trade entirely: prose
+quality without a cloud bill, an API key, or a single byte of your
+data leaving the phone.
 
-## What the model is allowed to do
+## What does on-device AI do in a ski app?
+
+In Alpy, it writes — and only writes. Apple's on-device model turns
+measured numbers into plain sentences: a morning report from today's
+conditions and an end-of-day paragraph from your runs. It never
+invents a number, never supplies world knowledge, and every
+paragraph it writes is labeled as AI.
 
 Alpy uses on-device AI in two places: the **morning report** (a few
 sentences turning today's measured conditions into plain language)
@@ -26,7 +34,7 @@ airs. Small on-device models hallucinate more readily than frontier
 cloud models, which is why we don't ask this one for world knowledge
 — no "best runs at Verbier" from a model that might make them up.
 
-## Labels, always
+## How do you know when a ski report was written by AI?
 
 Every AI-written paragraph in Alpy carries a chip saying who wrote
 it: **ON-DEVICE AI** when Apple's model is available, **AUTO
