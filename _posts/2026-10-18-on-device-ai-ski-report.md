@@ -42,7 +42,7 @@ we don't ask it for world knowledge at all — no "best runs at
 Verbier" from a model that might make them up.
 
 One exception, so nobody is surprised: the resort guides on the
-Guides tab (a resort's character, run picks, food and après) were
+Resort tab (a resort's character, run picks, food and après) were
 written ahead of time by a cloud model, Anthropic's Claude, from its
 general knowledge, and ship inside the app. Each one is labeled with
 the model and the month it was written, plus a warning that names
@@ -64,5 +64,5 @@ That's the whole architecture: AI as a writer, instruments as the
 source of truth, and nothing leaving the phone. The 2026 version of
 "no cloud" isn't anti-AI — it's AI that moved in with you.
 
-*Alpy is free, with all AI on-device.
+*Alpy is free, and the AI that runs in the app runs on your phone.
 [Privacy policy](/privacy/).*
