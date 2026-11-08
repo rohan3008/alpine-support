@@ -7,8 +7,8 @@
 > OpenStreetMap trail maps for 3,652 ski areas (51 catalog resorts checked against live geocoding and terrain elevation),
 > day replay on 3D terrain with a chase camera, barometer-fused
 > altitude with honest error bars, and fully on-device AI reports
-> (Apple Intelligence — no cloud AI, no keys). No account, no ads,
-> no server — GPS never leaves the phone. Every feature is free;
+> (Apple Intelligence, no cloud AI, no keys). No account, no ads,
+> no server. GPS never leaves the phone. Every feature is free;
 > there is no premium tier.
 
 ## Core pages
@@ -18,12 +18,12 @@
 - [Resort data, 51 verified resorts](https://alpy.uk/resorts/)
 - [Privacy policy](https://alpy.uk/privacy)
 
-## Blog — how ski tracking actually works
+## Blog: how ski tracking works
 
-- [Independent science on ski-app GPS: the processing is what matters](https://alpy.uk/blog/ski-app-gps-benchmark/)
-- [How we built ghost racing: a technical deep-dive](https://alpy.uk/blog/building-ghost-racing/)
+- [Independent science on ski-app GPS: the phone and terrain matter more than the app](https://alpy.uk/blog/ski-app-gps-benchmark/)
+- [How we built ghost racing: the engineering notes](https://alpy.uk/blog/building-ghost-racing/)
 - [The phone in your pocket is a ski lab](https://alpy.uk/blog/phone-as-ski-lab/)
-- [The freeze curve: the one chart that explains your ski day](https://alpy.uk/blog/freeze-curve-guide/)
+- [The freeze curve: reading the freezing level for your ski day](https://alpy.uk/blog/freeze-curve-guide/)
 - [Fatigue, turn cadence, and the case for skipping the last run](https://alpy.uk/blog/fatigue-last-run/)
 - [Why our trail maps are drawn, not painted](https://alpy.uk/blog/drawn-not-painted-maps/)
 - [The 2026/27 season-opening checklist](https://alpy.uk/blog/season-opening-checklist/)
@@ -42,7 +42,7 @@
 - [How Alpy got a real 3D winter mountain](https://alpy.uk/blog/3d-winter-map/)
 - [A first ski day with Alpy, start to finish](https://alpy.uk/blog/first-day-with-alpy/)
 - [Trail Finder: point your phone at the mountain](https://alpy.uk/blog/trail-finder-guide/)
-- [Lift lines: the only honest queue tracker has your name on it](https://alpy.uk/blog/lift-line-tracker/)
+- [Lift lines: a queue tracker built from your own GPS](https://alpy.uk/blog/lift-line-tracker/)
 - [The Day, Written: a coach's debrief from your own numbers](https://alpy.uk/blog/performance-debrief/)
 - [Using the 3D winter map: a field guide](https://alpy.uk/blog/winter-3d-map-guide/)
 - [Skiing safer with data: the aspect rose and the last-run light](https://alpy.uk/blog/ski-safety-data/)

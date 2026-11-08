@@ -16,33 +16,33 @@ Read it in four passes: the danger level, the compass aspects where
 the problem lives, the elevations where it starts, then the problem
 type.
 Together they say how dangerous today is, where on the mountain, and
-what kind of avalanche to expect — which is what turns a number into
+what kind of avalanche to expect. That's what turns a number into
 terrain choices.
 
-1. **Read the danger level (1–5).** Low, Moderate, Considerable,
-   High, then Very high in Europe or Extreme in North America — the
+1. Read the danger level (1–5). Low, Moderate, Considerable,
+   High, then Very high in Europe or Extreme in North America. It's the
    same five-level scale on both continents (see the
    [European scale](https://www.avalanches.org/standards/avalanche-danger-scale/)
    and the
    [North American scale](https://avalanche.org/avalanche-encyclopedia/human/resources/north-american-public-avalanche-danger-scale/)).
-   The non-obvious part: the scale isn't linear. In
+   What isn't obvious is that the scale isn't linear. In
    [SLF's words](https://www.slf.ch/en/avalanche-bulletin-and-snow-situation/about-the-avalanche-bulletin/danger-levels/),
    danger "increases disproportionately with the danger level." The
    same page puts level 3, *Considerable*, at around 30% of winter
    forecasts but around 50% of avalanche fatalities, and calls it
-   "the most critical situation for backcountry recreationists" —
+   "the most critical situation for backcountry recreationists",
    so don't read "3 of 5" as "fine."
-2. **Find the critical aspects.** Bulletins name the compass
-   directions where the problem lives — "NW through NE above
+2. Find the critical aspects. Bulletins name the compass
+   directions where the problem lives, and "NW through NE above
    2,400 m" is a different mountain than "all aspects."
    [Aspect](https://avalanche.org/avalanche-encyclopedia/terrain/slope-characteristics/aspect/)
    is the compass orientation of a slope.
-3. **Check the elevation bands.** Bulletins state the elevations the
+3. Check the elevation bands. Bulletins state the elevations the
    problem applies to; at level 3, SLF's advice is to avoid very
    steep slopes "with the aspect and elevation indicated in the
    avalanche bulletin."
-4. **Read the problem type.** Wind slab, persistent weak layer, wet
-   snow — each implies different terrain choices and different
+4. Read the problem type. Wind slab, persistent weak layer and wet
+   snow each imply different terrain choices and different
    timing. The
    [EAWS avalanche problems](https://www.avalanches.org/standards/avalanche-problems/)
    page gives the standard definitions and the typical advice for
@@ -50,10 +50,10 @@ terrain choices.
 
 ## Should a ski app summarize the avalanche bulletin?
 
-No. A summary of a bulletin is a liability pretending to be a
-service. Alpy shows the official bulletin for your resort's region —
-from [SLF](https://www.slf.ch) in Switzerland and
-[avalanche.org](https://avalanche.org) in the US — with the level on
+No. We think a summary of a bulletin is a liability, however
+helpful it looks. Alpy shows the official bulletin for your resort's
+region, from [SLF](https://www.slf.ch) in Switzerland and
+[avalanche.org](https://avalanche.org) in the US. You get the level on
 the five-step scale (for SLF, the highest level the bulletin gives
 across its elevation bands), the bulletin's own text where the feed
 includes it, the issuing service named and, for SLF, the aspects and

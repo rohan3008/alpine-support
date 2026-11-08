@@ -1,24 +1,24 @@
 ---
-title: "Tignes — ski data, passes & trail map"
+title: "Tignes: ski data, passes & trail map"
 description: "Tignes, France: 2,100 m to 3,456 m, 1,356 m vertical. About 180 km of pistes mapped on OpenStreetMap, passes and avalanche bulletins."
 ---
 
 # Tignes
 
-*France · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
+*France · one of the 51 catalog resorts in [Alpy](/), the free ski app. Coordinates and base elevation are checked against live geocoding and terrain-elevation data.*
 
-Tignes, in France, has lift-served terrain from 2,100 m at the base to 3,456 m, a 1,356 m vertical. OpenStreetMap volunteers have mapped about 180 km of downhill pistes and 62 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
+Tignes, in France, has lift-served terrain from 2,100 m at the base to 3,456 m, a 1,356 m vertical. OpenStreetMap volunteers have mapped about 180 km of downhill pistes and 62 passenger lifts within 7 km of the base area. That is a map count, not the resort's own figure. For the 2026/27 season it is not on the Epic, Ikon, Mountain Collective or Magic Pass, so you'll need a local lift pass.
 
 ## Elevation and vertical
 
 - **Base:** 2,100 m
 - **Summit:** 3,456 m
 - **Lift-served vertical:** 1,356 m
-- **Coordinates:** 45.4686, 6.9093 (village/base area, verified against live geocoding and terrain elevation)
+- **Coordinates:** 45.4686, 6.9093 (village/base area)
 
 ## Pistes on the map
 
-These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Tignes's base-area coordinates, as baked into Alpy on 4 November 2026. They are **not** Tignes's official piste kilometres: OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges are not counted as run length.
+These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Tignes's base-area coordinates, as baked into Alpy on 4 November 2026. They are not Tignes's official piste kilometres. OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges do not count as run length.
 
 - **Downhill pistes mapped:** about 180 km
 - **Named runs:** 135
@@ -61,11 +61,11 @@ Segments that share a name are added together.
 
 ## Avalanche bulletins
 
-- **Avalanche bulletins:** regional bulletin where available — Alpy shows an honest “no bulletin” state when none covers this area
+- **Source:** regional bulletin where available. Alpy shows a "no bulletin" state when none covers this area
 
 ## Using Alpy here
 
-At Tignes, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS, then lets you replay the day, race your own ghost and keep personal records for each run, with on-device Apple Intelligence summaries. Avalanche bulletins come from SLF and avalanche.org where they exist.
+At Tignes, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS. You can replay the day, race your own ghost and keep personal records for each run, and on-device Apple Intelligence summarises it. Avalanche bulletins come from SLF and avalanche.org where they exist.
 
 Alpy is free, with no account and no ads, and your GPS track never leaves your phone.
 

@@ -12,10 +12,8 @@ of about 0.5 m/s (~2 km/h), but the error grew at
 higher speeds and in more obstructed terrain, and the worst single
 reading was off by 21.5 m/s (over 75 km/h). So the honest answer is
 the number on screen, plus or minus whatever the phone's own accuracy
-estimate said at that instant.
-
-That's the uncomfortable bit for every group chat with someone
-claiming 70 km/h off their tracker.
+estimate said at that instant. That's awkward news for every group
+chat with someone claiming 70 km/h off their tracker.
 
 ## How do ski apps measure top speed?
 
@@ -29,22 +27,20 @@ much.
 ## How should a ski tracker report top speed?
 
 With its error bar attached. Alpy keeps the accuracy value iOS
-attached to the fastest speed reading of the day — the phone's own
-estimate of how far off the reading could be — and prints the
-headline number with it: **54 ±3 km/h**.
+attached to the fastest speed reading of the day (the phone's own
+estimate of how far off the reading could be) and prints the
+headline number with it: 54 ±3 km/h.
 
-Two things follow:
+A small ± means the phone itself was confident about that top speed,
+so you can trust it more. A big ± means the phone flagged the
+reading as shaky. At 54 ±6 you might have hit 60 or you might have
+hit 48, and the app doesn't pretend to know which.
 
-- A top speed with a small ± is one the phone itself was confident
-  about. Trust it more.
-- A top speed with a big ± is one the phone itself flagged as shaky.
-  At 54 ±6, maybe you hit 60, maybe 48. The app refuses to pretend it
-  knows.
-
-We think a top speed without its error bar is backwards: the error
-bar is what makes the number mean something. It's the same reason Alpy labels turn counts and airtime
-as estimates — measured numbers and estimated numbers both have a
-place, as long as you can tell which is which.
+We think a top speed without its error bar is backwards, because the
+error bar is what makes the number mean something. It's the same
+reason Alpy labels turn counts and airtime as estimates. Measured
+numbers and estimated numbers both have a place, as long as you can
+tell which is which.
 
 *Alpy is a free ski app for iPhone that labels every number by how it
 was measured. [More](/).*

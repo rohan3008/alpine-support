@@ -1,24 +1,24 @@
 ---
-title: "Kaprun — ski data, passes & trail map"
+title: "Kaprun: ski data, passes & trail map"
 description: "Kaprun, Austria: 786 m to 3,029 m, 2,243 m vertical. About 62 km of pistes mapped on OpenStreetMap, passes and avalanche bulletins."
 ---
 
 # Kaprun
 
-*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app. Coordinates and base elevation are checked against live geocoding and terrain-elevation data.*
 
-Kaprun, in Austria, has lift-served terrain from 786 m at the base to 3,029 m, a 2,243 m vertical. OpenStreetMap volunteers have mapped about 62 km of downhill pistes and 39 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
+Kaprun, in Austria, has lift-served terrain from 786 m at the base to 3,029 m, a 2,243 m vertical. OpenStreetMap volunteers have mapped about 62 km of downhill pistes and 39 passenger lifts within 7 km of the base area. That is a map count, not the resort's own figure. For the 2026/27 season it is covered by Epic (limited days).
 
 ## Elevation and vertical
 
 - **Base:** 786 m
 - **Summit:** 3,029 m
 - **Lift-served vertical:** 2,243 m
-- **Coordinates:** 47.2731, 12.7597 (village/base area, verified against live geocoding and terrain elevation)
+- **Coordinates:** 47.2731, 12.7597 (village/base area)
 
 ## Pistes on the map
 
-These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Kaprun's base-area coordinates, as baked into Alpy on 4 November 2026. They are **not** Kaprun's official piste kilometres: OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges are not counted as run length.
+These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Kaprun's base-area coordinates, as baked into Alpy on 4 November 2026. They are not Kaprun's official piste kilometres. OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges do not count as run length.
 
 - **Downhill pistes mapped:** about 62 km
 - **Named runs:** 31
@@ -62,11 +62,11 @@ Segments that share a name are added together.
 
 ## Avalanche bulletins
 
-- **Avalanche bulletins:** regional bulletin where available — Alpy shows an honest “no bulletin” state when none covers this area
+- **Source:** regional bulletin where available. Alpy shows a "no bulletin" state when none covers this area
 
 ## Using Alpy here
 
-At Kaprun, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS, then lets you replay the day, race your own ghost and keep personal records for each run, with on-device Apple Intelligence summaries. Avalanche bulletins come from SLF and avalanche.org where they exist.
+At Kaprun, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS. You can replay the day, race your own ghost and keep personal records for each run, and on-device Apple Intelligence summarises it. Avalanche bulletins come from SLF and avalanche.org where they exist.
 
 Alpy is free, with no account and no ads, and your GPS track never leaves your phone.
 

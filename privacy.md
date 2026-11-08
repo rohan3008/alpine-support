@@ -1,4 +1,4 @@
-# Alpy — Privacy Policy
+# Alpy: Privacy Policy
 
 _Last updated: 6 November 2026_
 

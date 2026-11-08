@@ -1,10 +1,10 @@
 ---
-title: "Turnaround — Privacy Policy"
+title: "Turnaround: Privacy Policy"
 permalink: /turnaround/privacy/
 sitemap: false
 ---
 
-# Turnaround — Privacy Policy
+# Turnaround: Privacy Policy
 
 _Last updated: 24 October 2026_
 

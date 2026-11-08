@@ -1,24 +1,24 @@
 ---
-title: "Lech — ski data, passes & trail map"
+title: "Lech: ski data, passes & trail map"
 description: "Lech, Austria: 1,450 m to 2,377 m, 927 m vertical. About 235 km of pistes mapped on OpenStreetMap, passes and avalanche bulletins."
 ---
 
 # Lech
 
-*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app, with coordinates and base elevation checked against live geocoding and terrain-elevation data.*
+*Austria · one of the 51 catalog resorts in [Alpy](/), the free ski app. Coordinates and base elevation are checked against live geocoding and terrain-elevation data.*
 
-Lech, in Austria, has lift-served terrain from 1,450 m at the base to 2,377 m, a 927 m vertical. OpenStreetMap volunteers have mapped about 235 km of downhill pistes and 56 passenger lifts within 7 km of the base area; that is a map count, not the resort's advertised figure. For the 2026/27 season it is covered by Epic (limited days).
+Lech, in Austria, has lift-served terrain from 1,450 m at the base to 2,377 m, a 927 m vertical. OpenStreetMap volunteers have mapped about 235 km of downhill pistes and 56 passenger lifts within 7 km of the base area. That is a map count, not the resort's own figure. For the 2026/27 season it is covered by Epic (limited days).
 
 ## Elevation and vertical
 
 - **Base:** 1,450 m
 - **Summit:** 2,377 m
 - **Lift-served vertical:** 927 m
-- **Coordinates:** 47.2081, 10.1419 (village/base area, verified against live geocoding and terrain elevation)
+- **Coordinates:** 47.2081, 10.1419 (village/base area)
 
 ## Pistes on the map
 
-These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Lech's base-area coordinates, as baked into Alpy on 4 November 2026. They are **not** Lech's official piste kilometres: OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges are not counted as run length.
+These numbers count what volunteers have drawn on OpenStreetMap within 7 km of Lech's base-area coordinates, as baked into Alpy on 4 November 2026. They are not Lech's official piste kilometres. OpenStreetMap measures each mapped piste line, can include runs from neighbouring areas inside that circle, and misses anything nobody has mapped yet. Piste areas drawn as closed outlines are left out, so their edges do not count as run length.
 
 - **Downhill pistes mapped:** about 235 km
 - **Named runs:** 79
@@ -65,11 +65,11 @@ Segments that share a name are added together.
 
 ## Avalanche bulletins
 
-- **Avalanche bulletins:** regional bulletin where available — Alpy shows an honest “no bulletin” state when none covers this area
+- **Source:** regional bulletin where available. Alpy shows a "no bulletin" state when none covers this area
 
 ## Using Alpy here
 
-At Lech, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS, then lets you replay the day, race your own ghost and keep personal records for each run, with on-device Apple Intelligence summaries. Avalanche bulletins come from SLF and avalanche.org where they exist.
+At Lech, Alpy shows a schematic trail chart and an interactive 3D map drawn from OpenStreetMap piste data, live summit weather and the freeze curve from Open-Meteo, and powder alerts. It tracks your ski day by GPS. You can replay the day, race your own ghost and keep personal records for each run, and on-device Apple Intelligence summarises it. Avalanche bulletins come from SLF and avalanche.org where they exist.
 
 Alpy is free, with no account and no ads, and your GPS track never leaves your phone.
 

@@ -1,6 +1,6 @@
 ---
 title: "Become an Alpy beta tester"
-description: "Ski the 2026/27 season with Alpy before everyone else — join the TestFlight beta. Free app, no account, GPS never leaves your phone."
+description: "Ski the 2026/27 season with Alpy before everyone else. Join the TestFlight beta. Free app, no account, GPS never leaves your phone."
 permalink: /beta/
 image: /assets/img/og-default.jpg
 ---
@@ -12,18 +12,16 @@ image: /assets/img/og-default.jpg
 <p align="center"><img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: your line in red over the terrain, with the ghost-race gap on the clock" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 
-Alpy launches for the 2026/27 season — and the first tracked days on
+Alpy launches for the 2026/27 season, and the first tracked days on
 real snow will belong to beta testers. If you want the app before
 everyone else and don't mind telling us when something breaks, we'd
 love to have you.
 
-**What you get:** the full app via Apple's TestFlight, every feature
-free (that part never changes), and a direct line to the developer —
-feature requests from beta testers have a habit of shipping within
-days.
+You get the full app via Apple's TestFlight, every feature free (that
+part never changes), and a direct line to the developer. Feature
+requests from beta testers have a habit of shipping within days.
 
-**What we ask:** ski with it, and tell us what felt wrong. That's the
-whole job.
+In return, ski with it and tell us what felt wrong.
 
 <form action="https://formsubmit.co/rohanshah90@gmail.com" method="POST" style="max-width:28rem; margin:1.5rem 0; padding:1.25rem; border:1px solid #d0d7de; border-radius:10px;">
   <input type="hidden" name="_subject" value="Alpy beta signup">
@@ -50,14 +48,14 @@ whole job.
   </button>
 </form>
 
-### The honest fine print
+### What happens to your email
 
 Your email goes directly to the developer (delivered by
-[FormSubmit](https://formsubmit.co), which relays the form — no
+[FormSubmit](https://formsubmit.co), which relays the form, and no
 account is created anywhere). It's used for exactly two things: your
 TestFlight invite, and one note when the app launches. Never shared,
-never sold, deleted on request — just reply to any mail. The app
-itself stays account-free: this list is about getting the beta to
-you, not tracking you.
+never sold, deleted on request: just reply to any mail. The app
+itself stays account-free, and this list exists only to get the beta
+to you.
 
 [← Back to Alpy](../) · [Privacy policy](../privacy)

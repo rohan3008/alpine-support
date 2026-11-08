@@ -1,16 +1,16 @@
 ---
-title: "The Alpy blog — honest ski-tech writing"
+title: "The Alpy blog: honest ski-tech writing"
 description: "How ski tracking really works: GPS vs barometer, turn estimates, ghost racing, avalanche bulletins, pass coverage and on-device AI, from Alpy's makers."
 ---
 
 # The Alpy blog
 
-Writing about how ski tracking actually works — measurement, honest
+Writing about how ski tracking works: measurement, honest
 estimates, open data, and what a no-server app can and can't do.
 Every number here traces to the app or a named source.
 
 {% for post in site.posts %}
-- **[{{ post.title }}]({{ post.url | relative_url }})** — {{ post.description }}
+- [{{ post.title }}]({{ post.url | relative_url }}): {{ post.description }}
 {% endfor %}
 
 *Alpy is a free, privacy-first ski app for iPhone.
