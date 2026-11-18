@@ -1,0 +1,50 @@
+/* Pisteway site. Palette: Sanzo Wada combination 271 (docs/DESIGN.md). System fonts only. */
+:root {
+  --paper: #EEF6F1;
+  --surface: #F8FBF9;
+  --ink: #08201D;
+  --muted: #3F5F55;
+  --border: #CFE3D6;
+  --highlight: #099197;
+  --link: #066B70;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #03100F;
+    --surface: #081C1A;
+    --ink: #E4F3E8;
+    --muted: #8DAF97;
+    --border: #173431;
+    --link: #E4F3E8;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+header img { width: 72px; height: 72px; border-radius: 16px; border: 1px solid var(--border); flex: none; }
+h1 { font-size: 1.9rem; line-height: 1.15; margin: 0; letter-spacing: 0.01em; }
+.tag { margin: 4px 0 0; color: var(--muted); }
+h2 {
+  font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted); margin: 40px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+}
+h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 20px; }
+li { margin-bottom: 6px; }
+a { color: var(--link); text-underline-offset: 2px; }
+.contact {
+  background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--highlight);
+  padding: 12px 16px; margin: 16px 0; overflow-wrap: anywhere;
+}
+.email { font-weight: 600; user-select: all; }
+footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+footer a { color: inherit; }
