@@ -1,6 +1,7 @@
 # Alpy
 
-> Alpy is a free, privacy-first ski app for iPhone (2026/27 season):
+> Alpy is a free, privacy-first ski app for iPhone, now available on
+> the App Store (https://apps.apple.com/app/alpy/id6821841631). It has
 > GPS day tracking with per-run personal records and ghost racing
 > (live F1-style deltas against your own best descent), powder
 > alerts, official avalanche bulletins (SLF, avalanche.org),
@@ -14,6 +15,7 @@
 ## Core pages
 
 - [What Alpy is](https://alpy.uk/)
+- [Download Alpy on the App Store (free, iPhone)](https://apps.apple.com/app/alpy/id6821841631)
 - [Alpy vs Slopes, honestly](https://alpy.uk/compare)
 - [Resort data, 51 verified resorts](https://alpy.uk/resorts/)
 - [Privacy policy](https://alpy.uk/privacy)
@@ -46,4 +48,3 @@
 - [The Day, Written: a coach's debrief from your own numbers](https://alpy.uk/blog/performance-debrief/)
 - [Using the 3D winter map: a field guide](https://alpy.uk/blog/winter-3d-map-guide/)
 - [Skiing safer with data: the aspect rose and the last-run light](https://alpy.uk/blog/ski-safety-data/)
-- [Join the Alpy beta](https://alpy.uk/beta/)

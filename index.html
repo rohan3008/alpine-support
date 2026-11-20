@@ -4,6 +4,7 @@ title: "Alpy"
 description: "Free iPhone ski tracker: per-run records, powder alerts, avalanche bulletins and 3D trail maps. No account, no ads, and your GPS never leaves the phone."
 image: /assets/img/og-default.jpg
 announce: true
+body_badge: true
 ---
 <script type="application/ld+json">
 {
@@ -12,14 +13,15 @@ announce: true
   "name": "Alpy",
   "operatingSystem": "iOS",
   "applicationCategory": "SportsApplication",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
   "publisher": { "@id": "https://alpy.uk/#org" },
   "screenshot": [
     "https://alpy.uk/assets/screens/alpy-3d-winter-map.png",
     "https://alpy.uk/assets/screens/alpy-day-replay-ghost.png",
     "https://alpy.uk/assets/screens/alpy-telemetry-avalanche.png"
-  ],{% if site.appstore_url != "" %}
-  "downloadUrl": "{{ site.appstore_url }}",{% endif %}
+  ],
+  "downloadUrl": "{{ site.appstore_url }}",
+  "installUrl": "{{ site.appstore_url }}",
   "description": "Free, privacy-first ski app: GPS day tracking with per-run personal records, powder alerts, avalanche bulletins, OpenStreetMap trail maps and on-device AI reports."
 }
 </script>
@@ -65,11 +67,7 @@ announce: true
     <h1 class="display">The mountain,<br>measured.</h1>
     <p class="sub">A ski instrument panel for iPhone. Every number comes from a real source, and when there's nothing honest to say, Alpy says so.</p>
     <div class="hero-ctas">
-      {% if site.appstore_url != "" %}
       <a class="appstore-badge" href="{{ site.appstore_url }}"><img src="/assets/img/appstore-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
-      {% else %}
-      <a class="btn btn-wine" href="/beta/">Join the beta <span aria-hidden="true">→</span></a>
-      {% endif %}
       <a class="ghost" href="/compare/">How it compares</a>
     </div>
   </div>

@@ -1,13 +1,13 @@
 ---
 title: "You're on the list"
-description: "Beta signup received. Your TestFlight invite will arrive by email."
+description: "TestFlight signup received. Your invite will arrive by email."
 permalink: /beta/thanks/
 sitemap: false
 ---
 
 # You're on the list 🎿
 
-Signup received. When the next beta build goes out, your TestFlight
+Signup received. When the next test build goes out, your TestFlight
 invite arrives by email, usually within a few days.
 
 Until then, two good reads:
@@ -16,5 +16,8 @@ Until then, two good reads:
   what the app will do on your first tracked day.
 - [The season-opening checklist](/blog/season-opening-checklist/):
   get the legs and the gear ready while you wait.
+
+You don't have to wait to ski with Alpy, though. It's free on the
+[App Store]({{ site.appstore_url }}) now.
 
 [← Back to Alpy](../../)

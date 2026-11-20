@@ -38,7 +38,8 @@ App Store listing, October 2026.)
 
 If those matter most to you, use Slopes. It's a fine app. If you
 want the full instrument panel free, private and upfront about its
-estimates, that's [Alpy](./).
+estimates, that's Alpy, free on the
+[App Store]({{ site.appstore_url }}).
 
 ## Common questions
 

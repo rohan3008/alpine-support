@@ -96,6 +96,7 @@ a:hover { text-decoration-color: currentColor; }
 
 .appstore-badge { display: inline-block; line-height: 0; }
 .appstore-badge img { height: 50px; width: auto; }
+.prose .appstore-badge img { border-radius: 0; } /* Apple's artwork, unmodified */
 
 /* ---------- Announcement pill ---------- */
 .announce { padding: 8px 8px 0; }
@@ -274,6 +275,7 @@ a:hover { text-decoration-color: currentColor; }
 .footer-brand .wordmark { color: #fff; }
 .footer-brand p { margin: 12px 0 0; max-width: 300px; }
 .footer-base { margin-top: 56px; font-size: 12px; color: rgba(255,255,255,.5); }
+.footer-legal { margin-top: 8px; }
 
 /* ---------- Black feature band: screenshots sink into the black ---------- */
 .band-black { background: #000; color: #fff; }

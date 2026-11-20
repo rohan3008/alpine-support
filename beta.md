@@ -1,27 +1,28 @@
 ---
-title: "Become an Alpy beta tester"
-description: "Ski the 2026/27 season with Alpy before everyone else. Join the TestFlight beta. Free app, no account, GPS never leaves your phone."
+title: "Alpy is on the App Store"
+description: "Alpy, the free ski app for iPhone, is now on the App Store. You can still sign up here to try new features early on TestFlight."
 permalink: /beta/
 image: /assets/img/og-default.jpg
+body_badge: true
 ---
 
 <img src="/assets/img/hero-piste-1600.jpg" alt="A gloved hand holding a phone with Alpy's day replay above a wide groomed piste" style="width:100%; border-radius:14px; display:block; margin-bottom:1.25rem;">
 
-# Ski the beta
+# Alpy is on the App Store
+
+Alpy is now on the App Store. It's free, with no account and no ads,
+and your GPS track never leaves your phone.
+
+<p><a class="appstore-badge" href="{{ site.appstore_url }}"><img src="/assets/img/appstore-badge.svg" alt="Download on the App Store" width="150" height="50"></a></p>
 
 <p align="center"><img src="/assets/screens/alpy-day-replay-ghost.png" alt="Alpy day replay: your line in red over the terrain, with the ghost-race gap on the clock" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
+## Try new features early
 
-Alpy launches for the 2026/27 season, and the first tracked days on
-real snow will belong to beta testers. If you want the app before
-everyone else and don't mind telling us when something breaks, we'd
-love to have you.
-
-You get the full app via Apple's TestFlight, every feature free (that
-part never changes), and a direct line to the developer. Feature
-requests from beta testers have a habit of shipping within days.
-
-In return, ski with it and tell us what felt wrong.
+If you'd like to try new features before they reach the App Store,
+you can still sign up for Apple's TestFlight. You get the test builds
+and a direct line to the developer. In return, ski with them and tell
+us what felt wrong.
 
 <form action="https://formsubmit.co/rohanshah90@gmail.com" method="POST" style="max-width:28rem; margin:1.5rem 0; padding:1.25rem; border:1px solid #d0d7de; border-radius:10px;">
   <input type="hidden" name="_subject" value="Alpy beta signup">
@@ -44,7 +45,7 @@ In return, ski with it and tell us what felt wrong.
 
   <button type="submit"
           style="width:100%; padding:.65rem; background:#FF4D2E; color:#fff; border:none; border-radius:999px; font-size:1.05rem; font-weight:700; cursor:pointer;">
-    Join the beta
+    Send me TestFlight invites
   </button>
 </form>
 
@@ -52,10 +53,9 @@ In return, ski with it and tell us what felt wrong.
 
 Your email goes directly to the developer (delivered by
 [FormSubmit](https://formsubmit.co), which relays the form, and no
-account is created anywhere). It's used for exactly two things: your
-TestFlight invite, and one note when the app launches. Never shared,
-never sold, deleted on request: just reply to any mail. The app
-itself stays account-free, and this list exists only to get the beta
-to you.
+account is created anywhere). It's used only for your TestFlight
+invites. Never shared, never sold, deleted on request: just reply to
+any mail. The app itself stays account-free, and this list exists
+only to get test builds to you.
 
 [← Back to Alpy](../) · [Privacy policy](../privacy)

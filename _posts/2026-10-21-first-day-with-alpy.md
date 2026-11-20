@@ -108,6 +108,6 @@ No. You created no account, no GPS point left the phone, and nothing
 was uploaded, because there is no server to upload to. Alpy is built
 without one, so there's no setting to get wrong.
 
-[Alpy is free on the App Store](/), with no subscription and no ads.
+[Alpy is free on the App Store]({{ site.appstore_url }}), with no subscription and no ads.
 If you try it for a first day, the [season-opening checklist](/blog/season-opening-checklist/)
 pairs well with it.
