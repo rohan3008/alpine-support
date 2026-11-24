@@ -26,6 +26,8 @@ in your debrief. Its instructions forbid inventing facts or adding
 numbers it wasn't given, and every paragraph it writes is labeled as
 AI.
 
+<p align="center"><img src="/assets/screens/alpy-debrief-day-written.jpg" alt="Alpy's Ski Debrief for 6 November 2026: The Day, Written, a paragraph labelled On-device AI that sums up 3 runs and 895 m of descent, above run registers with estimated turns of about 2 and about 1" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Both run under the same contract we'd give a careful human editor:
 *rephrase the telemetry, never invent.* The model receives only
 measured facts (temperatures, fresh snow, your run times, your PRs,

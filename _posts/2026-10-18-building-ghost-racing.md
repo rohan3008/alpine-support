@@ -92,6 +92,8 @@ attempt's *descent profile* (elapsed time against cumulative drop),
 clamped monotone so altitude wobble can't make the curve dip
 backwards.
 
+<p align="center"><img src="/assets/screens/alpy-personal-records.jpg" alt="Alpy's segment page for the Standard run in demo data: best time 4:43 from 3 attempts on a 300 m drop, a race chart of metres dropped against elapsed time for this run and your best, and the attempts list with a PR badge 17 seconds faster" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 The delta is then an inverse lookup. I've dropped 180 m in 40 s, so
 when did the ghost pass 180 m? If the ghost needed 43 s, you're
 −3.0 s up. Comparing at equal progress instead of equal time is what
@@ -130,6 +132,8 @@ bearing with an exponential moving average and handle the wrap-around
 at 360° (the easy detail to miss). The camera then banks through
 turns like a drone operator with lazy wrists instead of a startled
 bird.
+
+<p align="center"><img src="/assets/screens/alpy-day-replay-ghost.jpg" alt="Alpy's Day Replay for Tuesday 3 November on the Zermatt map: the marker on run 2 at 30 km/h and 2,900 m, an altitude profile with a playhead, and a green ghost gap chip reading minus 16.0 s" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## What we deliberately didn't build
 

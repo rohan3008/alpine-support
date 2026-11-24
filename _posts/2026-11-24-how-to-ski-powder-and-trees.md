@@ -35,6 +35,8 @@ other tips: narrow your stance, spread your weight more evenly over
 both skis so the outside ski doesn't dive, and flex your ankles more
 than your knees.
 
+<p align="center"><img src="/assets/screens/slalo-powder-leaning-back.jpg" alt="Slalo's Powder lesson on step 1, Stay centred, with the common mistake, Leaning back, switched on: the caption reads Leaning back: the tips rise and the skis stop turning" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Warren Smith's
 [freeride stance guide](https://www.j2ski.com/ski_technique/Freeride/2_Closer_Stance.html)
 on J2Ski says a closer stance helps the skis move together in deep
@@ -66,6 +68,8 @@ and Last Frontier Heliskiing's
 [tree tips](https://www.lastfrontierheli.com/news/tips-for-safer-tree-skiing/)
 give the reason: looking at the trees as you pass them makes your
 body want to ski into them.
+
+<p align="center"><img src="/assets/screens/slalo-trees-look-at-gaps.jpg" alt="Slalo's Trees lesson on step 1, Look at the gaps, from behind the skier: labels read Eyes on the gap and Your next gap, between two firs" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 Keep turns short and controlled. Ski Magazine's
 [pivot slip](https://www.skimag.com/performance/instruction/how-to-pivot-slip/)

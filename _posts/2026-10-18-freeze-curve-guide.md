@@ -16,6 +16,8 @@ Alpy draws this as the *freeze curve*: freezing-level altitude, hour
 by hour, from six hours ago to 24 hours ahead, with your resort's
 base and summit marked and a rule at "now." Here's how to read it.
 
+<p align="center"><img src="/assets/screens/alpy-freeze-curve.jpg" alt="Alpy's freeze curve: the freezing level line plotted from 9 am through the night against the 1,620 m base, with a red rule marking now" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## How do you read a freeze curve?
 
 Find where the freeze line sits against your resort's base and
@@ -102,6 +104,8 @@ cools 6.5 °C per 1,000 m, and between the 1,620 m base and 3,883 m
 summit Alpy uses for Zermatt (2,263 m apart) that model gives about
 15 °C. That figure comes from the model's gradient and isn't a
 measurement for any given day.
+
+<p align="center"><img src="/assets/screens/alpy-telemetry-avalanche.jpg" alt="Alpy's Live Summit Telemetry for Zermatt: 28 cm of fresh snow in 24 hours, a 245 cm base, a 1450 m freezing level, an 18 km/h north-west wind and minus 11 °C at the summit" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## Using it in practice
 

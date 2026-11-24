@@ -9,6 +9,8 @@ Alpy's debrief shows "~14 turns" for a run, and the tilde is there on
 purpose. This post covers how a phone counts turns, and why any app
 showing you a turn count *without* a tilde is overselling its data.
 
+<p align="center"><img src="/assets/screens/alpy-debrief-day-written.jpg" alt="Alpy's Ski Debrief for 6 November 2026: The Day, Written, a paragraph labelled On-device AI that sums up 3 runs and 895 m of descent, above run registers with estimated turns of about 2 and about 1" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## How does a phone count ski turns?
 
 From heading swings. A GPS track is a chain of fixes, and the

@@ -29,6 +29,8 @@ skidding or sliding, and tipping your skis on edge results in carving.
 The same piece lists three fundamentals of carving: edging, balancing
 against the outside ski, and keeping a stable upper body.
 
+<p align="center"><img src="/assets/screens/slalo-carving-tracks.jpg" alt="Slalo's Carving lesson on step 6, Read your tracks, seen from above: the skier leaves two thin lines in the snow, labelled Carve: two thin grooves" width="240" style="max-width:46%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"> <img src="/assets/screens/slalo-carving-skid.jpg" alt="The same step with the common mistake, Skid, switched on: the tracks become one wide smear, captioned Tails pushed out: a wide smear, no grip" width="240" style="max-width:46%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Skidding still has its place. The NC State skiing textbook's chapter
 on
 [turning and speed control](https://ncstate.pressbooks.pub/skiingandsnowboarding/chapter/turning-2/)

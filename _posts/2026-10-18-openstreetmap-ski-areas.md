@@ -50,6 +50,8 @@ area's map is fetched from the public
 (the main instance is operated by FOSSGIS, and its usage policy
 says "cache and rate-limit calls") and kept for 30 days.
 
+<p align="center"><img src="/assets/screens/alpy-3d-winter-map.jpg" alt="Alpy's 3D winter map of Zermatt with the Matterhorn run glowing, above a sheet listing 133 km of piste, starting with 42 easy trails" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 The subscription model is legitimate, since hand-built maps take
 real work. We just don't think "thousands of resorts" is much of a
 moat when, by Slopes' own count, most of them come from a commons

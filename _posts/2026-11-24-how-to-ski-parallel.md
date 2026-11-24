@@ -73,6 +73,8 @@ round turns have to do the speed control instead. Over time you match
 the skis earlier in the turn, until only the transition between turns
 is done in a wedge.
 
+<p align="center"><img src="/assets/screens/slalo-parallel-shrink-wedge.jpg" alt="Slalo's First parallel turns lesson on step 6, Shrink the wedge: the skis run almost parallel, with labels reading Both ankles tip together and Edge 4 degrees" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## Why does a little speed make it easier?
 
 Matching the skis needs some momentum. The NC State textbook ties the
@@ -117,6 +119,8 @@ Once the wedge has gone, the pole touch comes in. In PSIA-AASI
 Northwest's basic parallel task, the pole touch goes with the weight
 transfer and the edge change, so it times the start of each new
 turn.
+
+<p align="center"><img src="/assets/screens/slalo-parallel-pole-touch.jpg" alt="The same lesson on step 5, Touch the pole: the skier touches a pole tip to the snow, labelled Light pole touch" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## How does Slalo teach first parallel turns?
 

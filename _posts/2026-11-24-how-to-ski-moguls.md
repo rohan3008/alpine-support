@@ -68,6 +68,8 @@ turn on one you like, and traverse back the other way. Skiing round
 the banks comes next, and the zipper line, straight down the troughs,
 comes last.
 
+<p align="center"><img src="/assets/screens/slalo-moguls-pole-crest.jpg" alt="Slalo's Moguls lesson on step 4, Pole on the crest: the skier reaches the pole forward to the top of the next bump, where a label reads Pole on the crest" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Ski Utah's
 [mogul drills](https://skiutah.com/blog/authors/abby-stanislaw/mastering-moguls),
 which Abby Stanislaw learned from two-time Olympian Jillian Vogtli,
@@ -85,6 +87,8 @@ and an upper body that stays quiet and faces down the fall line.
 For your eyes, Shaw's advice in Advnture is to look a few turns
 ahead, so your brain knows where to go and your body can follow, and
 to reach with your pole towards the top or back of the mogul below.
+
+<p align="center"><img src="/assets/screens/slalo-moguls-look-ahead.jpg" alt="Slalo's Moguls lesson on step 1, Look ahead, from behind the skier: a label at the head says to keep the eyes 2 to 3 bumps ahead" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## What are the most common mogul mistakes?
 

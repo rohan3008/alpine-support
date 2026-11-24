@@ -80,6 +80,8 @@ correctly. If your skis haven't been serviced for a long time, the
 edges will be rounded and you'll struggle to find grip. Ski shops can
 sharpen them, in the UK or in resort.
 
+<p align="center"><img src="/assets/screens/slalo-ice-sharp-edges.jpg" alt="Slalo's Ice and hardpack lesson on step 1, Start with sharp edges, seen from the front at 27 km/h: a label at the outside ski reads Sharp edge bites" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Carv's guide agrees that a clean, sharp set of edges makes it easier
 to hold an edge on firm snow. It adds a warning before you blame your
 skis, though: "balance is a lot more important than a sharp set of

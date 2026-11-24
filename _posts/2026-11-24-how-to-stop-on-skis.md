@@ -62,6 +62,8 @@ same fix for every slope:
 [stay low with your knees bent](https://www.advnture.com/how-to/ski-bumps)
 and your shins in contact with the front of your boots.
 
+<p align="center"><img src="/assets/screens/slalo-stopping-stay-forward.jpg" alt="Slalo's Stopping lesson on step 4, Stay forward, side on with the Balance lens: the skier leans forward with the centre of mass over the feet, at 8 km/h on a 10 degree slope" width="240" style="max-width:46%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"> <img src="/assets/screens/slalo-stopping-leaning-back.jpg" alt="The same step with the common mistake, Leaning back, switched on: the skier stands taller and further back, at 2 km/h" width="240" style="max-width:46%; border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## Where should you stop on a piste?
 
 At the side of the run, where people above can see you. Rule 6 of the

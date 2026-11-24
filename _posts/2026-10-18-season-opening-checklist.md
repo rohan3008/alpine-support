@@ -132,6 +132,8 @@ The sensors in your pocket need a little setup before day one:
   the winter needs something to be measured against, and day one is
   where the record book opens.
 
+<p align="center"><img src="/assets/screens/alpy-home.jpg" alt="Alpy's Home screen for Zermatt: live summit telemetry with 28 cm of fresh snow, a 245 cm base and a 1450 m freezing level, above a Start Tracking button" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 *Alpy is a free, private ski app for iPhone with tracking, trail
 maps, powder alerts and official bulletins, and nothing leaves your
 phone. [What it does](/) · [More from the blog](/blog/).*

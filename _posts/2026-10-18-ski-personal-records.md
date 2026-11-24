@@ -34,6 +34,8 @@ an attempt against your fastest, metre by metre, so you can see
 exactly where the time went: the flat traverse you carried speed
 through, or the pitch where you parked.
 
+<p align="center"><img src="/assets/screens/alpy-personal-records.jpg" alt="Alpy's segment page for the Standard run in demo data: best time 4:43 from 3 attempts on a 300 m drop, a race chart of metres dropped against elapsed time for this run and your best, and the attempts list with a PR badge 17 seconds faster" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## Does Alpy have ski leaderboards?
 
 No, and that's deliberate: there's no leaderboard against other

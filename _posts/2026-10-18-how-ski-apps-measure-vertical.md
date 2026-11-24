@@ -63,5 +63,7 @@ GPS's; we haven't yet measured it against surveyed truth on real
 ski days. On phones without a barometer the app falls back to GPS
 altitude alone.
 
+<p align="center"><img src="/assets/screens/alpy-day-tracker.jpg" alt="Alpy's live Day Tracker on a lift before run 4: 11 km/h on the speed dial, altitude 2,173 m, and day totals of 895 m vertical, 3.6 km, 3 runs and a 47 km/h maximum" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 *Alpy is a free ski app for iPhone with no account and no ads, and
 your GPS never leaves the phone. [What it does](/).*
