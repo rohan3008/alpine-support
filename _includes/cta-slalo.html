@@ -1,0 +1,15 @@
+<section class="section band-glow">
+  <div class="container glow-row">
+    <div>
+      <img src="/slalo/icon.png" alt="Slalo app icon: a mountain with one winding orange trail" width="64" height="64" style="border-radius:14px; display:block; margin-bottom:16px;">
+      <h2 class="h-lg">Learn it on a 3D skier.</h2>
+      <p class="sub">Slalo: Ski Lessons, for iPhone. Eleven lessons on an animated 3D skier, from the snowplough to powder and trees.</p>
+    </div>
+    {% comment %}Apple allows one App Store badge per layout. Pages that already show it (body_badge: true) get a text link here.{% endcomment %}
+    {% if page.body_badge %}
+    <a class="btn btn-white" href="https://apps.apple.com/app/id6833087234">Get Slalo for iPhone <span aria-hidden="true">→</span></a>
+    {% else %}
+    <a class="appstore-badge" href="https://apps.apple.com/app/id6833087234"><img src="/assets/img/appstore-badge.svg" alt="Download Slalo on the App Store" width="150" height="50"></a>
+    {% endif %}
+  </div>
+</section>

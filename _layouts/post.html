@@ -15,4 +15,4 @@ layout: default
     {{ content }}
   </article>
 </div>
-{% include cta-glow.html %}
+{% if page.app == "slalo" %}{% include cta-slalo.html %}{% else %}{% include cta-glow.html %}{% endif %}
