@@ -24,6 +24,8 @@ its own confidence alongside every speed reading: a
 value in metres per second, meaning the speed is plus or minus that
 much.
 
+<p align="center"><img src="/assets/screens/alpy-day-tracker.jpg" alt="Alpy's live Day Tracker on a lift before run 4: 11 km/h on the speed dial, altitude 2,173 m, and day totals of 895 m vertical, 3.6 km, 3 runs and a 47 km/h maximum" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## How should a ski tracker report top speed?
 
 With its error bar attached. Alpy keeps the accuracy value iOS

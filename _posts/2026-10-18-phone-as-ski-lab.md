@@ -71,6 +71,8 @@ GPS wobble, an ideal barometer) the fused altitude's error is under
 on real ski days. Every point Alpy records while tracking rides the
 fused value, so run detection and vertical totals use it.
 
+<p align="center"><img src="/assets/screens/alpy-day-tracker.jpg" alt="Alpy's live Day Tracker on a lift before run 4: 11 km/h on the speed dial, altitude 2,173 m, and day totals of 895 m vertical, 3.6 km, 3 runs and a 47 km/h maximum" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## What can a phone's accelerometer measure while skiing?
 
 Two things nothing else on the phone can: airtime and turn load. Raw
@@ -101,6 +103,8 @@ which only a sustained carve can set. The number still wears a
 tilde. It's an estimate until we've validated it against
 instrumented skiing, and the app says so in the same breath it shows
 the number.
+
+<p align="center"><img src="/assets/screens/alpy-ski-debrief.jpg" alt="Alpy's Ski Debrief for 3 November 2026: 3 runs, 895 m vertical, 4.9 km and a 54 km/h top speed, airtime and peak turn load estimates, The Day, Written labelled On-device AI, and per-run registers with estimated turns" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## How does a phone count ski turns?
 

@@ -16,6 +16,8 @@ model snowfall for your resort's summit, which is a forecast-grade
 number, so the app shows the model number and names the source and
 you know what kind of number you're reading.
 
+<p align="center"><img src="/assets/screens/alpy-telemetry-avalanche.jpg" alt="Alpy's Live Summit Telemetry for Zermatt: 28 cm of fresh snow in 24 hours, a 245 cm base, a 1450 m freezing level, an 18 km/h north-west wind and minus 11 °C at the summit" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 The source is [Open-Meteo](https://open-meteo.com), which draws on
 weather models from over 15 national weather services and serves
 [hourly snowfall](https://open-meteo.com/en/docs) for any

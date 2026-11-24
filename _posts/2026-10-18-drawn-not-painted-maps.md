@@ -71,6 +71,8 @@ It's also where your day replays, with your recorded line drawn down
 the real mountain, a chase camera flying behind your marker, and your
 ghost alongside.
 
+<p align="center"><img src="/assets/screens/alpy-terrain-map.jpg" alt="Alpy's 3D map of Zermatt with the Matterhorn run selected: the 5.4 km intermediate run glows blue over contoured terrain, beside the piste colour legend and a list of 48 runs" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 So the chart is for orientation and planning, and the terrain is for
 understanding and reliving the day. A painting tries to be both at
 once, which is exactly why it has to bend the mountain.

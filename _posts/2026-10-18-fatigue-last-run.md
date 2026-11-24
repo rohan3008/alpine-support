@@ -38,6 +38,8 @@ systematically a little low for tight turns. Dividing by run duration
 gives cadence, and the Day Rhythm chart plots it run by run across
 your day.
 
+<p align="center"><img src="/assets/screens/alpy-ski-debrief.jpg" alt="Alpy's Ski Debrief for 3 November 2026: 3 runs, 895 m vertical, 4.9 km and a 54 km/h top speed, airtime and peak turn load estimates, The Day, Written labelled On-device AI, and per-run registers with estimated turns" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 Two honesty rules limit what the chart is allowed to claim. First,
 short runs don't count. A 45-second connector with six heading
 wiggles would post an absurd cadence, so descents under a minute are

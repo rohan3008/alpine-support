@@ -5,7 +5,7 @@ description: "Alpy estimates your wait in each lift line from your own GPS, per 
 
 # Lift lines: a queue tracker built from your own GPS
 
-<p align="center"><img src="/assets/screens/alpy-ski-debrief.png" alt="The Ski Debrief: day totals above the per-run registers" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+<p align="center"><img src="/assets/screens/alpy-ski-debrief.jpg" alt="The Ski Debrief: day totals above the per-run registers" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 
 Most skiers have had a day that felt great while somewhere an hour

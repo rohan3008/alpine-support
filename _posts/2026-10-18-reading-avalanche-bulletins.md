@@ -19,6 +19,8 @@ Together they say how dangerous today is, where on the mountain, and
 what kind of avalanche to expect. That's what turns a number into
 terrain choices.
 
+<p align="center"><img src="/assets/screens/alpy-avalanche-level.jpg" alt="Alpy's Avalanche Safety card in demo mode: danger level 2, Moderate, highlighted on the five level scale from 1 Low to 5 Extreme" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 1. Read the danger level (1–5). Low, Moderate, Considerable,
    High, then Very high in Europe or Extreme in North America. It's the
    same five-level scale on both continents (see the

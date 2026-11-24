@@ -46,6 +46,8 @@ winter restyle that turns the base map snow-white at load time.
   outdoors style is a general-purpose map. Every land fill becomes
   snowpack white, water keeps its blue, and the relief does the rest.
 
+<p align="center"><img src="/assets/screens/alpy-terrain-map.jpg" alt="Alpy's 3D map of Zermatt with the Matterhorn run selected: the 5.4 km intermediate run glows blue over contoured terrain, beside the piste colour legend and a list of 48 runs" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
+
 ## The bug that flattened the mountain
 
 That last step ate an afternoon, and the lesson applies to any Mapbox
@@ -82,6 +84,8 @@ new map is a dumb renderer that receives positions each frame. Per
 tick it updates two one-point geometry sources and moves the camera.
 The day's line and lifts upload once, and the matched piste and ghost
 line upload only when the run changes. It worked on the first compile.
+
+<p align="center"><img src="/assets/screens/alpy-day-replay.jpg" alt="Alpy's Day Replay for Friday 6 November: the day's line in blue over the Zermatt terrain, the marker on run 2 at 25 km/h and 2,930 m, an altitude profile and a green ghost gap chip reading minus 13.6 s" width="280" style="border-radius:22px; border:1px solid #d0d7de; box-shadow:0 8px 24px rgba(10,17,31,.15);" loading="lazy"></p>
 
 ## What does a 3D ski map cost in memory and privacy?
 
