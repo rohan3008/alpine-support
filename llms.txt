@@ -48,3 +48,16 @@
 - [The Day, Written: a coach's debrief from your own numbers](https://alpy.uk/blog/performance-debrief/)
 - [Using the 3D winter map: a field guide](https://alpy.uk/blog/winter-3d-map-guide/)
 - [Skiing safer with data: the aspect rose and the last-run light](https://alpy.uk/blog/ski-safety-data/)
+
+## Blog: ski technique (Slalo)
+
+Slalo (https://alpy.uk/slalo/) is a separate iPhone app from the same
+maker: 11 ski lessons on an animated 3D skier. These guides explain
+the technique behind its lessons, with a source for each point.
+
+- [How to stop on skis: from snowplough to hockey stop](https://alpy.uk/blog/how-to-stop-on-skis/)
+- [How to ski parallel: your first parallel turns](https://alpy.uk/blog/how-to-ski-parallel/)
+- [How to carve on skis, with edge angles explained](https://alpy.uk/blog/how-to-carve-on-skis/)
+- [How to ski moguls without wrecking your knees](https://alpy.uk/blog/how-to-ski-moguls/)
+- [How to ski powder and trees, and stay safe off-piste](https://alpy.uk/blog/how-to-ski-powder-and-trees/)
+- [How to ski on ice and hardpack](https://alpy.uk/blog/how-to-ski-on-ice/)
